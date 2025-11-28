@@ -125,10 +125,10 @@ function updateStats() {
             let displayCount = count;
 
             if (region === 'Asia') {
-                displayRegion = '🇨🇳 China';
+                displayRegion = '<span class="fi fi-cn"></span> China';
                 displayCount = 47;
             } else if (region === 'North America') {
-                displayRegion = '🇺🇸 North America';
+                displayRegion = '<span class="fi fi-us"></span> North America';
             }
 
             return `
@@ -220,8 +220,8 @@ function createLabCard(lab) {
             <div class="lab-institution">${lab.institution || 'Unknown Institution'}</div>
             <h2 class="lab-pi">${lab.pi || 'Unknown PI'}</h2>
             <div class="lab-location">
-                <i class="fa-solid fa-location-dot"></i>
-                <span>${lab.country || ''}</span>
+                <span class="fi fi-${getCountryCode(lab.country)}"></span>
+                <span>${getCountryName(lab.country) || ''}</span>
             </div>
         </div>
 
@@ -236,6 +236,56 @@ function createLabCard(lab) {
 function truncateText(text, maxLength) {
     if (text.length <= maxLength) return text;
     return text.substr(0, maxLength) + '...';
+}
+
+// Helper functions for flags
+function getCountryCode(countryString) {
+    if (!countryString) return '';
+    // Extract country name (remove emoji if present)
+    const countryName = getCountryName(countryString);
+    
+    const countryMap = {
+        'United States': 'us',
+        'China': 'cn',
+        'China Mainland': 'cn',
+        'Germany': 'de',
+        'United Kingdom': 'gb',
+        'Switzerland': 'ch',
+        'Canada': 'ca',
+        'France': 'fr',
+        'Japan': 'jp',
+        'Israel': 'il',
+        'Spain': 'es',
+        'Netherlands': 'nl',
+        'Sweden': 'se',
+        'Denmark': 'dk',
+        'Italy': 'it',
+        'Australia': 'au',
+        'South Korea': 'kr',
+        'Singapore': 'sg',
+        'Austria': 'at',
+        'Belgium': 'be',
+        'Finland': 'fi',
+        'Norway': 'no',
+        'India': 'in',
+        'Brazil': 'br',
+        'Poland': 'pl',
+        'Portugal': 'pt',
+        'Czech Republic': 'cz',
+        'Chile': 'cl',
+        'Slovenia': 'si',
+        'Saudi Arabia': 'sa',
+        'Hong Kong': 'hk',
+        'Taiwan': 'tw'
+    };
+
+    return countryMap[countryName] || 'xx';
+}
+
+function getCountryName(countryString) {
+    if (!countryString) return '';
+    // Remove emojis and trim
+    return countryString.replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, '').trim();
 }
 
 // Start
