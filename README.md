@@ -2,7 +2,7 @@
 
 A curated, interactive directory of protein design research groups worldwide.
 
-![Protein Design Labs Dashboard](https://github.com/ullahsamee/proteindesigngroups/raw/main/screenshot.png)
+![Protein Design Labs Dashboard](https://github.com/ullahsamee/proteindesigngroups/blob/main/header.png)
 
 ## Overview
 
