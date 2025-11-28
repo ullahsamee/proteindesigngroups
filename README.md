@@ -10,7 +10,7 @@ A careful curate list of protein design research group into an **interactive das
 
 ## Features
 
-### 🔍 Powerful Search & Filtering
+### Search & Filtering
 -   **Instant Search**: Filter labs by Principal Investigator (PI), Institution, or Country in real-time.
 -   **Smart Filters**: Use the segmented control tabs to quickly view labs by region (North America, China, EMEA, etc.).
 -   **University Filter**: Dropdown menu to isolate specific institutions.
