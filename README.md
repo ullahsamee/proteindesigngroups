@@ -38,7 +38,7 @@ To run the dashboard locally, you can use a simple HTTP server (like Python's `h
 
 ## Data Source
 
-The data is curated from various public sources and community contributions.
+The data is curated from various public sources.
 
 ## License
 
