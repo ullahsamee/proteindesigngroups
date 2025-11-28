@@ -68,10 +68,12 @@ function setupEventListeners() {
 
     // Theme Toggle
     themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        const isDark = document.body.classList.contains('dark-mode');
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        updateThemeIcon(isDark);
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme === 'dark');
     });
 }
 
@@ -80,7 +82,7 @@ function loadTheme() {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
-        document.body.classList.add('dark-mode');
+        document.documentElement.setAttribute('data-theme', 'dark');
         updateThemeIcon(true);
     }
 }
@@ -207,7 +209,7 @@ function createLabCard(lab) {
     let websiteBtn = '';
     if (lab.website && lab.website.toLowerCase() !== 'na') {
         websiteBtn = `
-            <a href="${lab.website}" target="_blank" class="btn-link btn-website">
+            <a href="${lab.website}" target="_blank" class="lab-link">
                 <i class="fa-solid fa-globe"></i> Lab Website
             </a>
         `;

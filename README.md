@@ -1,44 +1,43 @@
-# Protein Design Labs Dashboard
+# Protein Design Research Groups Dashboard
 
 A curated, interactive directory of protein design research groups worldwide.
 
+![Protein Design Labs Dashboard](https://github.com/ullahsamee/proteindesigngroups/raw/main/screenshot.png)
+
 ## Overview
 
-This project transforms a static list of protein design labs into a dynamic, searchable, and filterable dashboard. It allows researchers and students to easily find labs based on:
-
--   **Institution**
--   **Principal Investigator (PI)**
--   **Country**
+A careful curate list of protein design research group into an **interactive dashboard**. It allows researchers, students, and enthusiasts to easily explore the global landscape of protein design research or maybe apply for any position announced in their labs.
 
 ## Features
 
--   **Interactive Dashboard**: Clean, modern interface for browsing labs.
--   **Search & Filter**: Real-time filtering by PI name, institution, or country.
--   **Regional Statistics**: View the distribution of labs across top regions (e.g., North America, China, EMEA).
--   **Dark Mode**: Toggle between light and dark themes for comfortable viewing.
--   **Data Visualization**: At-a-glance statistics on total labs and countries represented.
+### 🔍 Powerful Search & Filtering
+-   **Instant Search**: Filter labs by Principal Investigator (PI), Institution, or Country in real-time.
+-   **Smart Filters**: Use the segmented control tabs to quickly view labs by region (North America, China, EMEA, etc.).
+-   **University Filter**: Dropdown menu to isolate specific institutions.
 
-## Usage
+###  Data Insights
+-   **Live Statistics**: View the total number of labs and unique countries represented.
+-   **Top Regions**: See a breakdown of the most active regions in protein design.
 
-This is a static website built with HTML, CSS, and JavaScript. You can view it directly in your browser.
+###  Dark Mode
+-   **System-Integrated**: Automatically respects your system's color scheme preference.
+-   **Manual Toggle**: Switch between light and dark themes with a single click.
 
-### Running Locally
+## Data Sources
 
-To run the dashboard locally, you can use a simple HTTP server (like Python's `http.server`):
+The data is curated from various public sources, including:
+-   **Rosetta Commons**: A community of researchers developing the Rosetta software suite.
 
-1.  Clone or download this repository.
-2.  Navigate to the project directory in your terminal.
-3.  Run the following command:
 
+To run the dashboard locally:
+
+1.  Clone this repository.
+2.  Navigate to the project directory.
+3.  Run a simple HTTP server:
     ```bash
     python3 -m http.server 8000
     ```
-
-4.  Open your browser and go to `http://localhost:8000`.
-
-## Data Source
-
-The data is curated from various public sources.
+4.  Open `http://localhost:8000` in your browser.
 
 ## License
 
