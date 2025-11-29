@@ -20,7 +20,7 @@ const labData = [
         "about": "This research focuses on understanding the physical principles of protein self-assembly. By integrating computational de novo protein design, protein production, and biophysical methods, the lab investigates the interactions governing assembly dynamics. The work explores structural flexibility to develop dynamic and responsive protein-based materials for applications such as support coating and cargo encapsulation."
     },
     {
-        "region": "North America",
+        "region": "EMEA",
         "country": "\ud83c\udde6\ud83c\uddf9 Austria",
         "institution": "Aithyra",
         "pi": "Alexander Tong",
@@ -240,7 +240,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Peking University",
         "pi": "Chu Wang",
         "website": "https://www.chem.pku.edu.cn/wangchulab/",
@@ -250,7 +250,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Chunfu Xu",
         "website": "https://www.timbr.tsinghua.edu.cn/info/1752/3158.htm",
@@ -374,7 +374,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS ICT",
         "pi": "Dongbo Bu",
         "website": "https://people.ucas.edu.cn/~dbu",
@@ -446,7 +446,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Fajie Yuan",
         "website": "https://fajieyuan.github.io/",
@@ -454,7 +454,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "ShanghaiTech University",
         "pi": "Fang Bai",
         "website": "https://sist.shanghaitech.edu.cn/bf/list.htm",
@@ -462,7 +462,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua SIGS",
         "pi": "Feiran Li",
         "website": "https://www.sigs.tsinghua.edu.cn/lfr/main.htm",
@@ -588,7 +588,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Zhejiang University of Technology",
         "pi": "Guijun Zhang",
         "website": "http://zhanglab-bioinf.com/people/guijunz/",
@@ -625,7 +625,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS ICT",
         "pi": "Haicang Zhang",
         "website": "https://people.ucas.ac.cn/~0032113",
@@ -633,7 +633,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Haifeng Cheng",
         "website": "https://cbb.sjtu.edu.cn/~hfchen/",
@@ -646,7 +646,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Haipeng Gong",
         "website": "https://structpred.life.tsinghua.edu.cn/",
@@ -654,7 +654,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "USTC",
         "pi": "Haiyan Liu",
         "website": "https://biocomp.ustc.edu.cn/",
@@ -662,7 +662,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Hao Zhou",
         "website": "https://zhouh.github.io/",
@@ -686,7 +686,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Hongbin Shen",
         "website": "http://www.csbio.sjtu.edu.cn/",
@@ -702,7 +702,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS TIB",
         "pi": "Huifeng Jiang",
         "website": "http://www.tib.cas.cn/sourcedb_tib_cas/cn/expert/rckyjy/201212/t20121212_3704580.html",
@@ -861,7 +861,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Fudan University",
         "pi": "Jianpeng Ma",
         "website": "https://mrics.fudan.edu.cn/info/1021/1110.htm",
@@ -869,7 +869,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Jianyang Zeng",
         "website": "https://aicb.lab.westlake.edu.cn/",
@@ -877,7 +877,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shandong University",
         "pi": "Jianyi Yang",
         "website": "https://yanglab.qd.sdu.edu.cn/",
@@ -887,7 +887,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Jianzhu Ma",
         "website": "https://majianzhu.com/",
@@ -895,7 +895,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "ShanghaiTech University",
         "pi": "Jiayi Dou",
         "website": "https://slst.shanghaitech.edu.cn/djy/",
@@ -991,7 +991,7 @@ const labData = [
         "country": "\ud83c\udde9\ud83c\uddf0 Denmark",
         "institution": "University of Copenhagen",
         "pi": "Kresten Lindorff-Larsen",
-        "website": "https://www1.bio.ku.dk/english/research/bms/pbg/mw/",
+        "website": "https://www1.bio.ku.dk/english/research/bms/sbinlab/kll/",
         "papers": [
             {
                 "title": "IDP design",
@@ -1017,7 +1017,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Liang Hong",
         "website": "https://ins.sjtu.edu.cn/people/lhong/index.html",
@@ -1040,7 +1040,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Longxin Cao",
         "website": "https://www.westlake.edu.cn/faculty/longxing-cao.html",
@@ -1058,7 +1058,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Peking University",
         "pi": "Luhua Lai",
         "website": "http://mdl.ipc.pku.edu.cn/",
@@ -1109,7 +1109,7 @@ const labData = [
         "country": "\ud83c\udde9\ud83c\uddf0 Denmark",
         "institution": "University of Copenhagen",
         "pi": "Martin Willemo\u00ebs",
-        "website": "https://www1.bio.ku.dk/english/research/bms/sbinlab/kll/",
+        "website": "https://www1.bio.ku.dk/english/research/bms/pbg/mw/",
         "papers": [
             {
                 "title": "Glycoside hydrolase carving-out",
@@ -1163,7 +1163,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS SIMM",
         "pi": "Mingyue Zheng",
         "website": "https://people.ucas.ac.cn/~0010379",
@@ -1302,7 +1302,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Peilong Lu",
         "website": "https://www.labxing.com/lab/693/home",
@@ -1372,7 +1372,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "USTC",
         "pi": "Qi Liu",
         "website": "http://staff.ustc.edu.cn/~qiliuql/",
@@ -1507,7 +1507,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Rui Qing",
         "website": "https://life.sjtu.edu.cn/teacher/ruiqing",
@@ -1557,7 +1557,7 @@ const labData = [
     },
     {
         "region": "Global",
-        "country": "\ud83c\udf10 Unknown",
+        "country": "🇮🇱 Israel",
         "institution": "Weizmann Institute of Science",
         "pi": "Sarel J Fleishman",
         "website": "https://www.fleishmanlab.org/",
@@ -1622,7 +1622,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS CEMCS",
         "pi": "Shaoqing Zhang",
         "website": "http://zhanglab.sibcb.ac.cn/zhanglab/",
@@ -1638,7 +1638,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Shuangjia Zheng",
         "website": "https://prokia.github.io/",
@@ -1664,7 +1664,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Fudan University",
         "pi": "Siqi Sun",
         "website": "https://intersun.github.io/",
@@ -1680,7 +1680,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Stan Z. Li",
         "website": "https://www.westlake.edu.cn/faculty/stan-zq-li.html",
@@ -1779,7 +1779,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Zhejiang University",
         "pi": "Tingjun Hou",
         "website": "http://cadd.zju.edu.cn/",
@@ -1813,7 +1813,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Renmin University of China",
         "pi": "Wenbing Huang",
         "website": "https://gsai.ruc.edu.cn/wenbing_huang",
@@ -1837,7 +1837,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Peking University",
         "pi": "Wentao Zhang",
         "website": "https://zwt233.github.io/",
@@ -1863,7 +1863,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS IBP",
         "pi": "Xianen Zhang",
         "website": "https://ibp.cas.cn/kydw_157813/xrktzz/xsszmZ/201912/t20191202_5447225.html",
@@ -1876,7 +1876,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Xiamen University",
         "pi": "Xiaoping Min",
         "website": "https://informatics.xmu.edu.cn/info/1425/25349.htm",
@@ -1889,7 +1889,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "CAS SIAT",
         "pi": "Xiaozhou Luo",
         "website": "https://people.ucas.ac.cn/~luoxiaozhou",
@@ -1905,7 +1905,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Yang Liu",
         "website": "https://nlp.csai.tsinghua.edu.cn/~ly/",
@@ -1913,7 +1913,7 @@ const labData = [
     },
     {
         "region": "North America",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Yang Yang",
         "website": "https://yang.chem.ucsb.edu/yang",
@@ -1934,7 +1934,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Yanyan Lan",
         "website": "https://zhouh.github.io/",
@@ -1950,7 +1950,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Peking University",
         "pi": "Yi Qin Gao",
         "website": "https://www.chem.pku.edu.cn/gaoyq/",
@@ -1995,7 +1995,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Sun Yat-sen University",
         "pi": "Yuedong Yang",
         "website": "https://cse.sysu.edu.cn/content/2951",
@@ -2003,7 +2003,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Yuguang Wang",
         "website": "https://yuguangwang.github.io/",
@@ -2027,7 +2027,7 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "SUSTech",
         "pi": "Zhe Li",
         "website": "https://sustech.edu.cn/zh/faculties/lizhe.html",
@@ -2043,13 +2043,205 @@ const labData = [
     },
     {
         "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China Mainland",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Zibo Chen",
         "website": "https://chenlab.org/",
         "papers": [],
         "keywords": "De novo protein design, molecular computing, protein circuits, self-assembly, Rosetta, programmable biomolecules, supramolecular structures, cellular functions.",
         "about": "This research programs biological behaviors by designing de novo proteins for molecular computing and programmable self-assembly. Protein circuits are engineered to control cell functions, while self-assembling proteins form structures like cages and crystals for studying and modifying cellular processes. Using Rosetta, the lab customizes protein functionalities at the molecular level for both fundamental research and real-world applications."
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "UCSD",
+        "pi": "Neville Bethel",
+        "website": "https://www.bethel-lab.org/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "UCLA",
+        "pi": "Jason Zhang",
+        "website": "https://www.jasonzhanglab.com/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\udde9\ud83c\uddea Germany",
+        "institution": "TU Munich",
+        "pi": "Thomas Schlichthärle",
+        "website": "https://www.bio.nat.tum.de/aipd/startseite/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "Stowers Institute",
+        "pi": "Arvind Pillai",
+        "website": "https://www.stowers.org/people/arvind-pillai",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\udde9\ud83c\uddea Germany",
+        "institution": "LMU Munich",
+        "pi": "Lukas Milles",
+        "website": "https://www.genzentrum.uni-muenchen.de/research-groups/milles/index.html",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\udde8\ud83c\udded Switzerland",
+        "institution": "ETH Zurich",
+        "pi": "Basile Wicky",
+        "website": "https://bsse.ethz.ch/people/detail-person.basile-wicky.html",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "NYU",
+        "pi": "Shunzhi Wang",
+        "website": "https://med.nyu.edu/faculty/shunzhi-wang",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\udde8\ud83c\udde6 Canada",
+        "institution": "U Ottawa",
+        "pi": "Roberto Chica",
+        "website": "https://mysite.science.uottawa.ca/rchica/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\uddee\ud83c\uddf1 Israel",
+        "institution": "The Hebrew University of Jerusalem",
+        "pi": "Ora Schueler-Furman",
+        "website": "https://sites.google.com/mail.huji.ac.il/furman-lab/home",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\udde9\ud83c\uddea Germany",
+        "institution": "TU Munich",
+        "pi": "Cathleen Zeymer",
+        "website": "https://www.bio.nat.tum.de/en/proteinchemie/about-us/cathleen-zeymer/",
+        "papers": []
+    },
+    {
+        "region": "Asia",
+        "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
+        "institution": "KIST",
+        "pi": "Hahnbeom Park",
+        "website": "https://sites.google.com/view/hparklab/home",
+        "papers": []
+    },
+    {
+        "region": "Asia",
+        "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
+        "institution": "SNU",
+        "pi": "Woon Ju Song",
+        "website": "https://woonju.wixsite.com/woonjusong",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
+        "institution": "Manchester",
+        "pi": "Anthony Green",
+        "website": "https://www.greenresearchgroup.co.uk/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "UCSB",
+        "pi": "Yang Yang",
+        "website": "https://yang.chem.ucsb.edu/yang",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "Princeton",
+        "pi": "Todd Hyster",
+        "website": "https://hyster.princeton.edu/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "Indiana",
+        "pi": "Jared Lewis",
+        "website": "https://lewis.lab.indiana.edu/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "UT Dallas",
+        "pi": "Rudi Fasan",
+        "website": "https://labs.utdallas.edu/fasan/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "UT Austin",
+        "pi": "Yi Lu",
+        "website": "https://lulab.cm.utexas.edu/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\udde8\ud83c\udded Switzerland",
+        "institution": "Basel",
+        "pi": "Thomas Ward",
+        "website": "https://ward.chemie.unibas.ch/en/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
+        "institution": "Edinburgh",
+        "pi": "Amanda Jarvis",
+        "website": "https://www.amandajarvis.co.uk/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "institution": "UCLA",
+        "pi": "Mohamad Abedi",
+        "website": "NA",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "🇨🇭 Switzerland",
+        "institution": "University of Zurich",
+        "pi": "Martin Pacesa",
+        "website": "http://www.pacesalab.com/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "🇨🇳 China",
+        "institution": "Technical University of Denmark",
+        "pi": "Timothy Patrick Jenkins",
+        "website": "https://www.bioengineering.dtu.dk/research/research-sections/section-for-biologics-engineering/digital-biotechnology-lab",
+        "papers": []
+    },
+    {
+        "region": "Asia",
+        "country": "🇰🇷 South Korea",
+        "institution": "Seoul National University",
+        "pi": "Martin Steinegger",
+        "website": "https://steineggerlab.com/en/",
+        "papers": []
     }
 ];
 
