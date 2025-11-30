@@ -14,6 +14,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer": "^22.0.0"
+  },
   "bugs": {
     "url": "https://github.com/ullahsamee/proteindesigngroups/issues"
   },
