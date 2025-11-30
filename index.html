@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Design Labs</title>
+    <meta name="description" content="A curated list of computational protein design research labs worldwide.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo-area">
+                <h1>Protein Design Labs</h1>
+                <p class="subtitle">A curated list of worldwide protein design research groups</p>
+            </div>
+
+            <div class="controls-area">
+                <button id="themeToggle" class="theme-btn" title="Toggle Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="search-box">
+
+                    <input type="text" id="searchInput" class="search-input"
+                        placeholder="Search labs, PIs, institutions...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Newsline Section -->
+        <div id="newsline" class="newsline-container">
+            <div class="newsline-label">🔥 Trending Now</div>
+            <div class="newsline-content" id="newslineContent">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Statistics Section -->
+        <section id="statsSection" class="stats-section">
+            <!-- 1. Combined Stats -->
+            <div class="stat-card combined-stats">
+                <div class="stat-group">
+                    <div class="stat-value" id="totalLabs">0</div>
+                    <div class="stat-label">Total Labs</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-group">
+                    <div class="stat-value" id="totalCountries">0</div>
+                    <div class="stat-label">Countries</div>
+                </div>
+            </div>
+
+            <!-- 2. Top Regions (Moved to Center) -->
+            <div class="stat-card wide-stat">
+                <div class="stat-label">Top Regions</div>
+                <div id="topRegionsList" class="top-regions-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- 3. Top Trending (New Right Section) -->
+            <div class="stat-card wide-stat">
+                <div class="stat-label">🔥 Top 10 Trending</div>
+                <div id="topTrendingList" class="top-regions-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </section>
+
+        <div class="filters-bar">
+            <div class="tabs" id="regionTabs">
+                <button class="tab-btn active" data-region="all">All Regions</button>
+                <button class="tab-btn" data-region="North America">North America</button>
+                <button class="tab-btn" data-region="EMEA">EMEA</button>
+                <button class="tab-btn" data-region="Asia">Asia</button>
+                <button class="tab-btn" data-region="country">Country</button>
+            </div>
+
+            <div class="secondary-filters">
+                <select id="countrySelect" class="filter-select" style="display: none;">
+                    <option value="">All Countries</option>
+                    <!-- Populated by JS -->
+                </select>
+                <select id="universitySelect" class="filter-select">
+                    <option value="">All Universities</option>
+                    <!-- Populated by JS -->
+                </select>
+
+                <select id="sortSelect" class="filter-select">
+                    <option value="name">Sort by PI Name</option>
+                    <option value="institution">Sort by Institution</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="labsGrid" class="labs-grid">
+            <!-- Cards will be injected here by JS -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Protein Design Labs. Created by Samee Ullah. All rights reserved.</p>
+    </footer>
+
+    <!-- Data and Script -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
