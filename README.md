@@ -39,6 +39,13 @@ To run the dashboard locally:
     ```
 4.  Open `http://localhost:8000` in your browser.
 
+
+## Coming..
+- [ ] Google Scholars and LinkedIn
+- [ ] Support for live interactive google map
+- [X] Headshots
+- [X] Official laboratory sites
+
 ## License
 
 [MIT License](LICENSE)
