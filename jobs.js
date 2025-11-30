@@ -1,6 +1,6 @@
 const jobsData = [
     {
-        "id": "job_ajasja_ljubetic_1764525680765",
+        "id": "job_ajasja_ljubetic_1764528398984",
         "labInfo": {
             "pi": "Ajasja Ljubetic",
             "institution": "National Institute of Chemistry (Slovenia)",
@@ -8,12 +8,12 @@ const jobsData = [
             "website": "https://ljubetic-lab.si/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Ljubetič Lab @ KINewsResearchTeamPublicationsSoftwareContactCV Ajasja LjubetičResearch Assistant Professor at the National Institute of Chemistry, Slovenia Baker Lab alumni, MSCA fellow alumni."
+            "summary": "During my postdoc in the Baker Lab I have designed and developed a de novo random walker, that uses coiled coils as feet. We are exploring future applications of this random walker scaffold to build useful protein robots. See the CC-WALK project for more info...."
         },
         "application": {
             "url": "https://ljubetic-lab.si/"
@@ -24,7 +24,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_alican_gulsevin_1764525696153",
+        "id": "job_alena_khmelinskaia_1764528404539",
+        "labInfo": {
+            "pi": "Alena Khmelinskaia",
+            "institution": "Ludwig Maximilian University of Munich",
+            "country": "🇩🇪 Germany",
+            "website": "https://khmelinskaia.cup.uni-muenchen.de/"
+        },
+        "position": {
+            "title": "Open Position (interested in joining)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "If you are interested in joining our team, or just want to learn more about us, check out our Jobs and Opportunites page!..."
+        },
+        "application": {
+            "url": "https://khmelinskaia.cup.uni-muenchen.de/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_alican_gulsevin_1764528414379",
         "labInfo": {
             "pi": "Alican Gulsevin",
             "institution": "Butler University",
@@ -32,12 +56,12 @@ const jobsData = [
             "website": "https://gulsevinlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions may be available depending on the availability of funds. These positions typically focus on particular projects, although involvement in additional projects is also possible. Postdoctoral wo"
+            "summary": "u are interested in doing research in this group. Postdoctoral researchers Postdoctoral researcher positions may be available depending on the availability of funds. These positions typically focus on particular projects, although involvement in additional projects is also possible. Postdoctoral wor..."
         },
         "application": {
             "url": "https://gulsevinlab.org/openings/"
@@ -48,7 +72,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_amy_e._keating_1764525702755",
+        "id": "job_amy_e._keating_1764528419623",
         "labInfo": {
             "pi": "Amy E. Keating",
             "institution": "Massachusetts Institute of Technology",
@@ -56,12 +80,12 @@ const jobsData = [
             "website": "https://biology.mit.edu/profile/amy-e-keating/"
         },
         "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
+            "title": "Open Position (graduate student)",
+            "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position: true }); } $(window).on('resize', function() { if ($('#col-hero-img').css('position') != 'absolute') { moveHomepageTitleMobile(); } checkMatchHeight(); }); function"
+            "summary": "The Biology Undergraduate Student Association (BUSA) sponsors an annual lecture by a prominent biologist; a variety of student-faculty gatherings; community-service activities; a tutoring program for MIT Biology core courses; and seminars focusing on biomedical ethics and career development...."
         },
         "application": {
             "url": "https://biology.mit.edu/undergraduate/current-students/"
@@ -72,7 +96,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_anastassia_a._vorobieva_1764525707242",
+        "id": "job_anastassia_a._vorobieva_1764528423788",
         "labInfo": {
             "pi": "Anastassia A. Vorobieva",
             "institution": "Vrije Universiteit Brussel",
@@ -80,12 +104,12 @@ const jobsData = [
             "website": "https://vorobievalab.sites.vib.be/en"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position\":false,\"fixed_top_position\":true,\"popup_language\":\"en\",\"store_consent\":false,\"better_support_for_screen_readers\":false,\"cookie_name\":\"\",\"reload_page\":false,\"domain\":\"\",\"domain_all_sites\":fals"
+            "summary": "Anastassia Vorobieva Group Leader, VIB-VUB Center for Structural Biology, since 2021. Postdoctoral Fellow: EPFL, Institute of Bioengineering, Lausanne, Switzerland, 2019-2020. Research associate: Howard Hughes Medical Institute, Seattle, WA, 2017-2019. Senior Fellow: University of Washington, Institute for Protein Design, Seattle, WA, 2014-2016. PhD: UCLouvain, Louvain Institute of Biomolecular Science and Technology, 2009-2014. contact Anastassia on Twitter Biosketch..."
         },
         "application": {
             "url": "https://vorobievalab.sites.vib.be/en"
@@ -96,7 +120,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_andrew_ferguson_1764525713635",
+        "id": "job_andrew_ferguson_1764528430169",
         "labInfo": {
             "pi": "Andrew Ferguson",
             "institution": "University of Chicago",
@@ -104,12 +128,12 @@ const jobsData = [
             "website": "https://pme.uchicago.edu/faculty/andrew-ferguson"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MMX8TPHS\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe> Skip to main content"
+            "summary": "From 2010 to 2012 he was a postdoctoral fellow of the Ragon Institute of MGH, Massachusetts Institute of Technology, and Harvard in the Department of Chemical Engineering at MIT. He commenced his independent career in the department of Materials Science and Engineering at the University of Illinois at Urbana-Champaign in 2012, and was promoted to associate professor of materials science and engineering and chemical and biomolecular engineering in 2018...."
         },
         "application": {
             "url": "https://pme.uchicago.edu/faculty/andrew-ferguson"
@@ -120,7 +144,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_anne-florence_bitbol_1764525746120",
+        "id": "job_andy_hsien-wei_yeh_1764528433685",
+        "labInfo": {
+            "pi": "Andy Hsien-Wei Yeh",
+            "institution": "UCSC",
+            "country": "🇺🇸 United States",
+            "website": "https://neolux.sites.ucsc.edu/"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Prospective graduate students should apply to our umbrella Graduate Program in Biomedical Science and Engineering (PBSE) and please indicate your interest in our lab. Graduate students from PBSE should contact Dr. Andy Yeh via email directly...."
+        },
+        "application": {
+            "url": "https://neolux.sites.ucsc.edu/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_anne-florence_bitbol_1764528443027",
         "labInfo": {
             "pi": "Anne-Florence Bitbol",
             "institution": "EPFL",
@@ -128,12 +176,12 @@ const jobsData = [
             "website": "https://www.epfl.ch/labs/bitbol-lab/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "When you access EPFL websites, we may set cookies on your devices and process personal data about you in accordance with our privacy policy. You can block cookies by using your browser settings.OK"
+            "summary": "Prospective postdocs are welcome to inquire about openings, and about the possibility of applying for a fellowship. Please explain your interests and your motivation to join the group, and please attach a complete CV...."
         },
         "application": {
             "url": "https://www.epfl.ch/labs/bitbol-lab/join-us/"
@@ -144,7 +192,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_anthony_gitter_1764525749851",
+        "id": "job_anthony_gitter_1764528446320",
         "labInfo": {
             "pi": "Anthony Gitter",
             "institution": "University of Wisconsin-Madison",
@@ -152,12 +200,12 @@ const jobsData = [
             "website": "https://www.biostat.wisc.edu/~gitter/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Gitter Lab Home People Research Publications Software Presentations News"
+            "summary": "We are not currently actively recruiting new graduate students or postdocs. However, prospective graduate students are always welcome to contact Anthony to discuss research in case that changes. Please send a follow up message if you do not hear back after a week or two...."
         },
         "application": {
             "url": "https://www.biostat.wisc.edu/~gitter/"
@@ -168,7 +216,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_anum_glasgow_1764525755379",
+        "id": "job_anum_glasgow_1764528449651",
         "labInfo": {
             "pi": "Anum Glasgow",
             "institution": "Columbia University",
@@ -176,12 +224,12 @@ const jobsData = [
             "website": "https://www.biochem.cuimc.columbia.edu/profile/anum-glasgow-phd"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "<!--//--><![CDATA[//><!-- (function(window, document, dataLayerName, id) { window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:\"stg.s"
+            "summary": "Honors & Awards NIH K99/R00: “Mapping and rewiring protein allostery”, 2020-2025 UCSF Chancellor’s Postdoctoral Fellowship, 2018-2020 NIH IRACDA Postdoctoral Fellowship, 2016-2019 Sandia National Labs/UC Berkeley Excellence in Engineering Graduate Fellowship, 2013-2015 NSF Graduate Research Fellowship, 2010-2013..."
         },
         "application": {
             "url": "https://www.biochem.cuimc.columbia.edu/profile/anum-glasgow-phd#cb-content__main"
@@ -192,7 +240,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_brian_hie_1764525767899",
+        "id": "job_brian_hie_1764528460527",
         "labInfo": {
             "pi": "Brian Hie",
             "institution": "Stanford University",
@@ -200,12 +248,12 @@ const jobsData = [
             "website": "https://evodesign.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions at the postdoctoral or research-scientist level at the interface between biology and generative design. Backgrounds of particular interest are (1) in protein biochemistry and p"
+            "summary": "AI. We will also have a lot of fun along the way. Postdoctoral fellows and research scientists We are actively recruiting for two positions at the postdoctoral or research-scientist level at the interface between biology and generative design. Backgrounds of particular interest are (1) in protein bi..."
         },
         "application": {
             "url": "https://evodesign.org/join"
@@ -216,7 +264,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_brian_kuhlman_1764525771197",
+        "id": "job_brian_kuhlman_1764528463966",
         "labInfo": {
             "pi": "Brian Kuhlman",
             "institution": "UNC Chapel Hill",
@@ -224,12 +272,12 @@ const jobsData = [
             "website": "https://klab.web.unc.edu/research/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions, which are handled through UNC’s Student Employment website. We encourage students to apply as early as their freshman year. Generally, students spend 1-2 years as a research technician, the"
+            "summary": "Postdoctoral Fellows The Kuhlman lab welcomes Postdoctoral candidates. Inquiries about Postdoctoral positions (including international applications) should be emailed directly to Brian Kuhlman. Candidates are encouraged to apply for extramural fellowships to support their research...."
         },
         "application": {
             "url": "https://klab.web.unc.edu/join/"
@@ -240,7 +288,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_brian_trippe_1764525775223",
+        "id": "job_brian_trippe_1764528468138",
         "labInfo": {
             "pi": "Brian Trippe",
             "institution": "Stanford University",
@@ -248,12 +296,12 @@ const jobsData = [
             "website": "https://briantrippe.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
+            "title": "Open Position (graduate student)",
+            "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Skip to main content Stanford University Stanford Department of S"
+            "summary": "Main content start Prospective Graduate Students Thank you for your interest in Stanford Statistics graduate degree programs.Please take a look at our Academic Programs webpage for details about our program options.Stanford's Guide on Getting into Grad School also provides informa..."
         },
         "application": {
             "url": "https://statistics.stanford.edu/admissions/prospective-graduate-students"
@@ -264,31 +312,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_bruce_donald_1764525791560",
-        "labInfo": {
-            "pi": "Bruce Donald",
-            "institution": "Duke University",
-            "country": "🇺🇸 United States",
-            "website": "https://users.cs.duke.edu/~brd/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "position:relative; vertical-align:middle; } .centennial-brand-bar--black .centennial-brand-bar__link:before { content:\"\"; background:radial-gradient"
-        },
-        "application": {
-            "url": "https://www.biochem.duke.edu/news/bruce-r-donald-elected-fellow-aaas"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_bruno_e._correia_1764525805802",
+        "id": "job_bruno_e._correia_1764528485110",
         "labInfo": {
             "pi": "Bruno E. Correia",
             "institution": "EPFL Lausanne",
@@ -296,15 +320,15 @@ const jobsData = [
             "website": "https://www.epfl.ch/labs/lpdi/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (openings)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "When you access EPFL websites, we may set cookies on your devices and process personal data about you in accordance with our privacy policy. You can block cookies by using your browser settings.OK"
+            "summary": "Industry internships It is a requirement for our Master students to complete an industry internship before graduation. We welcome your internship openings on our dedicated platform. More information..."
         },
         "application": {
-            "url": "https://www.epfl.ch/education/phd/"
+            "url": "https://www.epfl.ch/about/recruiting/"
         },
         "tags": [
             "protein-design",
@@ -312,7 +336,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_cameron_glasscock_1764525814890",
+        "id": "job_cameron_glasscock_1764528493591",
         "labInfo": {
             "pi": "Cameron Glasscock",
             "institution": "Rice University",
@@ -320,12 +344,12 @@ const jobsData = [
             "website": "https://glasscocklab.blogs.rice.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Glasscock Lab Department of BioSciences, Rice University Menu Skip to content Home Contact Join Publications Research Team Journal Club"
+            "summary": "Prospective postdocs: We are currently not hiring for postdoctoral researchers. However, if you are interested in learning more about future opportunities in the lab, please reach out with your CV and a few sentences about what led you to consider working in computational protein design. The lab is most interested in postdoctoral candidates with experience in computational biology/biophysics, AI/ML, or high-throughput molecular biology/biochemistry...."
         },
         "application": {
             "url": "https://glasscocklab.blogs.rice.edu/join/"
@@ -336,7 +360,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_charlotte_deane_1764525821596",
+        "id": "job_charlotte_deane_1764528499152",
         "labInfo": {
             "pi": "Charlotte Deane",
             "institution": "University of Oxford",
@@ -344,12 +368,12 @@ const jobsData = [
             "website": "https://opig.stats.ox.ac.uk/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Toggle navigation"
+            "summary": "Interested in doing a DPhil or a PostDoc in protein informatics? Have a look at our current research to get a better idea of what we are doing and then contact us!..."
         },
         "application": {
             "url": "https://opig.stats.ox.ac.uk/"
@@ -360,7 +384,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_clara_t._schoeder_1764525844688",
+        "id": "job_chris_wells_wood_1764528502637",
+        "labInfo": {
+            "pi": "Chris Wells Wood",
+            "institution": "University of Edinburgh",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://www.wellswoodresearchgroup.com/"
+        },
+        "position": {
+            "title": "Open Position (interested in joining)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Fancy automating experiments using state-of-the-art robotics? How about applying the newest methods in machine-learning to design completely novel proteins? If you're interested in joining us, get in touch to find out more about current opportunities...."
+        },
+        "application": {
+            "url": "https://www.wellswoodresearchgroup.com/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_clara_t._schoeder_1764528529876",
         "labInfo": {
             "pi": "Clara T. Schoeder",
             "institution": "Leipzig University",
@@ -368,12 +416,12 @@ const jobsData = [
             "website": "https://www.schoederlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (phd student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationSchoeder LabHomeResearch interestOur teamPublicationsLab AlumniSchoeder LabHomeResearch interestOur teamPublicationsLab AlumniMoreHome"
+            "summary": "2nd Pharmacy Science Day in Leipzig.Today, Diploma and Master students presented the results from their thesis work, while PhD stduents gave introductions to their topcis. For the Schoeder Lab, Leonie Adam presented on her master thesis on mammalian display for the LASV glycoprotein (mentor Dr. Sophia Peter) and Anna Nobis, a PhD student, showed results from her work on the design of paramyxovirus vaccines...."
         },
         "application": {
             "url": "https://www.schoederlab.org/"
@@ -384,7 +432,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_colin_smith_1764525850366",
+        "id": "job_colin_smith_1764528535513",
         "labInfo": {
             "pi": "Colin Smith",
             "institution": "Wesleyan University",
@@ -392,12 +440,12 @@ const jobsData = [
             "website": "https://smithlab.research.wesleyan.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Skip to content Skip to content Smith Lab Menu Home Rese"
+            "summary": "Prospective postdocs interested are encouraged to apply for their own funding. Please contact Colin Smith for further information and help formulating a proposal. Researchers currently located in Germany are eligible to apply for a Feodor Lynen Research Fellowship, as Colin Smith is a former fellow of the Alexander von Humboldt Foundation...."
         },
         "application": {
             "url": "https://smithlab.research.wesleyan.edu/joining/"
@@ -408,7 +456,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_david_baker_1764525858905",
+        "id": "job_david_baker_1764528545687",
         "labInfo": {
             "pi": "David Baker",
             "institution": "University of Washington",
@@ -416,12 +464,12 @@ const jobsData = [
             "website": "https://www.bakerlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions at the IPD, write to: Baker Labdabaker@uw.edu and postdoc-applicants@bakerlab.orgApplication PortalBhardwaj Labgauravb.uw.eduN/ABradley Labpbradley@fredhutch.orgN/ADiMaio Labdimaio@uw.edu"
+            "summary": "the programs you are interested in to learn more. Postdoctoral Scholars Pioneer new research To learn more about postdoc positions at the IPD, write to: Baker Labdabaker@uw.edu and postdoc-applicants@bakerlab.orgApplication PortalBhardwaj Labgauravb.uw.eduN/ABradley Labpbradley@fredhutch.orgN/ADiMai..."
         },
         "application": {
             "url": "https://www.ipd.uw.edu/join-us/"
@@ -432,7 +480,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_david_c._richardson_&_jane_shelby_richardson_1764525870061",
+        "id": "job_david_c._richardson_&_jane_shelby_richardson_1764528556075",
         "labInfo": {
             "pi": "David C. Richardson & Jane Shelby Richardson",
             "institution": "Duke University",
@@ -440,12 +488,12 @@ const jobsData = [
             "website": "https://www.biochem.duke.edu/people/richardson-lab"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position:relative; vertical-align:middle; } .centennial-brand-bar--black .centennial-brand-bar__link:before { content:\"\"; background:radial-gradient"
+            "summary": "Biochemistry PhD graduate students learn the fundamental concepts in biochemistry and physical biochemistry and the critical analysis of published research through:..."
         },
         "application": {
             "url": "https://www.biochem.duke.edu/education-and-training/phd-biochemistry"
@@ -456,7 +504,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_dominik_gront_1764525894092",
+        "id": "job_dominik_gront_1764528585789",
         "labInfo": {
             "pi": "Dominik Gront",
             "institution": "University of Warsaw",
@@ -464,12 +512,12 @@ const jobsData = [
             "website": "https://bioshell.pl/home"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (phd student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions, crmsd calculations, alignments, Phi/Psi angles and many more."
+            "summary": "Dominik Gront Principal Investigator Mohammad Saqib PhD student Piotr Śmieja PhD student..."
         },
         "application": {
             "url": "https://bioshell.pl/home"
@@ -480,7 +528,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_enrique_marcos_1764525928951",
+        "id": "job_enrique_marcos_1764528613256",
         "labInfo": {
             "pi": "Enrique Marcos",
             "institution": "Institute of Molecular Biology of Barcelona CSIC",
@@ -488,12 +536,12 @@ const jobsData = [
             "website": "https://ibmb.csic.es/en/department-of-structural-and-molecular-biology/protein-design-and-modeling/#lab-presentation"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position on design and testing of ligand-binding proteins Postdoctoral position on design and testing of ligand-binding proteins A postdoctoral position for"
+            "summary": "A postdoctoral position for 2 years is available at the Protein Design and Modeling lab from the Molecular Biology Institute of Barcelona (IBMB), Spain. The institute is located in the Barcelona Science Park (PCB), a major hub for biological research and biotech companies, and affiliated to the Spanish National Research Council (CSIC)...."
         },
         "application": {
             "url": "https://ibmb.csic.es/en/jobs/postdoctoral-position-on-design-and-testing-of-ligand-binding-proteins/"
@@ -504,7 +552,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_eva-maria_strauch_1764525932521",
+        "id": "job_eva-maria_strauch_1764528616988",
         "labInfo": {
             "pi": "Eva-Maria Strauch",
             "institution": "Washington University of St. Louis",
@@ -512,12 +560,12 @@ const jobsData = [
             "website": "http://www.strauchlab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "PROTEIN DESIGN AND ENGINEERING OF THE NEXT GENERATION BIOLOGICS Research Members"
+            "summary": "We are always open to graduate students, and for postdoctoral applications, the availability of funding may determine our decision.Post-doctoral candidates and techniciansPlease send an email with CV, a description of your past and future research interests, a cover letter and the contact informati..."
         },
         "application": {
             "url": "http://www.strauchlab.com/join.html"
@@ -528,7 +576,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_florian_praetorius_1764525957348",
+        "id": "job_florian_praetorius_1764528639252",
         "labInfo": {
             "pi": "Florian Praetorius",
             "institution": "Institute of Science and Technology Austria",
@@ -536,12 +584,12 @@ const jobsData = [
             "website": "https://ista.ac.at/en/research/praetorius-group/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: relative; background-image: url('https://ista.ac.at/wp-content/uploads/2020/06/Fellowships.jpg') !important; } .gradient_page:after {"
+            "summary": "Postdocs Postdoctoral researchers take their next career steps at ISTA..."
         },
         "application": {
             "url": "https://ista.ac.at/en/education/postdocs/"
@@ -552,7 +600,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_gabriel_rocklin_1764525971895",
+        "id": "job_gabriel_rocklin_1764528654276",
         "labInfo": {
             "pi": "Gabriel Rocklin",
             "institution": "Northwestern University",
@@ -560,12 +608,12 @@ const jobsData = [
             "website": "http://www.rocklinlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions: Please send me a brief description of your previous experience (OK if this is primarily classes) and an explanation of why you're interested in working with us.Research technician positions"
+            "summary": "PI: Gabriel Rocklin (CV) @grocklinPostdoc: University of Washington (David Baker)Ph.D. UCSF Biophysics (Brian Shoichet & Ken Dill)B.A. Claremont McKenna College, Biology-Chemistry & HistoryI am excited about building a great team, working with great collaborators, learning from other scientists, and trying to build a future where protein biophysics and protein design are high-throughput!..."
         },
         "application": {
             "url": "http://www.rocklinlab.org/#join"
@@ -576,7 +624,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_gaurav_bhardwaj_1764525975138",
+        "id": "job_gaurav_bhardwaj_1764528657632",
         "labInfo": {
             "pi": "Gaurav Bhardwaj",
             "institution": "University of Washington",
@@ -584,12 +632,12 @@ const jobsData = [
             "website": "https://peptidedesign.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position:absolute}}­@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}"
+            "summary": "JOin US We are a new lab focused on the interface of chemistry, biology and computational sciences. We are committed to maintaining healthy work-life balance and promoting diversity in sciences. Interested in joining our team? We are looking for undergraduate researchers, graduate students, postdoctoral fellows and research technicians. Contact US..."
         },
         "application": {
             "url": "https://peptidedesign.org/"
@@ -600,7 +648,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_ge_liu_1764525978924",
+        "id": "job_ge_liu_1764528660688",
         "labInfo": {
             "pi": "Ge Liu",
             "institution": "University of Illinois at Urbana-Champaign",
@@ -608,12 +656,12 @@ const jobsData = [
             "website": "https://www.mit.edu/~geliu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position as an assistant professor in UIUC CS [2023/10]I joined Baker Lab at the Institue for Protein Design at UW as a postdoc [2023/5]I will be joining UIUC CS department as"
+            "summary": "[2023/10]I joined Baker Lab at the Institue for Protein Design at UW as a postdoc..."
         },
         "application": {
             "url": "https://www.mit.edu/~geliu/"
@@ -624,7 +672,55 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_gyu_rie_lee_1764526007677",
+        "id": "job_george_church_1764528669992",
+        "labInfo": {
+            "pi": "George Church",
+            "institution": "Harvard University",
+            "country": "🇺🇸 United States",
+            "website": "https://wyss.harvard.edu/team/core-faculty/george-church/"
+        },
+        "position": {
+            "title": "Open Position (openings)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "newsletter, or get in touch to learn more. Staff Openings Academic Openings Our Work We are an impact-focused organization dedicated to improving the health of people and our planet. At the Wyss, your work has the potential to drive positive change in the world, while advancing your own career goal..."
+        },
+        "application": {
+            "url": "https://wyss.harvard.edu/careers/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_gustav_oberdorfer_1764528681826",
+        "labInfo": {
+            "pi": "Gustav Oberdorfer",
+            "institution": "Graz University of Technology",
+            "country": "🇦🇹 Austria",
+            "website": "https://www.tugraz.at/institute/ibc/research/research-groups/protein-design"
+        },
+        "position": {
+            "title": "Open Position (open position)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "IBC/Institute/Open positions Menü InstituteHistoryTeamLatest NewsOpen positionsAnnual ReportsEducationCourse ScheduleResearchResearch GroupsEnzyme DesignProtein BiochemistryPhotobiochemistryProtein DesignProjectsFWF CATALOXFWF BioMolStructFWF LOV-DGCNextGenBioXrayEU-HelixMoldFWF - MATEU-Artibled..."
+        },
+        "application": {
+            "url": "https://www.tugraz.at/institute/ibc/institute/open-positions"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_gyu_rie_lee_1764528687669",
         "labInfo": {
             "pi": "Gyu Rie Lee",
             "institution": "Korea Advanced Institute of Science and Technology",
@@ -632,12 +728,12 @@ const jobsData = [
             "website": "https://pure.kaist.ac.kr/en/persons/gyurie-lee/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position = ''; pageData.search = pageData.search || {}; var fields = ['advancedCriteria', 'criteria', 'currentPage', 'dataFormCriteria', 'facets', 'resu"
+            "summary": "o (2025~Present) Assistant Professor, KAIST, Daejeono (2023~2025) Research Specialist 1, University of Washington & HHMI, Seattle, USAo (2022~2023) Acting Instructor, University of Washington, Seattle, USA o (2018~2022) Postdoctoral Scholar, University of Washington, Seattle, USAo (2017~2018) Postdoctoral Fellow, Seoul National University, Seoul..."
         },
         "application": {
             "url": "https://pure.kaist.ac.kr/en/persons/gyurie-lee/"
@@ -648,7 +744,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_haiyan_liu_1764526034808",
+        "id": "job_haiyan_liu_1764528717273",
         "labInfo": {
             "pi": "Haiyan Liu",
             "institution": "University of Science and Technology of China",
@@ -656,12 +752,12 @@ const jobsData = [
             "website": "https://biocomp.ustc.edu.cn/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position and how your qualifications align with the requirements listed above. Postdoctoral Scholars"
+            "summary": "Postdoctoral Scholars 中科大生科院刘海燕/陈泉实验室招聘特任副研究员、博士后 Faculty & Staff 安徽元构生物科技有限公司招聘助理工程师/工程师..."
         },
         "application": {
             "url": "https://biocomp.ustc.edu.cn/join_us.html"
@@ -672,7 +768,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_ho_min_kim_1764526045034",
+        "id": "job_ho_min_kim_1764528727631",
         "labInfo": {
             "pi": "Ho Min Kim",
             "institution": "Institute for Basic Science",
@@ -680,12 +776,12 @@ const jobsData = [
             "website": "https://protein.ibs.re.kr/people/chief-investigator"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationHomeResearchLRR ProteinTechniquesPeopleChief InvestigatorResearchersYoung Scientist FellowshipFormer MembersPublicationsGalleryResourc"
+            "summary": "2014-2020 Postdoctoral Researcher, California Institute of Technology, Pasadena, CA, USA...."
         },
         "application": {
             "url": "https://protein.ibs.re.kr/people/young-scientist-fellowship"
@@ -696,7 +792,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_huong_kratochvil_1764526061254",
+        "id": "job_huong_kratochvil_1764528744236",
         "labInfo": {
             "pi": "Huong Kratochvil",
             "institution": "UNC Chapel Hill",
@@ -704,12 +800,12 @@ const jobsData = [
             "website": "https://www.kratochvillab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationKratochvil Lab @ UNC-CHHomeNewsPublicationsResearchMeet the TeamCurrent MembersProf. Huong KratochvilHow to JoinAlumniPhilosophyLab Ma"
+            "summary": "If you're an interested postdoc: please send Huong an email with your CV, a brief cover letter describing your background and the projects you would be interested in pursuing, and a list of three references that she can contact...."
         },
         "application": {
             "url": "https://www.kratochvillab.com/meet-the-team/how-to-join"
@@ -720,31 +816,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_hy_truong_son_1764526068074",
-        "labInfo": {
-            "pi": "Hy Truong Son",
-            "institution": "University of Alabama at Birmingham",
-            "country": "🇺🇸 United States",
-            "website": "https://people.cs.uchicago.edu/~hytruongson/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "positions are open. Dr. Ragib Hasan Dr. Ragib Hasan (ragib@uab.edu) is seeking motivated stude"
-        },
-        "application": {
-            "url": "https://www.uab.edu/cas/computerscience/graduate-programs/doctoral-program/doctoral-student-opportunities"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_ingemar_andre_1764526076174",
+        "id": "job_ingemar_andre_1764528758017",
         "labInfo": {
             "pi": "Ingemar Andre",
             "institution": "Lund University",
@@ -752,12 +824,12 @@ const jobsData = [
             "website": "https://andrelab.lu.se/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions in a project supported by the NovoNordisk foundation, with start 2023-03. The goal of the project is to understand the relationship between protein folding, structure and codon usage in prot"
+            "summary": "act me at ingemar.andre - at - biochemistry.lu.se Postdoctoral candidates We have two postdoc positions in a project supported by the NovoNordisk foundation, with start 2023-03. The goal of the project is to understand the relationship between protein folding, structure and codon usage in proteins...."
         },
         "application": {
             "url": "https://andrelab.lu.se/index.php/about/join"
@@ -768,7 +840,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_james_j._collins_1764526080394",
+        "id": "job_james_j._collins_1764528761284",
         "labInfo": {
             "pi": "James J. Collins",
             "institution": "Massachusetts Institute of Technology",
@@ -776,12 +848,12 @@ const jobsData = [
             "website": "https://www.collinslab.mit.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "For Current Students and Faculty Apply Now About The ProgramCurriculum & Core SubjectsElectivesFinancial SupportNIH T32 Training"
+            "summary": "The program is highly selective with typical class sizes 8 to 10 students. About half of our graduate students are women, about one-quarter are international students, and about 10% are under-represented minorities...."
         },
         "application": {
             "url": "https://csbphd.mit.edu/"
@@ -792,23 +864,23 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jason_gleghorn_1764526094912",
+        "id": "job_jason_labonte_1764528791474",
         "labInfo": {
-            "pi": "Jason Gleghorn",
-            "institution": "University of Delaware",
+            "pi": "Jason Labonte",
+            "institution": "Notre Dame of Maryland University",
             "country": "🇺🇸 United States",
-            "website": "https://www.gleghornlab.com/"
+            "website": "https://www.ndm.edu/directory/jason-labonte"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position\":[{\"value\":-14,\"contexts\":[{\"name\":\"content_category\",\"value\":\"gaming\"}]}],\"oz_www_live_rewind_seek_to_live_delta\":[{\"value\":4,\"contexts\":[{\"name\":\"streaming_implementation\",\"value\":\"pdash\"},"
+            "summary": "First-Year international undergraduate applicants must complete all application requirements by April 1 for the Fall semester. First-year international undergraduate students can only apply for the Fall semester...."
         },
         "application": {
-            "url": "https://www.instagram.com/p/DHBnz33RZDo/"
+            "url": "https://www.ndm.edu/admissions/international-students"
         },
         "tags": [
             "protein-design",
@@ -816,7 +888,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jeffrey_j._gray_1764526104939",
+        "id": "job_jeffrey_j._gray_1764528794769",
         "labInfo": {
             "pi": "Jeffrey J. Gray",
             "institution": "John Hopkins University",
@@ -824,12 +896,12 @@ const jobsData = [
             "website": "https://graylab.jhu.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions—Video Lectures—Course Catalog—Links—Rosetta—Commercial Post-Docs We are currently seeking postdocs to develop computational methods to predict and design protein interactions"
+            "summary": "We are currently seeking postdocs to develop computational methods to predict and design protein interactions...."
         },
         "application": {
             "url": "https://graylab.jhu.edu/resources.php/"
@@ -840,7 +912,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jennifer_doudna_1764526108634",
+        "id": "job_jennifer_doudna_1764528797918",
         "labInfo": {
             "pi": "Jennifer Doudna",
             "institution": "UC Berkeley",
@@ -848,12 +920,12 @@ const jobsData = [
             "website": "https://doudnalab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Doudna Lab Home Research Areas Structure and Mechanism New Editing Tools Diagnostics Editing in Cells Projects Coming S"
+            "summary": "November 3, 2025 Welcome Peter Wang, who has joined the Doudna Lab as a postdoc!..."
         },
         "application": {
             "url": "https://doudnalab.org/"
@@ -864,7 +936,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jennifer_listgarten_1764526113159",
+        "id": "job_jennifer_listgarten_1764528801758",
         "labInfo": {
             "pi": "Jennifer Listgarten",
             "institution": "UC Berkeley",
@@ -872,12 +944,12 @@ const jobsData = [
             "website": "http://www.jennifer.listgarten.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position, please go here to find out more and fill out an application. If you are an undergraduate from another university, I cannot currently take you. If you want to do a"
+            "summary": "Center for Computational Biology, Bioengineering) Postdocs Hanlun Jiang PhD students Nico Ayala (PhD student, CCB) James Bowden (PhD student, EECS co-advised with Sergey Levine) Vincent Chim (PhD student, Chemistry, co-advised with Alanna Schepartz) Ishan Gaur (PhD student, EECS) Prastik Mohanraj (P..."
         },
         "application": {
             "url": "http://www.jennifer.listgarten.com/group.html#students"
@@ -888,7 +960,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jens_meiler_1764526119053",
+        "id": "job_jens_meiler_1764528806204",
         "labInfo": {
             "pi": "Jens Meiler",
             "institution": "Vanderbilt University",
@@ -896,15 +968,15 @@ const jobsData = [
             "website": "https://meilerlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
+            "title": "Open Position (graduate student)",
+            "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position would be to optimize Foldit, a crowd-sourced game based on the Rosetta macromolecular structural modeling package, for the task of structure-based drug design, and to integrate additional sof"
+            "summary": "Congratulations to Clay Tydings for Predoctoral Individual National Research... Graduate student in the Meiler lab, Clay Tydings, was selected for a highly competitive Predoctoral Individual National Research Service... Continue reading......"
         },
         "application": {
-            "url": "https://meilerlab.org/research-opportunities-in-chemical-and-structural-biology/"
+            "url": "http://meilerlab.org/"
         },
         "tags": [
             "protein-design",
@@ -912,7 +984,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jeremy_mills_1764526124781",
+        "id": "job_jeremy_mills_1764528810821",
         "labInfo": {
             "pi": "Jeremy Mills",
             "institution": "Arizona State University",
@@ -920,12 +992,12 @@ const jobsData = [
             "website": "https://search.asu.edu/profile/2695303"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position=this.cassieSettings.profileSettings?.TemplateOptions?.PreBannerPosition??1,this.cassieSettings.profileSettings.TemplateOptions.WidgetPosition=this.cassieSettings.profileSettings?.TemplateOpti"
+            "summary": "e of Professor Peter Schultz. He then carried out postdoctoral studies in the field of computational protein design with Professor David Baker at the University of Washington. Research in the Mills group focuses on the use of computational protein design methods to engineer proteins in which non-can..."
         },
         "application": {
             "url": "https://search.asu.edu/profile/2695303"
@@ -936,23 +1008,23 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jian_tang_1764526132834",
+        "id": "job_jianyang_zeng_1764528840984",
         "labInfo": {
-            "pi": "Jian Tang",
-            "institution": "Mila - Quebec AI Institute",
-            "country": "🇨🇦 Canada",
-            "website": "https://jian-tang.com/"
+            "pi": "Jianyang Zeng",
+            "institution": "Westlake University",
+            "country": "🇨🇳 China",
+            "website": "https://aicb.lab.westlake.edu.cn/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; overflow: hidden;}.jvectormap-tip { position: absolute; display: none; border: solid 1px #CDCDCD; border-radius: 3px; background: #292929; color: white; fon"
+            "summary": "Join Us We are looking for self-motivated research assistant/associate professors, post-docs, graduate students and interns who are interested in AI for life sciences. If you are interested in joining our group, please send your complete curriculum vitae to zengjy@westlake.edu.cn..."
         },
         "application": {
-            "url": "https://tangjianpku.github.io/students/"
+            "url": "https://aicb.lab.westlake.edu.cn/Openings.htm"
         },
         "tags": [
             "protein-design",
@@ -960,7 +1032,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jianyi_yang_1764526154643",
+        "id": "job_jianyi_yang_1764528846786",
         "labInfo": {
             "pi": "Jianyi Yang",
             "institution": "Shandong University",
@@ -968,12 +1040,12 @@ const jobsData = [
             "website": "https://yanglab.qd.sdu.edu.cn/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions News Positions We have the following vacancies. Please email yangjysdu.edu.cn for more information. Master and PhD studen"
+            "summary": "Home Publications Software People Photos Positions News Positions We have the following vacancies. Please email yangjysdu.edu.cn for more information. Master and PhD students: We are enrolling 3~6 Master students and 2~3 PhD students every year. Postdoctoral Research Fellow: We are seeking talented and creative postdoc candidates who are interested in algorithm development in structural bioinformatics...."
         },
         "application": {
             "url": "https://yanglab.qd.sdu.edu.cn/positions.html"
@@ -984,7 +1056,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_jiri_damborsky_1764526177845",
+        "id": "job_jiri_damborsky_1764528869588",
         "labInfo": {
             "pi": "Jiri Damborsky",
             "institution": "Masaryk University",
@@ -992,12 +1064,12 @@ const jobsData = [
             "website": "https://loschmidt.chemi.muni.cz/peg/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Software Publications Teaching Workshops Photos Interviews Videos Contact"
+            "summary": "Postdoctoral and Ph.D. candidates outside open calls please send a Curriculum vitae and a brief letter of introduction to Jiri Damborsky (jiri@chemi.muni.cz). Also, arrange for a letter of recommendation to be sent either by mail or email...."
         },
         "application": {
             "url": "https://loschmidt.chemi.muni.cz/peg/positions/"
@@ -1008,31 +1080,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_joanna_slusky_1764526184611",
-        "labInfo": {
-            "pi": "Joanna Slusky",
-            "institution": "University of Kansas",
-            "country": "🇺🇸 United States",
-            "website": "https://molecularbiosciences.ku.edu/people/joanna-slusky"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "Skip to main content The University of Kansas MENU <!-- anchor linking to navigator page --> <a href=\"/navigator\" class=\"borzoi-ham"
-        },
-        "application": {
-            "url": "https://molecularbiosciences.ku.edu/phd-overview"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_jure_leskovec_1764526189165",
+        "id": "job_jure_leskovec_1764528881187",
         "labInfo": {
             "pi": "Jure Leskovec",
             "institution": "Stanford University",
@@ -1040,12 +1088,12 @@ const jobsData = [
             "website": "https://cs.stanford.edu/people/jure/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position of Postdoctoral Scholar in the Leskovec Lab. The group is one of the leading centers for applied machine learning. Our research focuses on modeling complex interconnected systems from biomedi"
+            "summary": "Postdoctoral Fellowships in the Leskovec Lab Foundation Models for Biomedicine February, 2024..."
         },
         "application": {
             "url": "http://snap.stanford.edu/apply/index-postdoc.php"
@@ -1056,23 +1104,23 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_justin_siegel_1764526192426",
+        "id": "job_katherine_i._albanese_1764528890087",
         "labInfo": {
-            "pi": "Justin Siegel",
-            "institution": "University of California, Davis",
+            "pi": "Katherine I. Albanese",
+            "institution": "Wake Forest University",
             "country": "🇺🇸 United States",
-            "website": "https://siegel.ucdavis.edu/"
+            "website": "https://www.albaneselab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "<div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'shcs.ucdavis.edu',cType: 'managed',cRay: '9a6"
+            "summary": "if you are an undergraduate student: please email Katherine expressing your interest in research. if you are a graduate student: we are recruiting graduate students accepted to graduate programs at WFU! please email Katherine with a description of your interests. prospective gratudate students are also encouraged to reach out, though you must apply through the graduate program at WFU...."
         },
         "application": {
-            "url": "https://shcs.ucdavis.edu/"
+            "url": "https://www.albaneselab.com/contact"
         },
         "tags": [
             "protein-design",
@@ -1080,7 +1128,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_keunwan_park_1764526201398",
+        "id": "job_keunwan_park_1764528893698",
         "labInfo": {
             "pi": "Keunwan Park",
             "institution": "Korea Institute of Science and Technology",
@@ -1088,12 +1136,12 @@ const jobsData = [
             "website": "https://sites.google.com/site/keunwan/home?authuser=0"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationKeunwan Park @ KISTHomeMembersPositionsPublicationsProtein ModelingContactNewsKeunwan Park @ KISTDOCS_timing['navv'] = new Date().getT"
+            "summary": "a CV to: keunwan (at) kist.re.krOpen positions - Graduate Students (PhD course)We will have a number of openings for graduate students. Background in bioinformatics is desirable.If you are interested, contact keunwan (at) kist.re.kr to discuss possible administration through the graduate programs i..."
         },
         "application": {
             "url": "https://sites.google.com/site/keunwan/positions"
@@ -1104,7 +1152,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_kevin_drew_1764526204969",
+        "id": "job_kevin_drew_1764528896897",
         "labInfo": {
             "pi": "Kevin Drew",
             "institution": "University of Illinois Chicago",
@@ -1112,12 +1160,12 @@ const jobsData = [
             "website": "https://ksdrew.github.io/people/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Drew Lab Macromolecular Identification, Structure, & Function Research Publications"
+            "summary": "@uic.edu) with any questions. Please apply here. Postdoctoral Fellow We are looking for a highly motivated and ambitious Postdoctoral Research Associate interested in studying macromolecular assemblies. Please see our Research page for project specifics. Basic qualifications are a PhD in computer s..."
         },
         "application": {
             "url": "https://ksdrew.github.io/join"
@@ -1128,7 +1176,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_kotaro_tsuboyama_1764526208343",
+        "id": "job_kotaro_tsuboyama_1764528900223",
         "labInfo": {
             "pi": "Kotaro Tsuboyama",
             "institution": "Tokyo University",
@@ -1136,12 +1184,12 @@ const jobsData = [
             "website": "https://sites.google.com/view/tsubo-lab/home"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationTsubo LabHomeResearch研究内容 (JP)MemberPublicationContactTsubo LabHomeResearch研究内容 (JP)MemberPublicationContactMoreHomeResearch研究内容 (JP)M"
+            "summary": "We are looking for highly motivated postdocs who will join us. If you are interested in applying for the position, please send your CV and a cover letter explaining why you are interested in the lab (the more specific, the better) to kotaro.tsuboyama@gmail.com..."
         },
         "application": {
             "url": "https://sites.google.com/view/tsubo-lab/home"
@@ -1152,55 +1200,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_kresten_lindorff-larsen_1764526214782",
-        "labInfo": {
-            "pi": "Kresten Lindorff-Larsen",
-            "institution": "University of Copenhagen",
-            "country": "🇩🇰 Denmark",
-            "website": "https://www1.bio.ku.dk/english/research/bms/sbinlab/kll/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "Student projects MapFind an employeeKUnetDanskEduca"
-        },
-        "application": {
-            "url": "https://www1.bio.ku.dk/english/research/ecology-evolution/student-projects/"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_kyunghyun_cho_1764526219325",
-        "labInfo": {
-            "pi": "Kyunghyun Cho",
-            "institution": "New York University",
-            "country": "🇺🇸 United States",
-            "website": "https://kyunghyuncho.me/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-K7DVCSW\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe> Skip to main content S"
-        },
-        "application": {
-            "url": "https://www.gene.com/careers/professional-areas/research-early-development"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_linna_an_1764526236917",
+        "id": "job_linna_an_1764528929588",
         "labInfo": {
             "pi": "Linna An",
             "institution": "Rice University",
@@ -1208,12 +1208,12 @@ const jobsData = [
             "website": "https://lanalchemist.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Join Our Research Team About Publications Research Teams"
+            "summary": "Postdoctoral Researchers We welcome applications from postdoctoral researchers who want to advance their research careers. How to apply? Send below materials to Dr. Linna An (linnaan@rice.edu) CV Cover letter (at least one paragraph summarize your past work, at least one paragraph describe your future plan. You are more than welcome to talk about your future interests/proposals in future plans. At most 2 pages.) Name and contact info of three references..."
         },
         "application": {
             "url": "https://lanalchemist.github.io/positions.html"
@@ -1224,7 +1224,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_longxing_cao_1764526249435",
+        "id": "job_longxing_cao_1764528939284",
         "labInfo": {
             "pi": "Longxing Cao",
             "institution": "Westlake University",
@@ -1232,12 +1232,12 @@ const jobsData = [
             "website": "https://en.westlake.edu.cn/faculty/longxing-cao.html"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions\", // active: \"OpenPositions\".includes((function () { // var link = window.location.href; // var parts = link.split('/'); // // 去"
+            "summary": "1999-2003 School of life Sciences, Shandong University B.S. 2012-2017 Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences Ph.D. 2017-2021 Institute for Protein, Washington University Postdoc 2021-present School of Life Sciences, Westlake University Assistant Professor..."
         },
         "application": {
             "url": "https://en.westlake.edu.cn/faculty/longxing-cao.html#"
@@ -1248,7 +1248,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_manuel_ferrer_martínez_1764526267641",
+        "id": "job_manuel_ferrer_martínez_1764528956511",
         "labInfo": {
             "pi": "Manuel Ferrer Martínez",
             "institution": "Spanish National Research Council",
@@ -1256,12 +1256,12 @@ const jobsData = [
             "website": "https://sysbio.csic.es/prof-manuel-ferrer/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Projects Team Publications & Theses Lab News & Events Multimedia Press Seleccionar página"
+            "summary": "ing his PhD in 1999. In January 2001 he started a postdoctoral stay at the Helmholtz Centre for Infection Research in Germany, after which he returned in October 2003 to the CSIC-ICP with a Ramón y Cajal fellowship. In June 2006 he was appointed Científico Titular. In July 2009 he promoted to Invest..."
         },
         "application": {
             "url": "https://sysbio.csic.es/prof-manuel-ferrer/"
@@ -1272,7 +1272,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_marco_mravic_1764526271104",
+        "id": "job_marco_mravic_1764528959759",
         "labInfo": {
             "pi": "Marco Mravic",
             "institution": "Scripps Research Institute",
@@ -1280,12 +1280,12 @@ const jobsData = [
             "website": "https://mmravic314.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions. We strive to provide excellent training across a wide range of computational and experimental techniques. Graduate Students Scripps students apply to a single graduate program (Skaggs"
+            "summary": "Inquiries about Postdoctoral positions should be emailed directly to mmravic (AT) scripps.edu. Candidates will be encouraged to explore applying for extramural fellowships to support their research...."
         },
         "application": {
             "url": "https://mmravic314.github.io/join"
@@ -1296,7 +1296,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_marinka_zitnik_1764526274834",
+        "id": "job_marinka_zitnik_1764528963029",
         "labInfo": {
             "pi": "Marinka Zitnik",
             "institution": "Harvard University",
@@ -1304,12 +1304,12 @@ const jobsData = [
             "website": "https://zitniklab.hms.harvard.edu/bio/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Thank yo"
+            "summary": "Postdoctoral research fellows in generative, multimodal, and agentic AI..."
         },
         "application": {
             "url": "https://zitniklab.hms.harvard.edu/jobs/"
@@ -1320,23 +1320,23 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_martin_willemoës_1764526281662",
+        "id": "job_mengdi_wang_1764528974232",
         "labInfo": {
-            "pi": "Martin Willemoës",
-            "institution": "University of Copenhagen",
-            "country": "🇩🇰 Denmark",
-            "website": "https://www1.bio.ku.dk/english/research/bms/pbg/mw/"
+            "pi": "Mengdi Wang",
+            "institution": "Princeton University",
+            "country": "🇺🇸 United States",
+            "website": "https://ece.princeton.edu/people/mengdi-wang"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Student projects MapFind an employeeKUnetDanskEduca"
+            "summary": "Graduate Students Touhid Ahmed Email ta8472@princeton.edu Muhamed Allam Email ma0810@princeton.edu Inci Anali Email ia4983@princeton.edu Hussein Badran Email hb2860@princeton.edu Mahsa Bastankhah Email mb6458@princeton.edu Samuel Bateman Email sb2456..."
         },
         "application": {
-            "url": "https://www1.bio.ku.dk/english/research/ecology-evolution/student-projects/"
+            "url": "https://ece.princeton.edu/people-list/graduate-students"
         },
         "tags": [
             "protein-design",
@@ -1344,7 +1344,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_michael_shirts_1764526299879",
+        "id": "job_michael_bronstein_1764528978642",
+        "labInfo": {
+            "pi": "Michael Bronstein",
+            "institution": "University of Oxford",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://www.cs.ox.ac.uk/people/michael.bronstein/"
+        },
+        "position": {
+            "title": "Open Position (research assistant)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Jacek KarwowskiDoctoral Student, Research Assistant..."
+        },
+        "application": {
+            "url": "https://www.cs.ox.ac.uk/people/students.html"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_michael_shirts_1764528984123",
         "labInfo": {
             "pi": "Michael Shirts",
             "institution": "University of Colorado Boulder",
@@ -1352,12 +1376,12 @@ const jobsData = [
             "website": "https://www.colorado.edu/lab/shirtsgroup/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "PositionsPublicationsResourcesAvailable Positions .ucb-bootstrap-layout-section.section-66d7c19605e11{ padding-top: 0px ; padding-bottom: 0px ; } .section-66d7c19605e11 .ucb-con"
+            "summary": "There are currently no open postdoctoral positions available in the Shirts group...."
         },
         "application": {
             "url": "https://www.colorado.edu/lab/shirtsgroup/available-positions"
@@ -1368,7 +1392,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_michael_westberg_1764526304951",
+        "id": "job_michael_westberg_1764528988630",
         "labInfo": {
             "pi": "Michael Westberg",
             "institution": "Aarhus University",
@@ -1376,12 +1400,12 @@ const jobsData = [
             "website": "https://westberglab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions What we offerBy joining a new lab, you will receive attentive and firsthand mentoring. We strive to build a diverse team and a culture of team science - succeeding together is vital for the"
+            "summary": "to 2022, I was a Novo Nordisk Foundation visiting postdoctoral scholar in the labs of Possu Huang and Michael Z. Lin at Stanford Bio-X, Stanford University. Here I broadened my skillset in protein engineering and chemical biology. Particularly, I used computational protein design to design optogenet..."
         },
         "application": {
             "url": "https://westberglab.com/team"
@@ -1392,7 +1416,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_mohammed_alquraishi_1764526328590",
+        "id": "job_mihai_azoitei_1764528993233",
+        "labInfo": {
+            "pi": "Mihai Azoitei",
+            "institution": "Duke University",
+            "country": "🇺🇸 United States",
+            "website": "https://medicine.duke.edu/profile/mihai-luchian-azoitei"
+        },
+        "position": {
+            "title": "Open Position (open position)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Open Staff Positions To search open positions, visit hr.duke.edu...."
+        },
+        "application": {
+            "url": "https://medicine.duke.edu/about-department/careers"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_mohammed_alquraishi_1764529004094",
         "labInfo": {
             "pi": "Mohammed AlQuraishi",
             "institution": "Columbia University",
@@ -1400,12 +1448,12 @@ const jobsData = [
             "website": "https://www.aqlab.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "AlQuraishi LaboratoryHomePeopleResearchPapersSoftwareGitHubHSMJoinContactBe Part of the TeamJoiningWe are always on the lookout for driven and independent students and postdocs. See below for more in"
+            "summary": "Be Part of the TeamJoiningWe are always on the lookout for driven and independent students and postdocs. See below for more information...."
         },
         "application": {
             "url": "https://www.aqlab.io/join"
@@ -1416,7 +1464,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_neil_king_1764526335899",
+        "id": "job_neil_king_1764529011881",
         "labInfo": {
             "pi": "Neil King",
             "institution": "University of Washington",
@@ -1424,12 +1472,12 @@ const jobsData = [
             "website": "https://kinglab.ipd.uw.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Lab Members Publications Contact King Lab | Open Positions About the Institute for Protein Design Located at the University of Washington in Seattle, the Institute for Pro"
+            "summary": "We welcome applications from late-stage PhD students, recent PhD graduates, or early-stage postdocs excited to help shape the future of protein design, and encourage applicants to explore our lab’s website and recent publications to get a sense of our current directions. We’re especially excited to hear how your ideas align with and extend our vision...."
         },
         "application": {
             "url": "https://kinglab.ipd.uw.edu/positions"
@@ -1440,7 +1488,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_nicholas_f._polizzi_1764526343488",
+        "id": "job_nicholas_f._polizzi_1764529019423",
         "labInfo": {
             "pi": "Nicholas F. Polizzi",
             "institution": "Dana-Farber Cancer Institute",
@@ -1448,12 +1496,12 @@ const jobsData = [
             "website": "https://www.polizzilab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position: Master’s Student, Biomedical Informatics, HMSJames Davey Current Position: Assistant Professor, Dalhousie University, Nova Scotia, CanadaTessa Haining Current Position: Rhodes Scholar, Oxfor"
+            "summary": "ogical charge flow. He then moved to UCSF for his postdoctoral work, where he built new methods to design proteins from scratch that specifically bind to small molecules. At Harvard Medical School and Dana-Farber Cancer Institute, Nick aims to crack the “binding code” by designing ligand-binding pro..."
         },
         "application": {
             "url": "https://www.polizzilab.org/#join-section"
@@ -1464,7 +1512,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_nik_sgourakis_1764526349690",
+        "id": "job_nik_sgourakis_1764529024367",
         "labInfo": {
             "pi": "Nik Sgourakis",
             "institution": "Children’s Hospital of Philadelphia",
@@ -1472,12 +1520,12 @@ const jobsData = [
             "website": "https://www.sgourakislab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position – Structural Biology and Molecular Immunology NMR Core Director position, UPenn Research Technician IV – Pathology Contact Colket Translational Research Building Rm. 9012 3501 Civic Cente"
+            "summary": "Postdoctoral Fellow Position – Structural Biology and Molecular Immunology NMR Core Director position, UPenn Research Technician IV – Pathology..."
         },
         "application": {
             "url": "https://www.sgourakislab.org/career/"
@@ -1488,7 +1536,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_noelia_ferruz_1764526353503",
+        "id": "job_noelia_ferruz_1764529028384",
         "labInfo": {
             "pi": "Noelia Ferruz",
             "institution": "Centre for Genomic Regulation",
@@ -1496,12 +1544,12 @@ const jobsData = [
             "website": "https://www.aiproteindesign.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (open position)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Contact"
+            "summary": "We currently do not have any open positions - stay tuned for future opportunities! Past positions:..."
         },
         "application": {
             "url": "https://www.aiproteindesign.com/jointhelab"
@@ -1512,23 +1560,23 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_omar_abudayyeh_&_jonathan_gootenberg_1764526358143",
+        "id": "job_p._douglas_renfrew_1764529036695",
         "labInfo": {
-            "pi": "Omar Abudayyeh & Jonathan Gootenberg",
-            "institution": "Harvard University",
+            "pi": "P. Douglas Renfrew",
+            "institution": "Flatiron Institute / Simons Foundation",
             "country": "🇺🇸 United States",
-            "website": "https://www.abugootlab.org/"
+            "website": "https://www.simonsfoundation.org/people/douglas-renfrew/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (openings)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position=\"center center\";break;case d.LEFT:n.container.backgroundPosition=\"left center\";break;case d.RIGHT:n.container.backgroundPosition=\"right center\";break;case d.TOP:n.container.backgroundPosition"
+            "summary": "Home Careers Simons Foundation Job Openings Flatiron Research Job Openings We are the engine that drives scientific innovation around the world. Whether by advancing our understanding of autism or probing the origins of the universe, our funding helps individual researchers, research..."
         },
         "application": {
-            "url": "https://www.abugootlab.org/"
+            "url": "https://www.simonsfoundation.org/careers"
         },
         "tags": [
             "protein-design",
@@ -1536,7 +1584,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_parisa_hosseinzadeh_1764526368429",
+        "id": "job_parisa_hosseinzadeh_1764529040422",
         "labInfo": {
             "pi": "Parisa Hosseinzadeh",
             "institution": "University of Oregon",
@@ -1544,12 +1592,12 @@ const jobsData = [
             "website": "https://www.parisahlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions, so feel free to contact Parisa (parisah 'at' uoregon.edu) if you are interested. ​ Postdoctoral Researcher We’re currently looking for postdocs that are looking to solve solutions at the"
+            "summary": "arisah 'at' uoregon.edu) if you are interested. ​ Postdoctoral Researcher We’re currently looking for postdocs that are looking to solve solutions at the intersection of chemical biology and computational biology. In particular, we are interested in postdocs with expertise in one of these fields: 1...."
         },
         "application": {
             "url": "https://www.parisahlab.org/contact-us"
@@ -1560,7 +1608,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_patrick_barth_1764526381855",
+        "id": "job_patrick_barth_1764529049947",
         "labInfo": {
             "pi": "Patrick Barth",
             "institution": "EPFL Lausanne",
@@ -1568,12 +1616,12 @@ const jobsData = [
             "website": "https://www.epfl.ch/labs/barth-lab/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Affiche les pages de même ni"
+            "summary": "esearch. We welcome highly motivated students and postdocs with computational and experimental backgrounds to continue fostering a very collaborative end enjoyable environment in the lab. We design projects so lab members can not only continue to develop their main skills but also learn novel techni..."
         },
         "application": {
             "url": "https://www.epfl.ch/labs/barth-lab/page-149655-en-html/"
@@ -1584,7 +1632,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_patrick_bryant_1764526384887",
+        "id": "job_patrick_bryant_1764529052820",
         "labInfo": {
             "pi": "Patrick Bryant",
             "institution": "Stockholm University",
@@ -1592,12 +1640,12 @@ const jobsData = [
             "website": "https://patrickbryantlab.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positionsResearchSoftware Open positions PhD positions PhD positions will be advertised here Postdoc positions Postdoc positions will be advertised here"
+            "summary": "PhD positions PhD positions will be advertised here Postdoc positions Postdoc positions will be advertised here Master thesis projects (unpaid) Contact Patrick Bryant for potential projects. Include a short description of yourself and your research interests. Internships (unpaid) Contact Patrick Bryant. Include a short CV, github and a project proposal...."
         },
         "application": {
             "url": "https://patrickbryantlab.github.io/open_pos.html"
@@ -1608,7 +1656,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_peilong_lu_1764526403163",
+        "id": "job_peilong_lu_1764529080065",
         "labInfo": {
             "pi": "Peilong Lu",
             "institution": "Westlake University",
@@ -1616,12 +1664,12 @@ const jobsData = [
             "website": "https://www.labxing.com/lab/693/home"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "联系我们 意见反馈 关注公众号 获得最新科研资讯"
+            "summary": "证明（论著、课题、专利等PDF合集），邮件主题标注“姓名+拟报科室+博士后”，发送至医院博管办邮箱：postdoc_PKUSZH@163.com 咨询电话：0755-83923333-8914 我们期待与你一起在深圳这座“创新之都” 以北大医学的深厚底蕴为根基以大湾区的蓬勃活力为舞台共同书写医学科研的新篇章！ 泌尿外科研究所 2025-11-13 17:43:00 兰州理工大学 欢迎报考2026年兰州理工大学药学方向硕士研究生 一、 招生专业与平台 招生专业：化学、药学、化学工程与技术、生物工程等相关专业。 依托单位：兰州理工大学生命科学与工程学院。 二、 研究方向与核心内容 本方向立足于化学..."
         },
         "application": {
             "url": "https://www.labxing.com/opening"
@@ -1632,7 +1680,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_phil_bradley_1764526407073",
+        "id": "job_phil_bradley_1764529084764",
         "labInfo": {
             "pi": "Phil Bradley",
             "institution": "Fred Hutchinson Cancer Center",
@@ -1640,12 +1688,12 @@ const jobsData = [
             "website": "https://www.fredhutch.org/en/faculty-lab-directory/bradley-phil.html"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions, Programs & Recruitment Events"
+            "summary": "Postdoctoral Fellowships A postdoctoral fellowship offers the opportunity to work on the cutting edge of biomedical research on one of our 140 faculty-led research teams. Postdoc Openings..."
         },
         "application": {
             "url": "https://www.fredhutch.org/en/about/careers.html"
@@ -1656,7 +1704,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_philip_a._romero_1764526413678",
+        "id": "job_philip_a._romero_1764529089979",
         "labInfo": {
             "pi": "Philip A. Romero",
             "institution": "Duke University",
@@ -1664,12 +1712,12 @@ const jobsData = [
             "website": "https://pratt.duke.edu/people/philip-romero/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false,'mouseWheel':'true','changeSpeed':250,'changeFade':300}))}); /* YouTube */ jQuery('a[href*=\"youtu.be/\""
+            "summary": "462 Staff & Postdocs 212 Faculty 1,363 Undergraduate Students 1,948 Graduate Students..."
         },
         "application": {
             "url": "https://pratt.duke.edu/about/team/careers/"
@@ -1680,7 +1728,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_philip_m._kim_1764526417664",
+        "id": "job_philip_m._kim_1764529093789",
         "labInfo": {
             "pi": "Philip M. Kim",
             "institution": "University of Toronto",
@@ -1688,12 +1736,12 @@ const jobsData = [
             "website": "https://www.kimlab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationKim Laboratory WebsiteHomePublicationsPublicationsPress CoveragePeoplePeoplePMKimAlumniPicturesSoftwareProteinSolverELASPICMUSI (MUlti"
+            "summary": "ontentSkip to navigationPositionsOpen positions - Postdoctoral AssociatesWe are looking for talented and highly motivated individuals with strong interests in Computational Biology. Previous training in either a biological (e.g.: molecular biology, genetics, biochemistry) or a quantitative/technical..."
         },
         "application": {
             "url": "https://www.kimlab.org/positions"
@@ -1704,7 +1752,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_pietro_liò_1764526427543",
+        "id": "job_pietro_liò_1764529102324",
         "labInfo": {
             "pi": "Pietro Liò",
             "institution": "University of Cambridge",
@@ -1712,12 +1760,12 @@ const jobsData = [
             "website": "https://www.cl.cam.ac.uk/~pl219/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position depending on the nature of the diagnosed disease and comorbidities). Computer scientists will play a central and multi varied role in computational med"
+            "summary": ".... try to guess Currently the group of PhD and postdocs works in three areas: Theory development, Neural signal (fMRI, NMR) analysis, Biomedical methodology development My Research My research consists in developing mechanistic or phenomenological models across different biological scales in heal..."
         },
         "application": {
             "url": "https://www.cl.cam.ac.uk/~pl219/"
@@ -1728,7 +1776,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_possu_huang_1764526431041",
+        "id": "job_possu_huang_1764529106580",
         "labInfo": {
             "pi": "Possu Huang",
             "institution": "Stanford University",
@@ -1736,12 +1784,12 @@ const jobsData = [
             "website": "http://www.proteindesign.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions We're a growing lab and always looking for more people to join us!Postdocs- We are actively seeking to fill an open postdoc position. Candidates who are interested in computational protein"
+            "summary": "lab and always looking for more people to join us!Postdocs- We are actively seeking to fill an open postdoc position. Candidates who are interested in computational protein design & engineering and are interested in contributing to an existing project or initiating a new one are invited to apply. If..."
         },
         "application": {
             "url": "http://www.proteindesign.org/openings.html"
@@ -1752,7 +1800,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_pranam_d._chatterjee_1764526434787",
+        "id": "job_pranam_d._chatterjee_1764529110306",
         "labInfo": {
             "pi": "Pranam D. Chatterjee",
             "institution": "Duke University",
@@ -1760,12 +1808,12 @@ const jobsData = [
             "website": "https://www.chatterjeelab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position=\"center center\";break;case d.LEFT:n.container.backgroundPosition=\"left center\";break;case d.RIGHT:n.container.backgroundPosition=\"right center\";break;case d.TOP:n.container.backgroundPosition"
+            "summary": "ounder of AtomBioworks, Inc. pranam@seas.upenn.eduPostdoctoral FellowsLin ZhaoPhD (Fudan '20)Liz MahoodPhD (Cornell '23)PhD StudentsLauren HongBS (Georgia Tech '22)Zachary QuinnBS (SUNY Binghamton '20)Sophie VincoffBS (Duke '23)Tian WangBS (UNC '24)Yinuo ZhangBS (UC Davis '20)Tong ChenBS (Fudan '25)..."
         },
         "application": {
             "url": "https://www.chatterjeelab.com/"
@@ -1776,7 +1824,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_qian_cong_1764526447385",
+        "id": "job_qi_liu_1764529118616",
+        "labInfo": {
+            "pi": "Qi Liu",
+            "institution": "University of Science and Technology of China",
+            "country": "🇨🇳 China",
+            "website": "http://staff.ustc.edu.cn/~qiliuql/"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Dec. 2012, National scholarship for Graduate Students..."
+        },
+        "application": {
+            "url": "http://staff.ustc.edu.cn/~qiliuql/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_qian_cong_1764529122846",
         "labInfo": {
             "pi": "Qian Cong",
             "institution": "UT Southwestern",
@@ -1784,12 +1856,12 @@ const jobsData = [
             "website": "https://breakthroughs.utsouthwestern.edu/women/stories/cong-qian.html"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positioned to offer you a compelling blend of professional challenges, personal rewards, and exceptional collaboration that defines an extraordinary career experience. As you look ahead to a future wi"
+            "summary": "– American Heart Association Best Places to Work Postdocs – The Scientist Employer of the Year – Association for Independent Living Celebration of Diversity Award Finalist – Ernst & Young and the Dallas Arboretum Mother-Friendly Worksite – Texas Department of State Health Services Lex Frieden Emplo..."
         },
         "application": {
             "url": "https://jobs.utsouthwestern.edu/"
@@ -1800,7 +1872,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_rex_ying_1764526465932",
+        "id": "job_rama_ranganathan_1764529139715",
+        "labInfo": {
+            "pi": "Rama Ranganathan",
+            "institution": "University of Chicago",
+            "country": "🇺🇸 United States",
+            "website": "http://ranganathanlab.org/"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Two new students join the lab! May 29, 2018 Craig DeValk, a first-year BMB graduate student has now started in the group, and is focusing on the use of forward evolution systems to understand how fluctuations in conditions of selection control (or not) the design of proteins. Also, Sarah Wasinger, a first-year undergraduate student with deep interests in molecular engineering will start in the lab next month...."
+        },
+        "application": {
+            "url": "https://ranganathanlab.org/2200-2/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_rex_ying_1764529147723",
         "labInfo": {
             "pi": "Rex Ying",
             "institution": "Yale University",
@@ -1808,12 +1904,12 @@ const jobsData = [
             "website": "https://www.cs.yale.edu/homes/ying-rex/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position-aware Graph Neural Networks IEEE Data Engineering Bulletin 2017 A survey on graph representation learning, including distributed embe"
+            "summary": "Similar to evaluating PhD applicants, I value paper quality over quantity. The standard will be higher for postdoc candidates...."
         },
         "application": {
             "url": "https://www.cs.yale.edu/homes/ying-rex/#student"
@@ -1824,31 +1920,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_rhiju_das_1764526471683",
-        "labInfo": {
-            "pi": "Rhiju Das",
-            "institution": "Stanford University",
-            "country": "🇺🇸 United States",
-            "website": "https://profiles.stanford.edu/rhiju-das"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "Stanford Profiles Menu"
-        },
-        "application": {
-            "url": "https://profiles.stanford.edu/browse/vice-provost-for-student-affairs"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_rituparna_samanta_1764526482469",
+        "id": "job_rituparna_samanta_1764529169212",
         "labInfo": {
             "pi": "Rituparna Samanta",
             "institution": "University of South Florida",
@@ -1856,12 +1928,12 @@ const jobsData = [
             "website": "https://sites.google.com/view/rituparnasamanta"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationSamanta Lab at USFBioNewsResearchPublicationsTeachingPeopleOutreachResourcesSamanta Lab at USFBioNewsResearchPublicationsTeachingPeopl"
+            "summary": "PI: Rituparna SamantaCurrent position: Assistant Professor, University of South Florida, TampaPostdoctoral Fellow, Johns Hopkins University, BaltimorePh.D.: Chemical and Biomolecular Engineering, University of Texas at AustinM.Tech: Chemical Engineering, Indian Institute of Technology, Kanpur. B. E.: Chemical Engineering, Jadavpur University, Kolkata..."
         },
         "application": {
             "url": "https://sites.google.com/view/rituparnasamanta"
@@ -1872,31 +1944,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_robert_jefferson_1764526489435",
-        "labInfo": {
-            "pi": "Robert Jefferson",
-            "institution": "King's College London",
-            "country": "🇬🇧 United Kingdom",
-            "website": "https://www.kcl.ac.uk/people/robert-jefferson"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "position and housing options.\\u003C\\u002Fp\\u003E\"},{\"type\":\"image\",\"value\":{\"altText\":\"Two students sitting on a sofa talking.\",\"transformations\":null,\"caption\":\"\",\"asset\":{\"thumbnail\":null,\"altText\":"
-        },
-        "application": {
-            "url": "https://www.kcl.ac.uk/campuslife"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_rohit_singh_1764526492987",
+        "id": "job_rohit_singh_1764529179586",
         "labInfo": {
             "pi": "Rohit Singh",
             "institution": "Duke University",
@@ -1904,12 +1952,12 @@ const jobsData = [
             "website": "https://singhlab.net/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions available: If you're interested in a postdoc or if you are a Duke undergraduate or graduate student and interested in problems that relate to the topics above, please reach out!"
+            "summary": "Welcoming Sara Geraghty as a postdoc in the Gerbach/Crawford labs! Sara will be co-mentored by Rohit..."
         },
         "application": {
             "url": "https://singhlab.net/"
@@ -1920,7 +1968,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_ron_dror_1764526500051",
+        "id": "job_ron_dror_1764529186425",
         "labInfo": {
             "pi": "Ron Dror",
             "institution": "Stanford University",
@@ -1928,12 +1976,12 @@ const jobsData = [
             "website": "https://drorlab.stanford.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position, please email the following to drorlabopenings AT cs DOT stanford DOT edu: a CV, a cover letter explaining your interest in the position, contact information for three referees,"
+            "summary": "We welcome applications from prospective postdocs, graduate students, and undergraduates...."
         },
         "application": {
             "url": "https://drorlab.stanford.edu/joinus.html"
@@ -1944,7 +1992,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_ross_anderson_1764526504812",
+        "id": "job_ross_anderson_1764529191127",
         "labInfo": {
             "pi": "Ross Anderson",
             "institution": "University of Bristol",
@@ -1952,12 +2000,12 @@ const jobsData = [
             "website": "https://theandersonlab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position, and much the of work that the Anderson group carries out now is directly informed by my time in Les’ lab. Dutton lab alumni, family and friends (l-r) Greg Wiedman, Tammer Farid and yours tru"
+            "summary": "as with Les at UPenn that I carried out my second postdoctoral position, and much the of work that the Anderson group carries out now is directly informed by my time in Les’ lab. Dutton lab alumni, family and friends (l-r) Greg Wiedman, Tammer Farid and yours truly… The symposium was a fantastic exp..."
         },
         "application": {
             "url": "https://theandersonlab.com/2019/06/10/lesfest-a-celebration-of-les-duttons-career/"
@@ -1968,7 +2016,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_sagar_khare_1764526552436",
+        "id": "job_sagar_khare_1764529239523",
         "labInfo": {
             "pi": "Sagar Khare",
             "institution": "Rutgers University",
@@ -1976,12 +2024,12 @@ const jobsData = [
             "website": "https://sagardkharelab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;} /* <![CDATA["
+            "summary": "se contact us for a possible rotation in the lab. Postdoctoral Fellow Positions: We are interested in PhD graduates with a variety of backgrounds (biochemistry, structural biology, biological engineering, chemistry) when funds are available. Please contact Sagar via email and indicate your longer-te..."
         },
         "application": {
             "url": "https://sagardkharelab.org/join-us/"
@@ -1992,7 +2040,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_sangmin_lee_1764526559483",
+        "id": "job_sangmin_lee_1764529245625",
         "labInfo": {
             "pi": "Sangmin Lee",
             "institution": "Pohang University of Science and Technology",
@@ -2000,12 +2048,12 @@ const jobsData = [
             "website": "https://sites.google.com/view/pdl-postech"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationWe are hiring graduate students and postdocs!Click hereProtein Design Lab @ POSTECHHomeResearchTeamPIMembersPublicationsNewsPhotosCont"
+            "summary": "Join our teamWe are hiring graduate students, undergrad researchers, and postdocs. 대학원생, 박사 후 연구원, 학부 연구생을 모집합니다.Contact Us..."
         },
         "application": {
             "url": "https://sites.google.com/view/pdl-postech"
@@ -2016,7 +2064,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_sara_h_mejias_1764526563078",
+        "id": "job_sara_h_mejias_1764529249105",
         "labInfo": {
             "pi": "Sara H Mejias",
             "institution": "IMDEA Nanoscience research institute",
@@ -2024,12 +2072,12 @@ const jobsData = [
             "website": "https://sites.google.com/view/sarahmejias/team-members"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; top: 0;}Skip to main contentSkip to navigationBioNanoPhotonicsHOMEResearch Team membersFacilitiesPublicationsNewsCollaboratorsFundingOpen positionsPhoto GalleryDisseminationOur Eth"
+            "summary": "We are always open to accept master and PhD students and postdocoral researchers...."
         },
         "application": {
             "url": "https://sites.google.com/view/sarahmejias/open-positions"
@@ -2040,7 +2088,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_sen_liu_1764526589335",
+        "id": "job_sen_liu_1764529273929",
         "labInfo": {
             "pi": "Sen Liu",
             "institution": "Hubei University of Technology",
@@ -2048,12 +2096,12 @@ const jobsData = [
             "website": "https://liugroup.site/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Front Page Publication Member Alumni Resource Research Equipment Contact PI中文介绍 Join us（加入我们） SCARdock Skip to content Front Page Publica"
+            "summary": "Members Wanted We always welcome new group members, including research investigators, Postdoc, PhD students, and master students, either domestic or international. Please contact the group PI for details...."
         },
         "application": {
             "url": "https://liugroup.site/group-introduction/"
@@ -2064,7 +2112,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_shuangjia_zheng_1764526617392",
+        "id": "job_shuangjia_zheng_1764529299808",
         "labInfo": {
             "pi": "Shuangjia Zheng",
             "institution": "Shanghai Jiao Tong University",
@@ -2072,12 +2120,12 @@ const jobsData = [
             "website": "https://prokia.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: absolute; overflow: hidden;}.jvectormap-tip { position: absolute; display: none; border: solid 1px #CDCDCD; border-radius: 3px; background: #292929; color: white; fon"
+            "summary": "I am currently seeking Postdocs, Ph.D. students, master students and undergraduates who share our passion in ML & AI for biomedicine...."
         },
         "application": {
             "url": "https://prokia.github.io/"
@@ -2088,7 +2136,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_shuiwang_ji_1764526620491",
+        "id": "job_shuiwang_ji_1764529302790",
         "labInfo": {
             "pi": "Shuiwang Ji",
             "institution": "Texas A&M University",
@@ -2096,12 +2144,12 @@ const jobsData = [
             "website": "https://people.tamu.edu/~sji/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (graduate student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions are available in the DIVE Lab within the Department of Computer Science and Engineering, Texas A&M University. Texas A&M University is renowned for its world-class engineering programs. The"
+            "summary": "We do not offer financial support to master's or undergraduate students until they have demonstrated substantial research contributions, such as serving as the primary author on publications to NeurIPS, ICML, or ICLR...."
         },
         "application": {
             "url": "https://people.tamu.edu/~sji/openings.html"
@@ -2112,7 +2160,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_siqi_sun_1764526629558",
+        "id": "job_sinisa_bjelic_1764529308650",
+        "labInfo": {
+            "pi": "Sinisa Bjelic",
+            "institution": "Linnaeus University",
+            "country": "🇸🇪 Sweden",
+            "website": "http://protein.technology/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "POSTDOCTORAL FELLOWS Highly skilled fellows are encouraged to send in their CV. Ph.D. STUDENTS Currently we have no openings for graduate students; highly skilled students are still encouraged to send in their CV. MASTERS STUDENT THESES We welcome ap..."
+        },
+        "application": {
+            "url": "https://protein.technology/wordpress/bjelic-lab/opportunities/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_siqi_sun_1764529311848",
         "labInfo": {
             "pi": "Siqi Sun",
             "institution": "Fudan University",
@@ -2120,12 +2192,12 @@ const jobsData = [
             "website": "https://intersun.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (phd student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Siqi Sun Associate Professor from IICS, Fudan University and Shanghai AI Lab 220 Handan Rd, Shanghai, China, 200437 Email: siqisun[AT] fudan.edu.cn OR sunsiqi1[AT] pjlab.org.cn Google S"
+            "summary": "Before that, I was a PhD student at TTI-Chicago, a philanthropically endowed computer science research institute in University of Chicago . For more about TTIC, please refer to About TTIC. And I am fortunate to work with Prof. Jinbo Xu...."
         },
         "application": {
             "url": "https://intersun.github.io/"
@@ -2136,7 +2208,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_smita_krishnaswamy_1764526635175",
+        "id": "job_smita_krishnaswamy_1764529316321",
         "labInfo": {
             "pi": "Smita Krishnaswamy",
             "institution": "Yale University",
@@ -2144,12 +2216,12 @@ const jobsData = [
             "website": "https://krishnaswamylab.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Position in Brain Dynamics and Decoding The Krishnaswamy and Murat Gunel labs are jointly looking for talented postdocs who are interested in the intersection of deep learning, neuros"
+            "summary": "Postdoctoral Position in Brain Dynamics and Decoding..."
         },
         "application": {
             "url": "https://krishnaswamylab.org/join"
@@ -2160,7 +2232,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_stan_z._li_1764526652162",
+        "id": "job_stan_z._li_1764529330816",
         "labInfo": {
             "pi": "Stan Z. Li",
             "institution": "Westlake University",
@@ -2168,12 +2240,12 @@ const jobsData = [
             "website": "https://www.westlake.edu.cn/faculty/stan-zq-li.html"
         },
         "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
+            "title": "Open Position (open position)",
+            "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions/?keywords=学术人才\", target: \"_blank\", }, { text: \"专职教学\", url: \"https://www.westlake.edu.cn/careers/OpenPositions/?keywords=专职教"
+            "summary": "人才招聘 岗位信息 / Open Positions 搜索 西湖大学努力为每一位成员提供广阔的舞台和成长空间。欢迎加入我们，共创美好明天！..."
         },
         "application": {
             "url": "https://www.westlake.edu.cn/careers/OpenPositions/"
@@ -2184,7 +2256,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_stephanie_wankowicz_1764526655355",
+        "id": "job_stephanie_wankowicz_1764529333804",
         "labInfo": {
             "pi": "Stephanie Wankowicz",
             "institution": "Vanderbilt University",
@@ -2192,12 +2264,12 @@ const jobsData = [
             "website": "https://wankowiczlab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position. We are interested in speaking with you about your scientific background and your future career goals (in academia, industry, or other ventures). If interested, please send your CV/Resume to"
+            "summary": "Inquiries about Postdoctoral positions should be emailed directly to Dr. Stephanie Wankowicz. We encourage candidates to explore applying for extramural fellowships to support their research...."
         },
         "application": {
             "url": "https://wankowiczlab.com/join"
@@ -2208,7 +2280,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_tanja_kortemme_1764526666568",
+        "id": "job_tanja_kortemme_1764529345344",
         "labInfo": {
             "pi": "Tanja Kortemme",
             "institution": "University of California San Francisco",
@@ -2216,12 +2288,12 @@ const jobsData = [
             "website": "https://kortemmelab.ucsf.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "KORTEMME LAB @ UCSF Home Research People Publications"
+            "summary": "Please also include your career goals (after the postdoc), a CV with publication list, and an abstract of your thesis research. When you apply, ask three references to email their letters of recommendation directly to Tanja. The Kortemme Lab is located on the 3rd floor of Byers Hall at the UCSF Mis..."
         },
         "application": {
             "url": "https://kortemmelab.ucsf.edu/join-the-lab.html"
@@ -2232,7 +2304,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_thomas_simonson_1764526687039",
+        "id": "job_tess_e._smidt_1764529353459",
+        "labInfo": {
+            "pi": "Tess E. Smidt",
+            "institution": "Massachusetts Institute of Technology",
+            "country": "🇺🇸 United States",
+            "website": "https://blondegeek.github.io/"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "As a graduate student, Smidt also spent a year as an intern on Google’s Accelerated Science Team, where she applied the company’s machine-learning tools and expertise to tackle the problem of predicting atomic structures. Smidt notes that this work really drove home the fact that science needs for deep learning are very different from the problems that industry is trying to tackle...."
+        },
+        "application": {
+            "url": "https://cs.lbl.gov/news-media/news/2018/tess-smidt-atomic-architect-and-2018-luis-alvarez-fellow/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_thomas_simonson_1764529361177",
         "labInfo": {
             "pi": "Thomas Simonson",
             "institution": "Ecole Polytechnique",
@@ -2240,12 +2336,12 @@ const jobsData = [
             "website": "https://bioc.polytechnique.fr/biocomputing/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "BIOS Research Group BIOcomputing and Structure We are a part of the Laboratoire de Biologie Structural"
+            "summary": "Thomas Simonson, Senior Research Scientist, CNRS Thomas Gaillard, Lecturer, Ecole Polytechnique David Mignon, software engineer; Xingyu Chen, postdoc Ivan Reveguk, Anna Mazurek, Ph.D. students Former group members..."
         },
         "application": {
             "url": "https://bioc.polytechnique.fr/biocomputing/"
@@ -2256,7 +2352,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_tianlong_chen_1764526690376",
+        "id": "job_tianlong_chen_1764529364336",
         "labInfo": {
             "pi": "Tianlong Chen",
             "institution": "UNC Chapel Hill",
@@ -2264,12 +2360,12 @@ const jobsData = [
             "website": "https://tianlong-chen.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position at CS@UNC Chapel Hill. • May, 2024 [PAPER] Six ICML'24 accepted - ZO LLM Tuning + Graph Sparsification + Rliabile SMoE + Biologial-informed Protein Representation Learning +"
+            "summary": "ATUS] UNITES welcomes 11 new members (8 Ph.D. + 2 Postdoc + 1 M.S.): Mohan Zhang (USTC) + Yuhang Cheng (Wuhan University) + Kangqi Ni (RICE) + Laura Yao (CMU) + Yu-Chao Huang (National Taiwan University) + Zijie Liu (WashU) + Zhuoxuan Zhang (Brown) + Shuqing Luo (PKU) + Jinhao Duan (Drexel) + Gengwe..."
         },
         "application": {
             "url": "https://tianlong-chen.github.io/"
@@ -2280,7 +2376,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_tommi_s._jaakkola_1764526702635",
+        "id": "job_tommi_s._jaakkola_1764529377163",
         "labInfo": {
             "pi": "Tommi S. Jaakkola",
             "institution": "Massachusetts Institute of Technology",
@@ -2288,12 +2384,12 @@ const jobsData = [
             "website": "https://people.csail.mit.edu/tommi/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positional protein structure generation with 3d ellipsoids. In The 13th International Conference on Learning Representations (ICLR), 2025. [link] C. Wang, S. Gupta, X. Zhang, S. Tonekaboni, S."
+            "summary": "g, Chenyu Wang, Maurice Weiler*, Cai Zhou(c) (* = postdoc, c = co-advised, v = visiting) New release: BoltzGen We introduce an all-atom generative model -- BoltzGen -- for designing proteins and peptides across all modalities to bind a wide range of biomolecular targets. BoltzGen builds strong struc..."
         },
         "application": {
             "url": "https://people.csail.mit.edu/tommi/"
@@ -2304,7 +2400,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_torben_schiffner_1764526706680",
+        "id": "job_torben_schiffner_1764529380776",
         "labInfo": {
             "pi": "Torben Schiffner",
             "institution": "Scripps Research Institute",
@@ -2312,12 +2408,12 @@ const jobsData = [
             "website": "https://www.schiffner-lab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Contact"
+            "summary": "0 Positions Positions We currently have several positions for undergraduate students, PhD students and Postdocs available. Please don’t hesitate to contact us if you are interested in vaccine development, structural biology, protein biochemistry and immunology!..."
         },
         "application": {
             "url": "https://www.schiffner-lab.com/positions"
@@ -2328,7 +2424,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_victor_guallar_tasies_1764526720693",
+        "id": "job_victor_guallar_tasies_1764529391854",
         "labInfo": {
             "pi": "Victor Guallar Tasies",
             "institution": "Barcelona Supercomputing Center",
@@ -2336,12 +2432,12 @@ const jobsData = [
             "website": "https://www.bsc.es/guallar-tasies-victor"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position GroupEarth Sciences - Climate Services ES groupEarth Sciences - Climate Variability and ChangeEarth Sciences - Computational Earth Sciences GroupEarth Sciences - Data, Assimilation, Forecasti"
+            "summary": "2024-2027 period: Research Engineers PhD Students Postdoctoral Researchers Team Leaders Support Staff Equality Committee Additionally, we conducted an exercise known as the \"Staff Journey,\" where we analyzed the experiences of staff members from the moment they first learned about BSC to their decis..."
         },
         "application": {
             "url": "https://www.bsc.es/join-us/hr-initiatives-and-badges"
@@ -2352,31 +2448,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_wengong_jin_1764526757241",
-        "labInfo": {
-            "pi": "Wengong Jin",
-            "institution": "Northeastern University",
-            "country": "🇺🇸 United States",
-            "website": "https://people.csail.mit.edu/wengong/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "position responsibilities Three confidential letters of recommendation PDF or scanned copies of unofficial language examination scores from international students only (you will need to submit o"
-        },
-        "application": {
-            "url": "https://www.khoury.northeastern.edu/apply/phd-apply/"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_wenjun_xie_1764526762853",
+        "id": "job_wenjun_xie_1764529433283",
         "labInfo": {
             "pi": "Wenjun Xie",
             "institution": "University of Florida",
@@ -2384,12 +2456,12 @@ const jobsData = [
             "website": "https://pharmacy.ufl.edu/profile/xie-wenjun/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-54L2LTR' height='0' width='0' style='display:none;visibility:hidden'></iframe>"
+            "summary": "rimary author on at least one original manuscript.Postdoctoral residencies in the department primarily train pharmacists for professional practice. All residency programs are structured to allow residents to achieve maximum benefit from their training. Residents are precepted by a single faculty mem..."
         },
         "application": {
             "url": "https://pharmacy.ufl.edu/residencies-and-fellowships/"
@@ -2400,7 +2472,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_wentao_zhang_1764526766628",
+        "id": "job_wentao_zhang_1764529436928",
         "labInfo": {
             "pi": "Wentao Zhang",
             "institution": "Peking University",
@@ -2408,12 +2480,12 @@ const jobsData = [
             "website": "https://zwt233.github.io/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (phd student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Machine Learning ResearchOpen MenuClose MenuOverviewResearch HighlightsPublicationsEventsWork with uscontent type program | published April 14, 2021Announcing the 2021 Apple Scholars in AIMLApple is"
+            "summary": "hips in AIML. In recognition of these outstanding PhD students, each will receive support for their research and academic travel for two years, internship opportunities, and a two-year mentorship with an Apple researcher in their field. Nominated students were selected based on their innovative rese..."
         },
         "application": {
             "url": "https://machinelearning.apple.com/updates/apple-scholars-aiml-2021"
@@ -2424,7 +2496,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_william_e._balch_1764526774127",
+        "id": "job_william_e._balch_1764529444043",
         "labInfo": {
             "pi": "William E. Balch",
             "institution": "Scripps Research Institute",
@@ -2432,12 +2504,12 @@ const jobsData = [
             "website": "https://www.webalchlab.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Available Balch Lab Contact"
+            "summary": "Postdoctoral Associate - Experimental Cell Biology..."
         },
         "application": {
             "url": "https://www.webalchlab.com/postionsavailable"
@@ -2448,7 +2520,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_xin_gao_1764526793761",
+        "id": "job_xin_gao_1764529465231",
         "labInfo": {
             "pi": "Xin Gao",
             "institution": "King Abdullah University of Science and Technology",
@@ -2456,12 +2528,12 @@ const jobsData = [
             "website": "https://cemse.kaust.edu.sa/sfb"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Skip to main content <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PFSKTRQW\" height=\"0\" width=\"0\" style=\"display:none;visibil"
+            "summary": "Postdoctoral Fellows Search by name Chencheng Xu Postdoctoral Research Fellow, Structural and Functional Bioinformatics Xiaopeng Xu Postdoctoral Research Fellow, Computer Science bioinformatics Computational biology..."
         },
         "application": {
             "url": "https://sfb.kaust.edu.sa/profiles/by-profile-group/postdoctoral-fellows"
@@ -2472,31 +2544,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_yang_liu_1764526797491",
-        "labInfo": {
-            "pi": "Yang Liu",
-            "institution": "Tsinghua University",
-            "country": "🇨🇳 China",
-            "website": "https://nlp.csai.tsinghua.edu.cn/~ly/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "Position-Enhanced Visual Instruction Tuning for Multimodal Large Language Models. arXiv:2308.13437. [arXiv] Autonomous Agents Directions: tool learning, evolvable agents, internet of agents, medica"
-        },
-        "application": {
-            "url": "https://nlp.csai.tsinghua.edu.cn/~ly/"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_yang_zhang_1764526804073",
+        "id": "job_yang_zhang_1764529474865",
         "labInfo": {
             "pi": "Yang Zhang",
             "institution": "National University of Singapore",
@@ -2504,12 +2552,12 @@ const jobsData = [
             "website": "https://zhanggroup.org/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position is immediately available in the Zhang Lab at the National University of Singapore (NUS). The successful candidate will work on cutting-edge research at the interface of artificial intelli"
+            "summary": "P8 ●CASP9 ●CASP10 ●CASP11 ●CASP12 ●CASP13 ●CASP14 Postdoctoral Research Associates Postdoctoral Opportunity in AI and Computational Biology A postdoctoral position is immediately available in the Zhang Lab at the National University of Singapore (NUS). The successful candidate will work on cutting-e..."
         },
         "application": {
             "url": "https://aideepmed.com/job/"
@@ -2520,7 +2568,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_yarin_gal_1764526815704",
+        "id": "job_yarin_gal_1764529486721",
         "labInfo": {
             "pi": "Yarin Gal",
             "institution": "University of Oxford",
@@ -2528,15 +2576,15 @@ const jobsData = [
             "website": "https://www.cs.ox.ac.uk/people/yarin.gal/website/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (hiring)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Skip to main content"
+            "summary": "We have an abundance of will to transform state capacity at the frontier of AI Safety. This is why we are hiring technical AI experts into government at start-up speed...."
         },
         "application": {
-            "url": "https://www.chch.ox.ac.uk/staff/professor-yarin-gal"
+            "url": "https://www.gov.uk/government/publications/frontier-ai-taskforce-first-progress-report/frontier-ai-taskforce-first-progress-report#:~:text=Yarin%20Gal%20will%20join%20as%20Research%20Director%20of%20the%20Taskforce%20from%20Oxford%20where%20he%20is%20head%20of%20the%20Oxford%20Applied%20and%20Theoretical%20Machine%20Learning%20Group.%20Yarin%20is%20a%20globally%20recognised%20leader%20in%20Machine%20Learning%2C%20and%20will%20retain%20his%20position%20as%20Associate%20Professor%20at%20Oxford."
         },
         "tags": [
             "protein-design",
@@ -2544,23 +2592,23 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_yoshua_bengio_1764526842589",
+        "id": "job_yi_qin_gao_1764529505399",
         "labInfo": {
-            "pi": "Yoshua Bengio",
-            "institution": "Mila - Quebec AI Institute",
-            "country": "🇨🇦 Canada",
-            "website": "https://yoshuabengio.org/fr/profil/"
+            "pi": "Yi Qin Gao",
+            "institution": "Peking University",
+            "country": "🇨🇳 China",
+            "website": "https://www.chem.pku.edu.cn/gaoyq/"
         },
         "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
+            "title": "Open Position (graduate student)",
+            "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position\":\"bottom-left-corner\",\"services\":[{\"name\":\"Essential cookies\",\"sid\":\"technical\",\"required\":true,\"description\":\"These cookies are necessary for the operation of the site and cannot be deactiva"
+            "summary": "leiyaokun@pku.edu.cn Yaokun Lei Graduate Student zhourui@pku.edu.cn Rui Zhou Graduate Student 1501110308@pku.edu.cn Hui Quan Graduate Student 1501210181@pku.edu.cn Ying Yang Graduate Student..."
         },
         "application": {
-            "url": "https://mila.quebec/wp-content/uploads/2019/08/bengio_1991_ijcnn.pdf"
+            "url": "https://www.chem.pku.edu.cn/gaoyq/"
         },
         "tags": [
             "protein-design",
@@ -2568,7 +2616,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_yu_li_1764526846071",
+        "id": "job_yu_li_1764529528533",
         "labInfo": {
             "pi": "Yu Li",
             "institution": "Chinese University of Hong Kong",
@@ -2576,12 +2624,12 @@ const jobsData = [
             "website": "https://liyu95.com/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position openings. If you think you are qualified, feel free to drop me an email with your CV. Here is an introduction to the requirement of Postdoc (in Chinese). ITF fellow (HKD 540K per year) (in C"
+            "summary": "We have several Postdoc position openings. If you think you are qualified, feel free to drop me an email with your CV. Here is an introduction to the requirement of Postdoc (in Chinese). ITF fellow (HKD 540K per year) (in Chinese) [博后招收流程-2025 (in Chinese)]..."
         },
         "application": {
             "url": "https://liyu95.com/opening.html#intern"
@@ -2592,31 +2640,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_yun_s._song_1764526886273",
-        "labInfo": {
-            "pi": "Yun S. Song",
-            "institution": "UC Berkeley",
-            "country": "🇺🇸 United States",
-            "website": "https://people.eecs.berkeley.edu/~yss/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "//<![CDATA[ (function(){ var c = document.body.classList; c.remove( 'no-js' ); c.add( 'js' ); })(); //]]> Skip to content Skip to footer Computational Precision HealthM"
-        },
-        "application": {
-            "url": "https://computationalhealth.berkeley.edu/"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_zhongyue_yang_1764526940005",
+        "id": "job_zhongyue_yang_1764529598264",
         "labInfo": {
             "pi": "Zhongyue Yang",
             "institution": "Vanderbilt University",
@@ -2624,12 +2648,12 @@ const jobsData = [
             "website": "https://lab.vanderbilt.edu/zyang-lab/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MH87FL\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"
+            "summary": "For an undergraduate or a postdoc, a cellist or a cellular biologist, a researcher or a writer, Vanderbilt offers a unique learning experience. The university is immersive, collaborative, rigorous, multifaceted and grounded in the commitment to educational and community excellence. Choose a discipline, learn about the available nationally renowned financial aid programs and apply today. Undergraduate Admissions Graduate & Professional Admissions Financial Aid..."
         },
         "application": {
             "url": "https://www.vanderbilt.edu/prospective/"
@@ -2640,7 +2664,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_arvind_pillai_1764526964809",
+        "id": "job_arvind_pillai_1764529620089",
         "labInfo": {
             "pi": "Arvind Pillai",
             "institution": "Stowers Institute for Medical Research",
@@ -2648,12 +2672,12 @@ const jobsData = [
             "website": "https://www.stowers.org/people/arvind-pillai"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position: 50% 50%;\" >Stowers Institute FellowsThe Fellows program at the Stowers Institute seeks to advance scientific knowledge by funding early-career investigators who have distinguished themselves"
+            "summary": "Postdoc Training Postdoc Training Overview Postdoc Community at Stowers..."
         },
         "application": {
             "url": "https://www.stowers.org/fellows"
@@ -2664,7 +2688,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_lukas_milles_1764526971744",
+        "id": "job_lukas_milles_1764529625339",
         "labInfo": {
             "pi": "Lukas Milles",
             "institution": "Ludwig Maximilian University of Munich",
@@ -2672,12 +2696,12 @@ const jobsData = [
             "website": "https://www.genzentrum.uni-muenchen.de/research-groups/milles/index.html"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions in Functional Genomics of Mitochondrial Quality Control and Immunometabolism (f/m/x)"
+            "summary": "We are regularly looking for highly motivated individuals to join us: undergraduate students (Bachelor/Master) doctoral researchers postdoctoral researchers independent junior group leaders We offer a stimulating environment, including a very ambitious young team and state-of-the-art facilities. Students and researchers, who are interested in challenging new projects and interdisciplinary approaches are encouraged to apply!..."
         },
         "application": {
             "url": "https://www.genzentrum.uni-muenchen.de/career/index.html"
@@ -2688,31 +2712,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_shunzhi_wang_1764526990012",
-        "labInfo": {
-            "pi": "Shunzhi Wang",
-            "institution": "NewYork University",
-            "country": "🇺🇸 United States",
-            "website": "https://med.nyu.edu/faculty/shunzhi-wang"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "Positions Resources for Postdoctoral Fellows"
-        },
-        "application": {
-            "url": "https://med.nyu.edu/education/md-degree/current-md-students"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_roberto_chica_1764526993305",
+        "id": "job_roberto_chica_1764529642540",
         "labInfo": {
             "pi": "Roberto Chica",
             "institution": "University of Ottawa",
@@ -2720,12 +2720,12 @@ const jobsData = [
             "website": "https://mysite.science.uottawa.ca/rchica/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Home"
+            "summary": "2025/09/01. Welcome to our new postdoc, Amir Bunyat-zada! Amir joins us from Queen's University, where he completed his PhD with Prof. Graeme Howe, and will be working on designing de novo monooxygenases...."
         },
         "application": {
             "url": "https://mysite.science.uottawa.ca/rchica/"
@@ -2736,7 +2736,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_cathleen_zeymer_1764527002037",
+        "id": "job_cathleen_zeymer_1764529650836",
         "labInfo": {
             "pi": "Cathleen Zeymer",
             "institution": "Technical University of Munich",
@@ -2744,12 +2744,12 @@ const jobsData = [
             "website": "https://www.bio.nat.tum.de/en/proteinchemie/about-us/cathleen-zeymer/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions"
+            "summary": "Talented and motivated postdoc applicants with a strong background in either organic chemistry, bioinorganic chemistry, photochemistry, enzymology, structural biology, computational protein design, protein engineering, or biocatalysis are encouraged to contact Prof. Dr. Cathleen Zeymer by e-mail. Please, send your CV and briefly describe your research interests...."
         },
         "application": {
             "url": "https://www.bio.nat.tum.de/en/proteinchemie/open-positions/"
@@ -2760,31 +2760,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_anthony_green_1764527011808",
-        "labInfo": {
-            "pi": "Anthony Green",
-            "institution": "University of Manchester",
-            "country": "🇬🇧 United Kingdom",
-            "website": "https://www.greenresearchgroup.co.uk/"
-        },
-        "position": {
-            "title": "Open Position (Detected)",
-            "type": "phd",
-            "deadline": "See website"
-        },
-        "description": {
-            "summary": "position: relative; grid-area: 1/1/-1/-1; grid-template-rows: repeat(10,minmax(24px, auto)); grid-template-columns: minmax(var(--grid-gutter), 1fr) repeat(8, minmax(0, var(--cell-max-wid"
-        },
-        "application": {
-            "url": "https://www.greenresearchgroup.co.uk/"
-        },
-        "tags": [
-            "protein-design",
-            "detected"
-        ]
-    },
-    {
-        "id": "job_yang_yang_1764527015499",
+        "id": "job_yang_yang_1764529664737",
         "labInfo": {
             "pi": "Yang Yang",
             "institution": "University of California, Santa Barbara",
@@ -2792,12 +2768,12 @@ const jobsData = [
             "website": "https://yang.chem.ucsb.edu/yang"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position:absolute}}­@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}"
+            "summary": "0 PostdocsPostdoctoral candidates with a strong background in organic chemistry, biocatalysis and/or biochemistry are welcome to apply. Email your CV and representative publications to Prof. Yang. Strong candidates will be invited for a virtual interview. Graduate StudentsGraduate students with a strong interest in organic chemistry, biocatalysis and/or machine learning guided protein engineering are encouraged to reach out to Prof. Yang by email...."
         },
         "application": {
             "url": "https://yang.chem.ucsb.edu/openings"
@@ -2808,7 +2784,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_rudi_fasan_1764527030938",
+        "id": "job_todd_hyster_1764529669211",
+        "labInfo": {
+            "pi": "Todd Hyster",
+            "institution": "Princeton",
+            "country": "🇺🇸 United States",
+            "website": "https://hyster.princeton.edu/"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Our team. The Hyster Lab is led by Principal Investigator, Todd Hyster. Our research team comprises a group of exceptional post-doctoral associates and fellows, graduate students, and undergraduates. Team Members..."
+        },
+        "application": {
+            "url": "https://hyster.princeton.edu/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_rudi_fasan_1764529676581",
         "labInfo": {
             "pi": "Rudi Fasan",
             "institution": "The University of Texas at Dallas",
@@ -2816,12 +2816,12 @@ const jobsData = [
             "website": "https://labs.utdallas.edu/fasan/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Our laboratory has openings available for postdoctoral research fellows to work in the areas of chemoenzymatic synthesis of complex molecules, macrocycle peptides as modulators of biomole"
+            "summary": "Skip to content Postdoctoral Positions Our laboratory has openings available for postdoctoral research fellows to work in the areas of chemoenzymatic synthesis of complex molecules, macrocycle peptides as modulators of biomolecular interactions, or protein engineeri..."
         },
         "application": {
             "url": "https://labs.utdallas.edu/fasan/openings/"
@@ -2832,7 +2832,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_yi_lu_1764527035666",
+        "id": "job_yi_lu_1764529681362",
         "labInfo": {
             "pi": "Yi Lu",
             "institution": "University of Texas at Austin",
@@ -2840,12 +2840,12 @@ const jobsData = [
             "website": "https://lulab.cm.utexas.edu/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "position\\\":1},{\\\"@type\\\":\\\"ListItem\\\",\\\"item\\\":\\\"https:\\\\\\u002F\\\\\\u002Fwelch1.org\\\\\\u002Fnews-reports\\\",\\\"name\\\":\\\"News & Reports\\\",\\\"position\\\":2},{\\\"@type\\\":\\\"ListItem\\\",\\\"item\\\":\\\"https:\\\\\\u002F\\\\\\"
+            "summary": "July 31, 2024 The Welch Foundation Announces WelchX Pilot, Catalyst for Discovery Program, and Postdoctoral Fellows Grant Recipients Back..."
         },
         "application": {
             "url": "https://welch1.org/news-reports/news/the-welch-foundation-announces-welchx-pilot-catalyst-for-discovery-program-and-postdoctoral-fellows-grant-recipients"
@@ -2856,7 +2856,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_amanda_jarvis_1764527045003",
+        "id": "job_thomas_ward_1764529685576",
+        "labInfo": {
+            "pi": "Thomas Ward",
+            "institution": "Basel",
+            "country": "🇨🇭 Switzerland",
+            "website": "https://ward.chemie.unibas.ch/en/"
+        },
+        "position": {
+            "title": "Open Position (open position)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Artificial metalloenzymes publications NCCR Molecular Systems Engineering Contact Search Search Search Department of Chemistry Research Group Ward Search Search Search Research Group Publications Virtual library Lay summary Open positions Contact Research Group Publications Virtual library Lay summary Open positions Contact Quick Links Artificial metalloenzymes publications NCCR Molecular Systems Engineering © University of Basel Department of Chemistry Privacy Policy Legal Notice..."
+        },
+        "application": {
+            "url": "https://ward.chemie.unibas.ch/en/open-positions/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_amanda_jarvis_1764529689581",
         "labInfo": {
             "pi": "Amanda Jarvis",
             "institution": "University of Edinburgh",
@@ -2864,12 +2888,12 @@ const jobsData = [
             "website": "https://www.amandajarvis.co.uk/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions will be advertised when available on here and through jobs.ac.uk. ​ PDRA position to be advertised soon - August 2023. Keep an eye out or get in touch with a cover letter and CV. ​If"
+            "summary": "Postdoctoral positions will be advertised when available on here and through jobs.ac.uk...."
         },
         "application": {
             "url": "https://www.amandajarvis.co.uk/join-us"
@@ -2880,7 +2904,31 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_timothy_patrick_jenkins_1764527061047",
+        "id": "job_mohamad_abedi_1764529695327",
+        "labInfo": {
+            "pi": "Mohamad Abedi",
+            "institution": "University of California, Los Angeles",
+            "country": "🇺🇸 United States",
+            "website": "https://samueli.ucla.edu/new-faculty-2023-2025/"
+        },
+        "position": {
+            "title": "Open Position (hiring)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "University-wide faculty hiring initiativesTenure-Track Assistant Professor in Pacific Islander Experiences in EngineeringAssistant Professor Position in AI for Science..."
+        },
+        "application": {
+            "url": "https://samueli.ucla.edu/join-our-faculty/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_timothy_patrick_jenkins_1764529704259",
         "labInfo": {
             "pi": "Timothy Patrick Jenkins",
             "institution": "Technical University of Denmark",
@@ -2888,12 +2936,12 @@ const jobsData = [
             "website": "https://www.bioengineering.dtu.dk/research/research-sections/section-for-biologics-engineering/digital-biotechnology-lab"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (phd student)",
             "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "positions"
+            "summary": "back Organization Profile Strategy and policy Facts and figures Campuses Job and career Career Vacant positions Recruitment process Working at DTU Pursue your PhD at DTU Guest researchers & guest PhD students Moving to Denmark Contact..."
         },
         "application": {
             "url": "https://www.dtu.dk/english/about/job-and-career"
@@ -2904,7 +2952,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_martin_steinegger_1764527064591",
+        "id": "job_martin_steinegger_1764529708162",
         "labInfo": {
             "pi": "Martin Steinegger",
             "institution": "Seoul National University",
@@ -2912,12 +2960,12 @@ const jobsData = [
             "website": "https://steineggerlab.com/en/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "SearchSteinegger Lab Steinegger LabHomeAboutTeamMethodsPublicationsContactEnglishEnglish한국어Research TopicsOur group develops novel computational methods that combine big data algorithms and machine l"
+            "summary": "AnnouncementsWe are hiring postdoctoral researchers, Ph.D. students and interns...."
         },
         "application": {
             "url": "https://steineggerlab.com/en/"
@@ -2928,7 +2976,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_adrian_bunzel_1764527071607",
+        "id": "job_adrian_bunzel_1764529713858",
         "labInfo": {
             "pi": "Adrian Bunzel",
             "institution": "Max Planck Institute for Terrestrial Microbiology",
@@ -2936,15 +2984,15 @@ const jobsData = [
             "website": "https://www.mpi-marburg.mpg.de/bunzel"
         },
         "position": {
-            "title": "Open Position (Detected)",
-            "type": "postdoc",
+            "title": "Open Position (graduate student)",
+            "type": "phd",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Positions Internship September Science Academy Equality, Diversity and Inclusion Gender Equality Diversity Statement Graduate School IMPRS International Office Community Doctoral Researcher"
+            "summary": "Graduate Students Mini Symposium VIII 2025 Graduate Students Mini-Symposium Date: Dec 8, 2025 Time: 01:15 PM (Local Time Germany) Location: MPI for Terrestrial Microbiology Room: Lecture Hall / Hybrid Host: IMPRS Contact: imprs@mpi-marburg.mpg.de [more] Seminars & Events Microbiology Seminar Series Graduate Students Mini-Symposia Guest lectures & other seminars Doctoral thesis defenses Seminar archive Public Events Max Planck goes to school..."
         },
         "application": {
-            "url": "https://www.mpi-marburg.mpg.de/max-planck-fellows"
+            "url": "https://www.mpi-marburg.mpg.de/graduate-students-mini-symposia"
         },
         "tags": [
             "protein-design",
@@ -2952,7 +3000,7 @@ const jobsData = [
         ]
     },
     {
-        "id": "job_vincent_l._pecoraro_1764527079538",
+        "id": "job_vincent_l._pecoraro_1764529722592",
         "labInfo": {
             "pi": "Vincent L. Pecoraro",
             "institution": "University of Michigan",
@@ -2960,15 +3008,39 @@ const jobsData = [
             "website": "https://sites.lsa.umich.edu/pecoraro-lab/"
         },
         "position": {
-            "title": "Open Position (Detected)",
+            "title": "Open Position (postdoc)",
             "type": "postdoc",
             "deadline": "See website"
         },
         "description": {
-            "summary": "Skip to content Pecoraro Lab Menu Close Research Members Publications Photos Contact Welcome to the Pe"
+            "summary": "January 2024: New Postdoctoral Researcher Joining the Pecoraro Lab!..."
         },
         "application": {
             "url": "https://sites.lsa.umich.edu/pecoraro-lab/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_cesar_de_la_fuente_1764529740510",
+        "labInfo": {
+            "pi": "Cesar de la Fuente",
+            "institution": "University of Pennsylvania",
+            "country": "🇺🇸 United States",
+            "website": "https://delafuentelab.seas.upenn.edu"
+        },
+        "position": {
+            "title": "Open Position (interested in joining)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "If you are interested in joining us, please send a CV, summary of previous research, preprints of publications listed on your CV (but not yet available), contact information for three references, and a cover letter detailing current research interests, career goals, and fellowship funding already in hand or pending to cfuente@upenn.edu...."
+        },
+        "application": {
+            "url": "https://delafuentelab.seas.upenn.edu/positions/"
         },
         "tags": [
             "protein-design",
