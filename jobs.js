@@ -1,66 +1,75 @@
 const jobsData = [
     {
-        id: "job_baker_001",
-        labInfo: {
-            pi: "David Baker",
-            institution: "University of Washington",
-            country: "United States",
-            website: "https://www.bakerlab.org/"
+        "id": "job_ajasja_ljubetic_1764525024590",
+        "labInfo": {
+            "pi": "Ajasja Ljubetic",
+            "institution": "National Institute of Chemistry (Slovenia)",
+            "country": "🇸🇮 Slovenia",
+            "website": "https://ljubetic-lab.si/"
         },
-        position: {
-            title: "Postdoctoral Scholar - Protein Design",
-            type: "postdoc",
-            deadline: "2025-03-01"
+        "position": {
+            "title": "Open Position (Detected)",
+            "type": "postdoc",
+            "deadline": "See website"
         },
-        description: {
-            summary: "We are looking for a highly motivated postdoctoral scholar to join our team working on de novo protein design using deep learning methods like RFdiffusion and ProteinMPNN."
+        "description": {
+            "summary": "Ljubetič Lab @ KINewsResearchTeamPublicationsSoftwareContactCV Ajasja LjubetičResearch Assistant Professor at the National Institute of Chemistry, Slovenia Baker Lab alumni, MSCA fellow alumni."
         },
-        application: {
-            url: "https://www.bakerlab.org/jobs/"
+        "application": {
+            "url": "https://ljubetic-lab.si/"
         },
-        tags: ["protein-design", "deep-learning", "rosetta"]
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     },
     {
-        id: "job_woolfson_001",
-        labInfo: {
-            pi: "Dek Woolfson",
-            institution: "University of Bristol",
-            country: "United Kingdom",
-            website: "https://woolfsonlab.wordpress.com/"
+        "id": "job_alican_gulsevin_1764525033865",
+        "labInfo": {
+            "pi": "Alican Gulsevin",
+            "institution": "Butler University",
+            "country": "🇺🇸 United States",
+            "website": "https://gulsevinlab.org/"
         },
-        position: {
-            title: "PhD Studentship in Synthetic Biology",
-            type: "phd",
-            deadline: "2025-01-15"
+        "position": {
+            "title": "Open Position (Detected)",
+            "type": "postdoc",
+            "deadline": "See website"
         },
-        description: {
-            summary: "A fully funded PhD position is available to work on the design of new protein assemblies and materials. The project involves both computational design and experimental characterization."
+        "description": {
+            "summary": "positions may be available depending on the availability of funds. These positions typically focus on particular projects, although involvement in additional projects is also possible. Postdoctoral wo"
         },
-        application: {
-            url: "https://woolfsonlab.wordpress.com/vacancies/"
+        "application": {
+            "url": "https://gulsevinlab.org/openings/"
         },
-        tags: ["synthetic-biology", "protein-assemblies", "phd"]
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     },
     {
-        id: "job_fleishman_001",
-        labInfo: {
-            pi: "Sarel Fleishman",
-            institution: "Weizmann Institute of Science",
-            country: "Israel",
-            website: "https://www.weizmann.ac.il/Biomolecular_Sciences/Fleishman/"
+        "id": "job_amy_e._keating_1764525038432",
+        "labInfo": {
+            "pi": "Amy E. Keating",
+            "institution": "Massachusetts Institute of Technology",
+            "country": "🇺🇸 United States",
+            "website": "https://biology.mit.edu/profile/amy-e-keating/"
         },
-        position: {
-            title: "Research Scientist - Antibody Engineering",
-            type: "research-scientist",
-            deadline: "Open until filled"
+        "position": {
+            "title": "Open Position (Detected)",
+            "type": "postdoc",
+            "deadline": "See website"
         },
-        description: {
-            summary: "Join our team to develop new methods for computational antibody design. We are seeking an experienced researcher with a background in structural biology and protein engineering."
+        "description": {
+            "summary": "Position: true }); } $(window).on('resize', function() { if ($('#col-hero-img').css('position') != 'absolute') { moveHomepageTitleMobile(); } checkMatchHeight(); }); function"
         },
-        application: {
-            url: "https://www.weizmann.ac.il/Biomolecular_Sciences/Fleishman/join-us"
+        "application": {
+            "url": "https://biology.mit.edu/undergraduate/current-students/"
         },
-        tags: ["antibody-design", "computational-biology"]
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
