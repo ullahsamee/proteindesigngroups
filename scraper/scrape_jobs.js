@@ -119,12 +119,14 @@ async function main() {
 
     const allJobs = [];
 
-    // Limit to first 5 labs for testing to avoid hitting rate limits or taking too long
-    const labsToScrape = labs.slice(0, 5);
+    // Scrape all labs
+    const labsToScrape = labs;
 
     for (const lab of labsToScrape) {
         const jobs = await scrapeLab(browser, lab);
         allJobs.push(...jobs);
+        // Add a small delay to be polite
+        await new Promise(resolve => setTimeout(resolve, 2000));
     }
 
     await browser.close();
