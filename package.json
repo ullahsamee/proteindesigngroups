@@ -1,0 +1,21 @@
+{
+  "name": "proteindesigngroups",
+  "version": "1.0.0",
+  "description": "Protein Design Labs - a curated, interactive directory of protein design research groups worldwide.",
+  "type": "module",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ullahsamee/proteindesigngroups.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ullahsamee/proteindesigngroups/issues"
+  },
+  "homepage": "https://github.com/ullahsamee/proteindesigngroups#readme"
+}

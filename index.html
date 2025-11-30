@@ -84,12 +84,13 @@
         </section>
 
         <div class="filters-bar">
-            <div class="tabs" id="regionTabs">
+            <div class="region-tabs" id="regionTabs">
                 <button class="tab-btn active" data-region="all">All Regions</button>
                 <button class="tab-btn" data-region="North America">North America</button>
                 <button class="tab-btn" data-region="EMEA">EMEA</button>
                 <button class="tab-btn" data-region="Asia">Asia</button>
                 <button class="tab-btn" data-region="country">Country</button>
+                <button class="tab-btn" data-region="positions" id="positionsTabBtn">Open Positions</button>
             </div>
 
             <div class="secondary-filters">
@@ -111,6 +112,24 @@
 
         <div id="labsGrid" class="labs-grid">
             <!-- Cards will be injected here by JS -->
+        </div>
+
+        <!-- Job Board Section (Hidden by default) -->
+        <div id="jobsSection" class="jobs-section" style="display: none;">
+            <div class="jobs-filters">
+                <input type="text" id="jobSearchInput" class="search-input"
+                    placeholder="Search positions (e.g. PhD, Postdoc, Rosetta)...">
+                <select id="jobTypeSelect" class="filter-select">
+                    <option value="all">All Types</option>
+                    <option value="phd">PhD Student</option>
+                    <option value="postdoc">Postdoc</option>
+                    <option value="research-scientist">Research Scientist</option>
+                    <option value="faculty">Faculty</option>
+                </select>
+            </div>
+            <div id="jobsGrid" class="jobs-grid">
+                <!-- Job cards will be injected here -->
+            </div>
         </div>
     </main>
 

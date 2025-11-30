@@ -1,4 +1,5 @@
 import labData from './data.js';
+import jobsData from './jobs.js';
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getDatabase, ref, push, serverTimestamp, query, orderByChild, startAt, get } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
@@ -41,11 +42,21 @@ const totalLabsEl = document.getElementById('totalLabs');
 const totalCountriesEl = document.getElementById('totalCountries');
 const topRegionEl = document.getElementById('topRegion');
 
+// Job Board & New Sections
+const jobsGrid = document.getElementById('jobsGrid');
+const jobsSection = document.getElementById('jobsSection');
+const statsSection = document.getElementById('statsSection');
+const newslineSection = document.getElementById('newsline');
+// labsGrid is already defined above as labsGrid
+const filtersBar = document.querySelector('.filters-bar');
+
 let currentRegion = 'all';
 let searchQuery = '';
 let currentUniversity = '';
 let currentCountry = '';
 let currentSort = 'name';
+let jobSearchQuery = '';
+let jobTypeFilter = 'all';
 
 // Initialize
 function init() {
@@ -55,6 +66,7 @@ function init() {
     populateCountries();
     loadTheme();
     renderLabs();
+    renderJobs(); // Initial render of jobs
     setupEventListeners();
 }
 
@@ -218,6 +230,24 @@ function setupEventListeners() {
             e.target.classList.add('active');
 
             const selectedRegion = e.target.dataset.region;
+
+            // Handle Positions Tab
+            if (selectedRegion === 'positions') {
+                labsGrid.style.display = 'none';
+                statsSection.style.display = 'none';
+                newslineSection.style.display = 'none';
+                document.querySelector('.secondary-filters').style.display = 'none';
+
+                jobsSection.style.display = 'block';
+                return;
+            } else {
+                // Show Labs View
+                labsGrid.style.display = 'grid';
+                statsSection.style.display = 'grid';
+                newslineSection.style.display = 'flex';
+                document.querySelector('.secondary-filters').style.display = 'flex';
+                jobsSection.style.display = 'none';
+            }
 
             if (selectedRegion === 'country') {
                 // Show country select, hide others if needed or just focus
@@ -552,3 +582,90 @@ function getCountryName(countryString) {
 
 // Start
 init();
+
+// --- JOB BOARD LOGIC ---
+
+// Variables moved to top
+
+// Variables moved to top
+
+function renderJobs() {
+    if (!jobsGrid) return;
+
+    jobsGrid.innerHTML = '';
+
+    const filteredJobs = jobsData.filter(job => {
+        const matchesType = jobTypeFilter === 'all' || job.position.type === jobTypeFilter;
+        const matchesSearch = !jobSearchQuery ||
+            job.position.title.toLowerCase().includes(jobSearchQuery) ||
+            job.labInfo.pi.toLowerCase().includes(jobSearchQuery) ||
+            job.description.summary.toLowerCase().includes(jobSearchQuery) ||
+            (job.tags && job.tags.some(tag => tag.toLowerCase().includes(jobSearchQuery)));
+
+        return matchesType && matchesSearch;
+    });
+
+    if (filteredJobs.length === 0) {
+        jobsGrid.innerHTML = `
+            <div class="no-results">
+                <div class="no-results-icon">💼</div>
+                <h3>No positions found</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
+        `;
+        return;
+    }
+
+    filteredJobs.forEach(job => {
+        jobsGrid.appendChild(createJobCard(job));
+    });
+}
+
+function createJobCard(job) {
+    const card = document.createElement('div');
+    card.className = 'job-card';
+
+    const typeLabel = {
+        'phd': 'PhD Student',
+        'postdoc': 'Postdoc',
+        'research-scientist': 'Research Scientist',
+        'faculty': 'Faculty'
+    }[job.position.type] || job.position.type;
+
+    card.innerHTML = `
+        <div class="job-header">
+            <div class="job-type-badge ${job.position.type}">${typeLabel}</div>
+            <div class="job-date">Deadline: ${job.position.deadline || 'Open'}</div>
+        </div>
+        <h3 class="job-title">${job.position.title}</h3>
+        <div class="job-lab-info">
+            <strong>${job.labInfo.pi}</strong> @ ${job.labInfo.institution}
+            <span class="fi fi-${getCountryCode(job.labInfo.country)}"></span>
+        </div>
+        <p class="job-summary">${truncateText(job.description.summary, 150)}</p>
+        <div class="job-tags">
+            ${(job.tags || []).map(tag => `<span class="job-tag">#${tag}</span>`).join('')}
+        </div>
+        <a href="${job.application.url}" target="_blank" class="apply-btn">Apply Now <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    `;
+
+    return card;
+}
+
+// Update Event Listeners for Jobs
+const jobSearchInput = document.getElementById('jobSearchInput');
+const jobTypeSelect = document.getElementById('jobTypeSelect');
+
+if (jobSearchInput) {
+    jobSearchInput.addEventListener('input', (e) => {
+        jobSearchQuery = e.target.value.toLowerCase();
+        renderJobs();
+    });
+}
+
+if (jobTypeSelect) {
+    jobTypeSelect.addEventListener('change', (e) => {
+        jobTypeFilter = e.target.value;
+        renderJobs();
+    });
+}
