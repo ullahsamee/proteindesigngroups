@@ -15,7 +15,7 @@ const OUTPUT_FILE = '../jobs.json'; // We will write to jobs.json which the fron
 // Keywords to look for
 const JOB_KEYWORDS = [
     'position', 'opening', 'opportunity', 'career', 'join', 'recruit',
-    'vacancy', 'phd', 'postdoc', 'student', 'fellow'
+    'vacancy', 'phd', 'postdoc', 'student', 'fellow', 'hiring', 'work with us'
 ];
 
 async function loadLabs() {
@@ -67,36 +67,73 @@ async function scrapeLab(browser, lab) {
 
             const content = await page.content();
             const $ = cheerio.load(content);
-            const text = $('body').text();
+            // Remove unwanted elements
+            $('script, style, noscript, nav, header, footer, svg, .nav, .menu, .cookie-banner').remove();
 
-            // Simple Keyword Matching for now
-            if (text.toLowerCase().includes('postdoc') || text.toLowerCase().includes('phd')) {
-                // Extract a snippet
-                const snippet = text.substring(text.toLowerCase().indexOf('position'), text.toLowerCase().indexOf('position') + 200).replace(/\s+/g, ' ').trim();
+            const bodyText = $('body').text().replace(/\s+/g, ' ').trim();
+            const lowerText = bodyText.toLowerCase();
 
-                jobs.push({
-                    id: `job_${lab.pi.replace(/\s+/g, '_').toLowerCase()}_${Date.now()}`,
-                    labInfo: {
-                        pi: lab.pi,
-                        institution: lab.institution,
-                        country: lab.country,
-                        website: lab.website
-                    },
-                    position: {
-                        title: "Open Position (Detected)",
-                        type: text.toLowerCase().includes('postdoc') ? 'postdoc' : 'phd', // Naive classification
-                        deadline: "See website"
-                    },
-                    description: {
-                        summary: snippet || "Check the lab website for more details on open positions."
-                    },
-                    application: {
-                        url: link
-                    },
-                    tags: ["protein-design", "detected"]
-                });
+            // Keywords that strongly suggest a job listing
+            const strongKeywords = [
+                'postdoc', 'phd student', 'graduate student', 'research assistant', 'open position',
+                'hiring', 'openings', 'join the lab', 'work with us', 'interested in joining'
+            ];
 
-                break; // Found a job page, stop looking at other links for this lab
+            // Find the first occurrence of a strong keyword
+            const foundKeyword = strongKeywords.find(kw => lowerText.includes(kw));
+
+            if (foundKeyword) {
+                // Try to find the specific element containing the keyword for a better snippet
+                let snippet = "";
+
+                // Helper to find text node
+                const elements = $('p, li, div, h1, h2, h3, h4, h5, h6');
+                for (let i = 0; i < elements.length; i++) {
+                    const el = $(elements[i]);
+                    const text = el.text().replace(/\s+/g, ' ').trim();
+                    if (text.toLowerCase().includes(foundKeyword) && text.length > 20 && text.length < 500) {
+                        snippet = text;
+                        break;
+                    }
+                }
+
+                // Fallback if no specific element found or snippet is too short
+                if (!snippet || snippet.length < 50) {
+                    const index = lowerText.indexOf(foundKeyword);
+                    snippet = bodyText.substring(Math.max(0, index - 50), Math.min(bodyText.length, index + 250));
+                }
+
+                // Clean up snippet
+                snippet = snippet.replace(/Skip to main content/gi, '')
+                    .replace(/Toggle navigation/gi, '')
+                    .replace(/position: absolute/gi, '') // CSS leak
+                    .replace(/\{.*?\}/g, '') // JS/CSS code
+                    .trim();
+
+                if (snippet.length > 20) {
+                    jobs.push({
+                        id: `job_${lab.pi.replace(/\s+/g, '_').toLowerCase()}_${Date.now()}`,
+                        labInfo: {
+                            pi: lab.pi,
+                            institution: lab.institution,
+                            country: lab.country,
+                            website: lab.website
+                        },
+                        position: {
+                            title: `Open Position (${foundKeyword})`, // More specific title
+                            type: foundKeyword.includes('postdoc') ? 'postdoc' : 'phd',
+                            deadline: "See website"
+                        },
+                        description: {
+                            summary: snippet + "..."
+                        },
+                        application: {
+                            url: link
+                        },
+                        tags: ["protein-design", "detected"]
+                    });
+                    break;
+                }
             }
         }
 
