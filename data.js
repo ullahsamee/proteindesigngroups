@@ -2229,7 +2229,7 @@ const labData = [
     },
     {
         "region": "EMEA",
-        "country": "🇨🇳 China",
+        "country": "🇩🇰 Denmark",
         "institution": "Technical University of Denmark",
         "pi": "Timothy Patrick Jenkins",
         "website": "https://www.bioengineering.dtu.dk/research/research-sections/section-for-biologics-engineering/digital-biotechnology-lab",
@@ -2241,6 +2241,54 @@ const labData = [
         "institution": "Seoul National University",
         "pi": "Martin Steinegger",
         "website": "https://steineggerlab.com/en/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "🇩🇪 Germany",
+        "institution": "Max Planck Institute for Terrestrial Microbiology",
+        "pi": "Adrian Bunzel",
+        "website": "https://www.mpi-marburg.mpg.de/bunzel",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "🇺🇸 United States",
+        "institution": "University of California, San Diego (UCSD)",
+        "pi": "F. Akif Tezcan",
+        "website": "http://tezcan.ucsd.edu/",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "🇺🇸 United States",
+        "institution": "University of Michigan",
+        "pi": "Vincent L. Pecoraro",
+        "website": "https://sites.lsa.umich.edu/pecoraro-lab/",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "🇮🇹 Italy",
+        "institution": "University of Naples Federico II",
+        "pi": "Angela Lombardi",
+        "website": "http://www.chemistry.unina.it/bioinorganic",
+        "papers": []
+    },
+    {
+        "region": "North America",
+        "country": "🇺🇸 United States",
+        "institution": "University of Pennsylvania",
+        "pi": "Cesar de la Fuente",
+        "website": "https://delafuentelab.seas.upenn.edu",
+        "papers": []
+    },
+    {
+        "region": "EMEA",
+        "country": "🇬🇧 United Kingdom",
+        "institution": "University of Birmingham",
+        "pi": "Anna F. A. Peacock",
+        "website": "https://peacockresearch.wordpress.com/",
         "papers": []
     }
 ];
