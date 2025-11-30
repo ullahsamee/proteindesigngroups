@@ -1039,16 +1039,8 @@ const labData = [
         "about": "Dr. An merges computational protein design with biochemistry to engineer enzymes and create molecular sensing systems. Her research centers on three aims: (1) crafting protein sensors that map health-critical ligand landscapes, (2) installing intracellular reporters to accelerate enzyme evolution, and (3) engineering biosynthetic enzymes to expand the synthetic-biology toolkit. She also pioneers new algorithms for functional protein design."
     },
     {
-        "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "Westlake University",
-        "pi": "Longxin Cao",
-        "website": "https://www.westlake.edu.cn/faculty/longxing-cao.html",
-        "papers": []
-    },
-    {
         "region": "Global",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
+        "country": "🇨🇳 China",
         "institution": "Westlake University",
         "pi": "Longxing Cao",
         "website": "https://en.westlake.edu.cn/faculty/longxing-cao.html",
@@ -2216,7 +2208,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "UCLA",
         "pi": "Mohamad Abedi",
-        "website": "NA",
+        "website": "https://samueli.ucla.edu/new-faculty-2023-2025/",
         "papers": []
     },
     {
