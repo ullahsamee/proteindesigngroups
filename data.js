@@ -173,8 +173,8 @@ const labData = [
         "papers": []
     },
     {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+        "region": "EMEA",
+        "country": "🇨🇭 Switzerland",
         "institution": "EPFL Lausanne",
         "pi": "Bruno E. Correia",
         "website": "https://www.epfl.ch/labs/lpdi/",
@@ -1903,14 +1903,7 @@ const labData = [
         "website": "https://nlp.csai.tsinghua.edu.cn/~ly/",
         "papers": []
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "Shanghai Jiao Tong University",
-        "pi": "Yang Yang",
-        "website": "https://yang.chem.ucsb.edu/yang",
-        "papers": []
-    },
+
     {
         "region": "Asia",
         "country": "\ud83c\uddf8\ud83c\uddec Singapore",
