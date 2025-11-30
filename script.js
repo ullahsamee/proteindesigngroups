@@ -1,4 +1,31 @@
 import labData from './data.js';
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getDatabase, ref, push, serverTimestamp, query, orderByChild, startAt, get } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+
+// --- FIREBASE CONFIGURATION ---
+const firebaseConfig = {
+    apiKey: "AIzaSyB3Rgs76H2zAUClwjWSMpjIRMqjz2lVYXE",
+    authDomain: "protein-design-labs.firebaseapp.com",
+    databaseURL: "https://protein-design-labs-default-rtdb.firebaseio.com",
+    projectId: "protein-design-labs",
+    storageBucket: "protein-design-labs.firebasestorage.app",
+    messagingSenderId: "786686180026",
+    appId: "1:786686180026:web:200173ea55d8cffc99a083"
+};
+
+// Initialize Firebase
+let db = null;
+try {
+    // Only initialize if config is valid (not default placeholders)
+    if (firebaseConfig.apiKey !== "YOUR_API_KEY") {
+        const app = initializeApp(firebaseConfig);
+        db = getDatabase(app);
+    } else {
+        console.warn("Firebase not configured. Using simulation mode. See FIREBASE_SETUP.md");
+    }
+} catch (e) {
+    console.error("Firebase initialization failed:", e);
+}
 
 const labsGrid = document.getElementById('labsGrid');
 const searchInput = document.getElementById('searchInput');
@@ -23,12 +50,158 @@ let currentSort = 'name';
 // Initialize
 function init() {
     updateStats();
+    updateNewsline();
     populateUniversities();
     populateCountries();
     loadTheme();
     renderLabs();
     setupEventListeners();
 }
+
+async function updateNewsline() {
+    const newslineContent = document.getElementById('newslineContent');
+    if (!newslineContent) return;
+
+    let displayLabs = [];
+    const TARGET_COUNT = 15;
+    const DAYS_TO_TRACK = 7;
+
+    // 1. Try to fetch REAL trending data from Firebase (Last 7 Days)
+    if (db) {
+        try {
+            const dbRef = ref(db, 'click_events');
+            // Calculate cutoff timestamp (ms)
+            const cutoff = Date.now() - (DAYS_TO_TRACK * 24 * 60 * 60 * 1000);
+
+            // Query events after cutoff
+            const recentClicksQuery = query(dbRef, orderByChild('timestamp'), startAt(cutoff));
+            const snapshot = await get(recentClicksQuery);
+
+            if (snapshot.exists()) {
+                const events = snapshot.val();
+
+                // Aggregate counts per PI
+                const counts = {};
+                Object.values(events).forEach(event => {
+                    if (event.pi) {
+                        counts[event.pi] = (counts[event.pi] || 0) + 1;
+                    }
+                });
+
+                // Sort by count desc
+                const topPIs = Object.entries(counts)
+                    .sort(([, a], [, b]) => b - a)
+                    .slice(0, 10) // Get top 10
+                    .map(([pi]) => pi);
+
+                // Map to lab objects
+                const trending = topPIs.map(piName => labData.find(lab => lab.pi === piName)).filter(Boolean);
+                displayLabs = [...trending];
+            }
+        } catch (e) {
+            console.error("Error fetching trending data:", e);
+        }
+    }
+
+    // 2. Fill the rest with Random "Featured" Labs
+    const existingPIs = new Set(displayLabs.map(l => l.pi));
+    const availableLabs = labData.filter(l => !existingPIs.has(l.pi));
+    const shuffled = [...availableLabs].sort(() => 0.5 - Math.random());
+
+    const needed = TARGET_COUNT - displayLabs.length;
+    if (needed > 0) {
+        displayLabs = [...displayLabs, ...shuffled.slice(0, needed)];
+    }
+
+    // Create marquee track
+    const track = document.createElement('div');
+    track.className = 'newsline-track';
+
+    // Create items
+    const createItems = () => {
+        return displayLabs.map((lab, index) => {
+            // Determine if this lab gets an award
+            // Only the first 3 items AND if they came from the "trending" list (index < existingPIs.size)
+            // But since we mixed them, we can just check if they are in the top 3 of the final list?
+            // No, "Featured" labs shouldn't get awards.
+            // We know the first 'existingPIs.size' items are the trending ones.
+
+            let badge = '';
+            if (index < existingPIs.size) {
+                if (index === 0) badge = '🥇';
+                else if (index === 1) badge = '🥈';
+                else if (index === 2) badge = '🥉';
+            }
+
+            return `
+                <div class="newsline-item" onclick="trackClick('${lab.pi}', '${lab.website}')">
+                    <span class="fi fi-${getCountryCode(lab.country)}"></span>
+                    <strong>${badge} ${lab.pi}</strong>
+                    <span class="newsline-inst">@ ${lab.institution}</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+                <div class="newsline-separator">•</div>
+            `;
+        }).join('');
+    };
+
+    // Duplicate content for smooth infinite scroll
+    track.innerHTML = createItems() + createItems();
+    newslineContent.innerHTML = '';
+    newslineContent.appendChild(track);
+
+    // --- NEW: Populate Top Trending Card ---
+    const topTrendingList = document.getElementById('topTrendingList');
+    if (topTrendingList) {
+        // Take top 10 from the display list (which is already sorted/backfilled)
+        const top10 = displayLabs.slice(0, 10);
+
+        topTrendingList.innerHTML = top10.map((lab, index) => {
+            let badge = '';
+            if (index === 0) badge = '🥇';
+            else if (index === 1) badge = '🥈';
+            else if (index === 2) badge = '🥉';
+            else badge = `<span style="display:inline-block; width:20px; text-align:center; color:#888; font-size:12px;">${index + 1}</span>`;
+
+            return `
+                <div class="region-stat-item" onclick="trackClick('${lab.pi}', '${lab.website}')" style="cursor:pointer;">
+                    <span class="region-name" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 180px;">
+                        ${badge} ${lab.pi}
+                    </span>
+                    <span class="fi fi-${getCountryCode(lab.country)}"></span>
+                </div>
+            `;
+        }).join('');
+    }
+}
+
+// Global click tracker
+window.trackClick = (pi, url) => {
+    window.open(url, '_blank');
+
+    // Anti-Spam Cooldown (1 Hour)
+    const COOLDOWN_MS = 60 * 60 * 1000; // 1 Hour
+    const storageKey = `lastClick_${pi}`;
+    const lastClick = localStorage.getItem(storageKey);
+    const now = Date.now();
+
+    // If clicked recently, do NOT track to Firebase
+    if (lastClick && (now - parseInt(lastClick)) < COOLDOWN_MS) {
+        console.log(`Click for ${pi} ignored (cooldown active).`);
+        return;
+    }
+
+    if (db) {
+        const eventsRef = ref(db, 'click_events');
+        push(eventsRef, {
+            pi: pi,
+            timestamp: serverTimestamp() // Server-side time
+        }).then(() => {
+            // Save timestamp to prevent spamming
+            localStorage.setItem(storageKey, now.toString());
+        }).catch(err => console.error("Tracking failed", err));
+    }
+};
 
 function setupEventListeners() {
     // Search
@@ -204,11 +377,12 @@ function updateStats() {
             }
 
             return `
-            <div class="region-stat-item">
-                <span class="region-name">${displayRegion}</span>
-                <span class="region-count">${displayCount}</span>
-            </div>
-        `}).join('');
+                <div class="region-stat-item">
+                    <span class="region-name">${displayRegion}</span>
+                    <span class="region-count">${displayCount}</span>
+                </div>
+            `;
+        }).join('');
     }
 }
 
@@ -273,12 +447,12 @@ function renderLabs() {
 
     if (filteredLabs.length === 0) {
         labsGrid.innerHTML = `
-            <div class="no-results">
-                <div class="no-results-icon">🔍</div>
-                <h3>No labs found</h3>
-                <p>Try adjusting your search or filters</p>
-            </div>
-        `;
+                <div class="no-results">
+                    <div class="no-results-icon">🔍</div>
+                    <h3>No labs found</h3>
+                    <p>Try adjusting your search or filters</p>
+                </div>
+            `;
         return;
     }
 
@@ -296,26 +470,26 @@ function createLabCard(lab) {
     let websiteBtn = '';
     if (lab.website && lab.website.toLowerCase() !== 'na') {
         websiteBtn = `
-            <a href="${lab.website}" target="_blank" class="lab-link">
-                <i class="fa-solid fa-globe"></i> Lab Website
-            </a>
-        `;
+                <button onclick="trackClick('${lab.pi}', '${lab.website}')" class="lab-link" style="border:none; cursor:pointer;">
+                    <i class="fa-solid fa-globe"></i> Lab Website
+                </button>
+            `;
     }
 
     article.innerHTML = `
-        <div class="lab-header">
-            <div class="lab-institution">${lab.institution || 'Unknown Institution'}</div>
-            <h2 class="lab-pi">${lab.pi || 'Unknown PI'}</h2>
-            <div class="lab-location">
-                <span class="fi fi-${getCountryCode(lab.country)}"></span>
-                <span>${getCountryName(lab.country) || ''}</span>
+            <div class="lab-header">
+                <div class="lab-institution">${lab.institution || 'Unknown Institution'}</div>
+                <h2 class="lab-pi">${lab.pi || 'Unknown PI'}</h2>
+                <div class="lab-location">
+                    <span class="fi fi-${getCountryCode(lab.country)}"></span>
+                    <span>${getCountryName(lab.country) || ''}</span>
+                </div>
             </div>
-        </div>
 
-        <div class="lab-links">
-            ${websiteBtn}
-        </div>
-    `;
+            <div class="lab-links">
+                ${websiteBtn}
+            </div>
+        `;
 
     return article;
 }

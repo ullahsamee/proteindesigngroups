@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -43,19 +43,41 @@
     </header>
 
     <main>
+        <!-- Newsline Section -->
+        <div id="newsline" class="newsline-container">
+            <div class="newsline-label">🔥 Trending Now</div>
+            <div class="newsline-content" id="newslineContent">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
         <!-- Statistics Section -->
         <section id="statsSection" class="stats-section">
-            <div class="stat-card">
-                <div class="stat-value" id="totalLabs">0</div>
-                <div class="stat-label">Total Labs</div>
+            <!-- 1. Combined Stats -->
+            <div class="stat-card combined-stats">
+                <div class="stat-group">
+                    <div class="stat-value" id="totalLabs">0</div>
+                    <div class="stat-label">Total Labs</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-group">
+                    <div class="stat-value" id="totalCountries">0</div>
+                    <div class="stat-label">Countries</div>
+                </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-value" id="totalCountries">0</div>
-                <div class="stat-label">Countries</div>
-            </div>
+
+            <!-- 2. Top Regions (Moved to Center) -->
             <div class="stat-card wide-stat">
                 <div class="stat-label">Top Regions</div>
                 <div id="topRegionsList" class="top-regions-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- 3. Top Trending (New Right Section) -->
+            <div class="stat-card wide-stat">
+                <div class="stat-label">🔥 Top 10 Trending</div>
+                <div id="topTrendingList" class="top-regions-list">
                     <!-- Populated by JS -->
                 </div>
             </div>
