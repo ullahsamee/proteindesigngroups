@@ -4,6 +4,7 @@ const labData = [
         "country": "\ud83c\uddf8\ud83c\uddee Slovenia",
         "institution": "National Institute of Chemistry (Slovenia)",
         "pi": "Ajasja Ljubetic",
+        "image": "images/processed/Ajasja-Ljubetic.jpg",
         "website": "https://ljubetic-lab.si/",
         "papers": [],
         "keywords": "De novo protein design, dynamic protein assemblies, coiled coils, protein robotics, computational modeling, Rosetta software, protein engineering.",
@@ -12,8 +13,9 @@ const labData = [
     {
         "region": "Global",
         "country": "\ud83c\udde9\ud83c\uddea Germany",
-        "institution": "LMU Munich, Germany",
+        "institution": "Ludwig Maximilian University of Munich",
         "pi": "Alena Khmelinskaia",
+        "image": "images/processed/Alena-Khmelinskaia.jpg",
         "website": "https://khmelinskaia.cup.uni-muenchen.de/",
         "papers": [],
         "keywords": "Protein self-assembly, de novo protein design, biophysical methods, structural flexibility, dynamic protein materials, cargo encapsulation.",
@@ -22,16 +24,18 @@ const labData = [
     {
         "region": "EMEA",
         "country": "\ud83c\udde6\ud83c\uddf9 Austria",
-        "institution": "Aithyra",
+        "institution": "AITHYRA Research Institute for Biomedical Artificial Intelligence",
         "pi": "Alexander Tong",
+        "image": "images/processed/Alexander-Tong.jpg",
         "website": "https://www.alextong.net/",
         "papers": []
     },
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Butler College",
+        "institution": "Butler University",
         "pi": "Alican Gulsevin",
+        "image": "images/processed/Alican-Gulsevin.jpg",
         "website": "https://gulsevinlab.org/",
         "papers": [],
         "keywords": "Computational modeling, membrane proteins, protein interactions, structural biology, genomic data, human health.",
@@ -40,8 +44,9 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
+        "institution": "Massachusetts Institute of Technology",
         "pi": "Amy E. Keating",
+        "image": "images/processed/Amy-E-Keating.jpg",
         "website": "https://biology.mit.edu/profile/amy-e-keating/",
         "papers": []
     },
@@ -50,6 +55,7 @@ const labData = [
         "country": "\ud83c\udde7\ud83c\uddea Belgium",
         "institution": "Vrije Universiteit Brussel",
         "pi": "Anastassia A. Vorobieva",
+        "image": "images/processed/Anastassia-A-Vorobieva.jpg",
         "website": "https://vorobievalab.sites.vib.be/en",
         "papers": [
             {
@@ -65,22 +71,17 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Chicago",
         "pi": "Andrew Ferguson",
+        "image": "images/processed/Andrew-Ferguson.jpg",
         "website": "https://pme.uchicago.edu/faculty/andrew-ferguson",
         "papers": []
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "New York University",
-        "pi": "Andrew Gordon Wilson",
-        "website": "https://cims.nyu.edu/~andrewgw/",
-        "papers": []
-    },
+
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "UCSC",
         "pi": "Andy Hsien-Wei Yeh",
+        "image": "images/processed/Andy-Hsien-Wei-Yeh.jpg",
         "website": "https://neolux.sites.ucsc.edu/",
         "papers": []
     },
@@ -89,6 +90,7 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\udded Switzerland",
         "institution": "EPFL",
         "pi": "Anne-Florence Bitbol",
+        "image": "images/processed/Anne-Florence-Bitbol.jpg",
         "website": "https://www.epfl.ch/labs/bitbol-lab/",
         "papers": []
     },
@@ -97,6 +99,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Wisconsin-Madison",
         "pi": "Anthony Gitter",
+        "image": "images/processed/Anthony-Gitter.jpg",
         "website": "https://www.biostat.wisc.edu/~gitter/",
         "papers": []
     },
@@ -105,6 +108,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Columbia University",
         "pi": "Anum Glasgow",
+        "image": "images/processed/Anum-Glasgow.jpg",
         "website": "https://www.biochem.cuimc.columbia.edu/profile/anum-glasgow-phd",
         "papers": [],
         "keywords": "Computational protein design, biophysical techniques, conformational switching, signal-responsive proteins, protein engineering, ligand binding, therapeutic proteins.",
@@ -115,6 +119,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Vanderbilt University",
         "pi": "Ben Brown",
+        "image": "images/processed/Ben-Brown.jpg",
         "website": "https://www.bpbrownlab.org/",
         "papers": [],
         "keywords": "Protein dynamics, signal transduction, enzyme catalysis, molecular recognition, AI-driven drug design, induced-fit modeling, virtual screening, disease mutations.",
@@ -125,24 +130,19 @@ const labData = [
         "country": "\ud83c\udde9\ud83c\uddea Germany",
         "institution": "University of Bayreuth",
         "pi": "Birte H\u00f6cker",
+        "image": "images/processed/Birte-Höcker.jpg",
         "website": "https://www.proteindesign.uni-bayreuth.de/en/index.html",
         "papers": [],
         "keywords": "Protein evolution, protein design, small molecule receptors, enzymes, biosensors, molecular machines, artificial motor proteins, small molecule binding.",
         "about": "This lab designs small molecule receptors, enzymes, and artificial motor proteins. Research focuses on protein evolution, molecular machines, biosensors, and the principles underlying small molecule binding."
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
-        "pi": "Bonnie Berger",
-        "website": "https://people.csail.mit.edu/bab/",
-        "papers": []
-    },
+
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Stanford University",
         "pi": "Brian Hie",
+        "image": "images/processed/Brian-Hie.jpg",
         "website": "https://evodesign.org/",
         "papers": []
     },
@@ -151,6 +151,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "UNC Chapel Hill",
         "pi": "Brian Kuhlman",
+        "image": "images/processed/Brian-Kuhlman.jpg",
         "website": "https://klab.web.unc.edu/research/",
         "papers": [],
         "keywords": "Protein design, protein-protein interactions, computational modeling, experimental validation, Rosetta, vaccine design, structural biology.",
@@ -161,6 +162,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Stanford University",
         "pi": "Brian Trippe",
+        "image": "images/processed/Brian-Trippe.jpg",
         "website": "https://briantrippe.com/",
         "papers": []
     },
@@ -169,6 +171,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Duke University",
         "pi": "Bruce Donald",
+        "image": "images/processed/Bruce-Donald.jpg",
         "website": "https://users.cs.duke.edu/~brd/",
         "papers": []
     },
@@ -177,6 +180,7 @@ const labData = [
         "country": "🇨🇭 Switzerland",
         "institution": "EPFL Lausanne",
         "pi": "Bruno E. Correia",
+        "image": "images/processed/Bruno-E-Correia.jpg",
         "website": "https://www.epfl.ch/labs/lpdi/",
         "papers": [],
         "keywords": "Protein design, functional proteins, therapeutics, vaccines, biosensors, synthetic biology.",
@@ -185,8 +189,9 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "KAIST",
+        "institution": "Korea Advanced Institute of Science & Technology",
         "pi": "Byung-Ha Oh",
+        "image": "images/processed/Byung-Ha-Oh.jpg",
         "website": "https://sites.google.com/view/tpdsb/home?authuser=0",
         "papers": [],
         "keywords": "Computational protein design, antibody engineering, protein-protein interactions, protein binders, molecular modeling, therapeutic proteins.",
@@ -197,6 +202,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Rice University",
         "pi": "Cameron Glasscock",
+        "image": "images/processed/Cameron-Glasscock.jpg",
         "website": "https://glasscocklab.blogs.rice.edu/",
         "papers": [],
         "keywords": "Protein design, protein-nucleic acid interactions, synthetic biology, artificial intelligence, machine learning, high-throughput biochemistry, functional assays.",
@@ -207,6 +213,7 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf1 Chile",
         "institution": "Pontificia Universidad Catolica de Chile",
         "pi": "Cesar Ramirez-Sarmiento",
+        "image": "images/processed/Cesar-Ramirez-Sarmiento.jpg",
         "website": "NA",
         "papers": [],
         "keywords": "Protein engineering, computational modeling, metamorphic proteins, PET hydrolysis, enzyme evolution, synthetic biology, oxygen carriers, photosynthetic microorganisms.",
@@ -217,6 +224,7 @@ const labData = [
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "University of Oxford",
         "pi": "Charlotte Deane",
+        "image": "images/processed/Charlotte-Deane.jpg",
         "website": "https://opig.stats.ox.ac.uk/",
         "papers": []
     },
@@ -225,6 +233,7 @@ const labData = [
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "University of Edinburgh",
         "pi": "Chris Wells Wood",
+        "image": "images/processed/Chris-Wells-Wood.jpg",
         "website": "https://www.wellswoodresearchgroup.com/",
         "papers": []
     },
@@ -233,6 +242,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Rensselaer Polytechnic Institute",
         "pi": "Christopher Bystroff",
+        "image": "images/processed/Christopher-Bystroff.jpg",
         "website": "https://www.bioinfo.rpi.edu/bystrc/",
         "papers": [],
         "keywords": "Protein folding, protein design, green fluorescent protein (GFP), fluorescent biosensors, molecular dynamics, biophysical analysis, X-ray crystallography.",
@@ -243,6 +253,7 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Peking University",
         "pi": "Chu Wang",
+        "image": "images/processed/Chu-Wang.jpg",
         "website": "https://www.chem.pku.edu.cn/wangchulab/",
         "papers": [],
         "keywords": "Protein docking, metal-binding proteins, chemoproteomics, bioinformatics, metabolic regulation, enzyme function, computational biology.",
@@ -253,6 +264,7 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Chunfu Xu",
+        "image": "images/processed/Chunfu-Xu.jpg",
         "website": "https://www.timbr.tsinghua.edu.cn/info/1752/3158.htm",
         "papers": [],
         "keywords": "Protein design, protein-nucleic acid interactions, synthetic biology, artificial intelligence, machine learning, high-throughput biochemistry, functional assays.",
@@ -263,6 +275,7 @@ const labData = [
         "country": "\ud83c\udde9\ud83c\uddea Germany",
         "institution": "Leipzig University",
         "pi": "Clara T. Schoeder",
+        "image": "images/processed/Clara-T-Schoeder.jpg",
         "website": "https://www.schoederlab.org/",
         "papers": [
             {
@@ -278,29 +291,19 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Wesleyan University",
         "pi": "Colin Smith",
+        "image": "images/processed/Colin-Smith.jpg",
         "website": "https://smithlab.research.wesleyan.edu/",
         "papers": [],
         "keywords": "Protein structure, atomic-level mechanisms, second-shell interactions, structural propagation, protein conformational changes, therapeutic protein engineering, structural biology.",
         "about": "The Smith Lab investigates atomic-level mechanisms underlying structural rearrangements in proteins, specifically how changes propagate from one region to another. The lab addresses questions of structural communication and how subtle rearrangements influence protein behavior and functionality."
     },
-    {
-        "region": "Asia",
-        "country": "\ud83c\udded\ud83c\uddf0 Hong Kong",
-        "institution": "HKUST",
-        "pi": "Danqing Zhu",
-        "website": "https://www.danqing-zhu.com/",
-        "papers": [
-            {
-                "title": "AAV library design",
-                "url": "https://www.science.org/doi/full/10.1126/sciadv.adj3786"
-            }
-        ]
-    },
+
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "University of Leeds",
         "pi": "Darren Tomlinson",
+        "image": "images/processed/Darren-Tomlinson.jpg",
         "website": "https://astbury.leeds.ac.uk/people/dr-darren-tomlinson/",
         "papers": []
     },
@@ -309,6 +312,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Washington",
         "pi": "David Baker",
+        "image": "images/processed/David-Baker.jpg",
         "website": "https://www.bakerlab.org/",
         "papers": [],
         "keywords": "De novo protein design, hyperstable proteins, vaccine design, RFdiffusion, protein structure, enzyme catalysis, self-assembling nanomaterials, drug delivery, Top7, Nobel Prize.",
@@ -319,6 +323,7 @@ const labData = [
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "University of Leeds",
         "pi": "David Brockwell",
+        "image": "images/processed/David-Brockwell.jpg",
         "website": "https://astbury.leeds.ac.uk/people/dr-david-brockwell/",
         "papers": []
     },
@@ -327,30 +332,25 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Duke University",
         "pi": "David C. Richardson & Jane Shelby Richardson",
+        "image": "images/processed/David-C-Richardson-&-Jane-Shelby-Richardson.jpg",
         "website": "https://www.biochem.duke.edu/people/richardson-lab",
         "papers": []
     },
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
-        "institution": "UCL",
+        "institution": "University College London",
         "pi": "David T. Jones",
         "website": "http://www0.cs.ucl.ac.uk/staff/d.jones/",
         "papers": []
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Yale University",
-        "pi": "David van Dijk",
-        "website": "https://davidvandijk.squarespace.com/",
-        "papers": []
-    },
+
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "University of Bristol",
         "pi": "Dek Woolfson",
+        "image": "images/processed/Dek-Woolfson.jpg",
         "website": "https://woolfsonlab.wordpress.com/",
         "papers": []
     },
@@ -359,6 +359,7 @@ const labData = [
         "country": "\ud83c\uddf5\ud83c\uddf1 Poland",
         "institution": "University of Warsaw",
         "pi": "Dominik Gront",
+        "image": "images/processed/Dominik-Gront.jpg",
         "website": "https://bioshell.pl/home",
         "papers": [],
         "keywords": "Structural bioinformatics, coarse-grained modeling, multiscale modeling, algorithm development, biomolecular dynamics, BioShell software.",
@@ -369,14 +370,16 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\udded Switzerland",
         "institution": "ETH Zurich",
         "pi": "Donald Hilvert",
+        "image": "images/processed/Donald-Hilvert.jpg",
         "website": "https://protein.ethz.ch/",
         "papers": []
     },
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "CAS ICT",
+        "institution": "University of Chinese Academy of Sciences",
         "pi": "Dongbo Bu",
+        "image": "images/processed/Dongbo-Bu.jpg",
         "website": "https://people.ucas.edu.cn/~dbu",
         "papers": []
     },
@@ -385,6 +388,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "St. Jude Children\u2019s Research Hospital",
         "pi": "Elizabeth H. Kellogg",
+        "image": "images/processed/Elizabeth-H-Kellogg.jpg",
         "website": "kellogglab.org",
         "papers": [],
         "keywords": "Molecular organization, nucleic acid interactions, dynamic complexes, Rosetta, cryo-EM, structural biology.",
@@ -395,14 +399,16 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Princeton University",
         "pi": "Ellen D. Zhong",
+        "image": "images/processed/Ellen-D-Zhong.jpg",
         "website": "https://www.cs.princeton.edu/~zhonge/",
         "papers": []
     },
     {
         "region": "EMEA",
         "country": "\ud83c\uddea\ud83c\uddf8 Spain",
-        "institution": "IBMB CSIC",
+        "institution": "Institute of Molecular Biology of Barcelona CSIC",
         "pi": "Enrique Marcos",
+        "image": "images/processed/Enrique-Marcos.jpg",
         "website": "https://ibmb.csic.es/en/department-of-structural-and-molecular-biology/protein-design-and-modeling/#lab-presentation",
         "papers": [
             {
@@ -411,19 +417,13 @@ const labData = [
             }
         ]
     },
-    {
-        "region": "EMEA",
-        "country": "\ud83c\uddf8\ud83c\udde6 Saudi Arabia",
-        "institution": "Mohamed bin Zayed University of AI",
-        "pi": "Eric Xing",
-        "website": "https://mbzuai.ac.ae/study/faculty/professor-eric-xing/",
-        "papers": []
-    },
+
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Washington University of St. Louis",
         "pi": "Eva-Maria Strauch",
+        "image": "images/processed/Eva-Maria-Strauch.jpg",
         "website": "http://www.strauchlab.com/",
         "papers": [],
         "keywords": "Protein engineering, viral proteins, structural design, oligo-synthesis, next-generation sequencing, immunogen design, protein chemistry.",
@@ -434,6 +434,7 @@ const labData = [
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "Cardiff University",
         "pi": "Fabio Parmeggiani",
+        "image": "images/processed/Fabio-Parmeggiani.jpg",
         "website": "https://profiles.cardiff.ac.uk/staff/parmeggianif",
         "papers": [
             {
@@ -449,30 +450,18 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Fajie Yuan",
+        "image": "images/processed/Fajie-Yuan.jpg",
         "website": "https://fajieyuan.github.io/",
         "papers": []
     },
-    {
-        "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "ShanghaiTech University",
-        "pi": "Fang Bai",
-        "website": "https://sist.shanghaitech.edu.cn/bf/list.htm",
-        "papers": []
-    },
-    {
-        "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "Tsinghua SIGS",
-        "pi": "Feiran Li",
-        "website": "https://www.sigs.tsinghua.edu.cn/lfr/main.htm",
-        "papers": []
-    },
+
+
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UMass Dartmouth",
+        "institution": "University of Massachusetts Dartmouth",
         "pi": "Firas Khatib",
+        "image": "images/processed/Firas-Khatib.jpg",
         "website": "https://www.cis.umassd.edu/~fkhatib/",
         "papers": [],
         "keywords": "Citizen science, crowdsourcing, computational biology, public engagement, scientific problem-solving.",
@@ -483,6 +472,7 @@ const labData = [
         "country": "\ud83c\udde6\ud83c\uddf9 Austria",
         "institution": "Institute of Science and Technology Austria",
         "pi": "Florian Praetorius",
+        "image": "images/processed/Florian-Praetorius.jpg",
         "website": "https://ista.ac.at/en/research/praetorius-group/",
         "papers": [],
         "keywords": "Protein design, DNA origami, nucleic acids, deep learning, ProteinMPNN, Rosetta, biomolecular assemblies.",
@@ -493,58 +483,41 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Caltech",
         "pi": "Frances Arnold",
+        "image": "images/processed/Frances-Arnold.jpg",
         "website": "http://fhalab.caltech.edu/",
         "papers": []
     },
-    {
-        "region": "EMEA",
-        "country": "\ud83c\uddf3\ud83c\uddf1 Netherlands",
-        "institution": "Eindhoven University of Technology",
-        "pi": "Francesca Grisoni",
-        "website": "https://molecularmachinelearning.com/",
-        "papers": []
-    },
+
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Washington",
         "pi": "Frank Dimaio",
+        "image": "images/processed/Frank-Dimaio.jpg",
         "website": "https://dimaiolab.ipd.uw.edu/",
         "papers": [],
         "keywords": "Structure determination, crystal structure refinement, conformational sampling, protein force fields, computational modeling, experimental data analysis.",
         "about": "This research focuses on developing methods for determining protein structures from sparse and noisy experimental data. Key areas include crystal structure refinement, conformational sampling, and protein force field development. By integrating computational modeling with experimental analysis, the lab enhances accuracy in protein structure prediction and refinement."
     },
-    {
-        "region": "EMEA",
-        "country": "\ud83c\udde9\ud83c\uddea Germany",
-        "institution": "FU Berlin",
-        "pi": "Frank No\u00e9",
-        "website": "https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/noe/index.html",
-        "papers": []
-    },
+
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Northwestern University",
-        "pi": "Gabe Rocklin",
+        "pi": "Gabriel Rocklin",
+        "image": "images/processed/Gabriel-Rocklin.jpg",
         "website": "http://www.rocklinlab.org/",
         "papers": [],
         "keywords": "High-throughput protein design, computational modeling, protein biophysics, protein therapeutics, display selections, mass spectrometry proteomics, next-generation sequencing, protein stability, conformational dynamics.",
         "about": "This research develops high-throughput methods for protein design and biophysics, focusing on protein therapeutics. The lab combines large-scale computational modeling with experimental approaches, including display selections, mass spectrometry proteomics, and next-generation sequencing, to study protein folding, stability, dynamics, and resistance to aggregation."
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Northwestern University",
-        "pi": "Gabriel J. Rocklin",
-        "website": "http://www.rocklinlab.org/",
-        "papers": []
-    },
+
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Washington",
         "pi": "Gaurav Bhardwaj",
+        "image": "images/processed/Gaurav-Bhardwaj.jpg",
         "website": "https://peptidedesign.org/",
         "papers": [],
         "keywords": "Peptide drug design, computational modeling, antibiotics, antivirals, anti-cancer peptides, cellular permeability, oral bioavailability, machine learning.",
@@ -553,8 +526,9 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UIUC",
+        "institution": "University of Illinois at Urbana-Champaign",
         "pi": "Ge Liu",
+        "image": "images/processed/Ge-Liu.jpg",
         "website": "https://www.mit.edu/~geliu/",
         "papers": []
     },
@@ -563,6 +537,7 @@ const labData = [
         "country": "\ud83c\udde9\ud83c\uddea Germany",
         "institution": "Leipzig University",
         "pi": "Georg Kuenze",
+        "image": "images/processed/Georg-Kuenze.jpg",
         "website": "https://kuenzelab.org/",
         "papers": [],
         "keywords": "Protein modeling, membrane proteins, signaling mechanisms, enzyme design, molecular dynamics, molecular signaling, biotechnology, biophysics, drug targeting.",
@@ -573,32 +548,26 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Harvard University",
         "pi": "George Church",
+        "image": "images/processed/George-Church.jpg",
         "website": "https://wyss.harvard.edu/team/core-faculty/george-church/",
         "papers": []
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Dartmouth College",
-        "pi": "Gevorg Grigoryan (Left for Company)",
-        "website": "https://faculty-directory.dartmouth.edu/gevorg-grigoryan",
-        "papers": [],
-        "keywords": "Protein function, structure-based design, protein-protein recognition, allostery, computational modeling, protein engineering.",
-        "about": "This research investigates the structural principles governing natural protein function to gain biological insights and enable protein engineering. Key areas include protein-protein recognition and allosteric information transfer. By integrating computational and experimental approaches, the lab studies natural protein functions and designs novel proteins with practical applications."
-    },
+
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Zhejiang University of Technology",
         "pi": "Guijun Zhang",
+        "image": "images/processed/Guijun-Zhang.jpg",
         "website": "http://zhanglab-bioinf.com/people/guijunz/",
         "papers": []
     },
     {
         "region": "EMEA",
         "country": "\ud83c\udde6\ud83c\uddf9 Austria",
-        "institution": "TU Graz",
+        "institution": "Graz University of Technology",
         "pi": "Gustav Oberdorfer",
+        "image": "images/processed/Gustav-Oberdorfer.jpg",
         "website": "https://www.tugraz.at/institute/ibc/research/research-groups/protein-design",
         "papers": [
             {
@@ -618,24 +587,19 @@ const labData = [
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
         "institution": "Korea Advanced Institute of Science and Technology",
         "pi": "Gyu Rie Lee",
+        "image": "images/processed/Gyu-Rie-Lee.jpg",
         "website": "https://pure.kaist.ac.kr/en/persons/gyurie-lee/",
         "papers": [],
         "keywords": "Protein design, deep learning, small molecules, epigenetics, post-translational modifications.",
         "about": "This lab develops AI-based methods for protein design, specifically targeting epigenetic processes and chemical modifications of peptides and nucleic acids. Research aims to create custom-designed protein tools and explore therapeutic applications focused on epigenetic mechanisms and cellular metabolism."
     },
-    {
-        "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "CAS ICT",
-        "pi": "Haicang Zhang",
-        "website": "https://people.ucas.ac.cn/~0032113",
-        "papers": []
-    },
+
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Haifeng Cheng",
+        "image": "images/processed/Haifeng-Cheng.jpg",
         "website": "https://cbb.sjtu.edu.cn/~hfchen/",
         "papers": [
             {
@@ -649,14 +613,16 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Haipeng Gong",
+        "image": "images/processed/Haipeng-Gong.jpg",
         "website": "https://structpred.life.tsinghua.edu.cn/",
         "papers": []
     },
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "USTC",
+        "institution": "University of Science and Technology of China",
         "pi": "Haiyan Liu",
+        "image": "images/processed/Haiyan-Liu.jpg",
         "website": "https://biocomp.ustc.edu.cn/",
         "papers": []
     },
@@ -665,22 +631,17 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Tsinghua University",
         "pi": "Hao Zhou",
+        "image": "images/processed/Hao-Zhou.jpg",
         "website": "https://zhouh.github.io/",
         "papers": []
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Vanderbilt University",
-        "pi": "Hassane Mchaourab",
-        "website": "https://lab.vanderbilt.edu/mchaourab-lab/person/hassane-s-mchaourab-ph-d/",
-        "papers": []
-    },
+
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "IBS",
+        "institution": "Institute for Basic Science",
         "pi": "Ho Min Kim",
+        "image": "images/processed/Ho-Min-Kim.jpg",
         "website": "https://protein.ibs.re.kr/people/chief-investigator",
         "papers": []
     },
@@ -689,22 +650,17 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Shanghai Jiao Tong University",
         "pi": "Hongbin Shen",
+        "image": "images/processed/Hongbin-Shen.jpg",
         "website": "http://www.csbio.sjtu.edu.cn/",
         "papers": []
     },
-    {
-        "region": "North America",
-        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UNC Chapel Hill",
-        "pi": "Huaxiu Yao",
-        "website": "https://www.huaxiuyao.io/",
-        "papers": []
-    },
+
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "CAS TIB",
+        "institution": "Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences",
         "pi": "Huifeng Jiang",
+        "image": "images/processed/Huifeng-Jiang.jpg",
         "website": "http://www.tib.cas.cn/sourcedb_tib_cas/cn/expert/rckyjy/201212/t20121212_3704580.html",
         "papers": [
             {
@@ -720,8 +676,9 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UIUC",
+        "institution": "University of Illinois at Urbana-Champaign",
         "pi": "Huimin Zhao",
+        "image": "images/processed/Huimin-Zhao.jpg",
         "website": "https://zhaogroup.chbe.illinois.edu/index.html",
         "papers": []
     },
@@ -730,6 +687,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "UNC Chapel Hill",
         "pi": "Huong Kratochvil",
+        "image": "images/processed/Huong-Kratochvil.jpg",
         "website": "https://www.kratochvillab.com/",
         "papers": [],
         "keywords": "Membrane protein design, functional protein design, molecular recognition, immune response.",
@@ -756,7 +714,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
+        "institution": "Massachusetts Institute of Technology",
         "pi": "James J. Collins",
         "website": "https://www.collinslab.mit.edu/",
         "papers": []
@@ -846,7 +804,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "KAIST",
+        "institution": "Korea Advanced Institute of Science & Technology",
         "pi": "Ji-Joon Song",
         "website": "https://www.song-kaist.org",
         "papers": []
@@ -916,6 +874,7 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\uddff Czech Republic",
         "institution": "Masaryk University",
         "pi": "Jiri Damborsky",
+        "image": "images/processed/Jiri-Damborsky.jpg",
         "website": "https://loschmidt.chemi.muni.cz/peg/",
         "papers": []
     },
@@ -940,7 +899,7 @@ const labData = [
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UC Davis",
+        "institution": "University of California, Davis",
         "pi": "Justin Siegel",
         "website": "https://siegel.ucdavis.edu/",
         "papers": [],
@@ -958,7 +917,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "KIST",
+        "institution": "Korea Institute of Science and Technology",
         "pi": "Keunwan Park",
         "website": "https://sites.google.com/site/keunwan/home?authuser=0",
         "papers": []
@@ -1033,6 +992,7 @@ const labData = [
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "Rice University",
         "pi": "Linna An",
+        "image": "images/processed/Linna-An.jpg",
         "website": "https://lanalchemist.github.io/",
         "papers": [],
         "keywords": "Computational Protein design, Enzyme Engineering, Sensors, Machine Learning",
@@ -1153,14 +1113,7 @@ const labData = [
         "keywords": "Vaccines, protein engineering, biosensors, influenza, HIV, coronaviruses, B-cell signaling.",
         "about": "This research focuses on rational immunogen design using computational protein engineering (Rosetta) and high-throughput screening methods to develop vaccines against pathogens like HIV and influenza. The lab also studies how antigen biophysical properties affect B-cell activation and antibody production."
     },
-    {
-        "region": "Asia",
-        "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "CAS SIMM",
-        "pi": "Mingyue Zheng",
-        "website": "https://people.ucas.ac.cn/~0010379",
-        "papers": []
-    },
+
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
@@ -1221,7 +1174,7 @@ const labData = [
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Childrens Hospital of Pennsylvania (CHOP)",
+        "institution": "Children’s Hospital of Philadelphia",
         "pi": "Nik Sgourakis",
         "website": "https://www.sgourakislab.org/",
         "papers": [],
@@ -1365,7 +1318,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "USTC",
+        "institution": "University of Science and Technology of China",
         "pi": "Qi Liu",
         "website": "http://staff.ustc.edu.cn/~qiliuql/",
         "papers": []
@@ -1383,7 +1336,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UCLA",
+        "institution": "University of California, Los Angeles",
         "pi": "Quanquan Gu",
         "website": "https://web.cs.ucla.edu/~qgu/",
         "papers": []
@@ -1404,7 +1357,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
+        "institution": "Massachusetts Institute of Technology",
         "pi": "Regina Barzilay",
         "website": "https://www.regina.csail.mit.edu/",
         "papers": []
@@ -1507,7 +1460,7 @@ const labData = [
     },
     {
         "region": "EMEA",
-        "country": "\ud83c\uddee\ud83c\uddea Ireland",
+        "country": "\ud83c\uddee\ud83c\uddf1 Ireland",
         "institution": "University College Cork",
         "pi": "Sabin Tabirca",
         "website": "https://crr.ucc.ie/",
@@ -1534,7 +1487,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "POSTECH",
+        "institution": "Pohang University of Science and Technology",
         "pi": "Sangmin Lee",
         "website": "https://sites.google.com/view/pdl-postech",
         "papers": []
@@ -1605,7 +1558,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
+        "institution": "Massachusetts Institute of Technology",
         "pi": "Sergey Ovchinnikov",
         "website": "https://www.solab.org/",
         "papers": [],
@@ -1615,7 +1568,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "CAS CEMCS",
+        "institution": "California Institute of Technology",
         "pi": "Shaoqing Zhang",
         "website": "http://zhanglab.sibcb.ac.cn/zhanglab/",
         "papers": []
@@ -1705,7 +1658,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UCSF",
+        "institution": "University of California San Francisco",
         "pi": "Tanja Kortemme",
         "website": "https://kortemmelab.ucsf.edu/",
         "papers": [],
@@ -1725,7 +1678,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
+        "institution": "Massachusetts Institute of Technology",
         "pi": "Tess E. Smidt",
         "website": "https://blondegeek.github.io/",
         "papers": []
@@ -1780,7 +1733,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "MIT",
+        "institution": "Massachusetts Institute of Technology",
         "pi": "Tommi S. Jaakkola",
         "website": "https://people.csail.mit.edu/tommi/",
         "papers": []
@@ -1838,7 +1791,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UCSF",
+        "institution": "University of California San Francisco",
         "pi": "William DeGrado",
         "website": "https://pharm.ucsf.edu/degrado",
         "papers": [],
@@ -1882,7 +1835,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "CAS SIAT",
+        "institution": "Shanghai Institute of Materia Medica, Chinese Academy of Sciences",
         "pi": "Xiaozhou Luo",
         "website": "https://people.ucas.ac.cn/~luoxiaozhou",
         "papers": []
@@ -1890,7 +1843,7 @@ const labData = [
     {
         "region": "EMEA",
         "country": "\ud83c\uddf8\ud83c\udde6 Saudi Arabia",
-        "institution": "KAUST",
+        "institution": "King Abdullah University of Science and Technology",
         "pi": "Xin Gao",
         "website": "https://cemse.kaust.edu.sa/sfb",
         "papers": []
@@ -2013,7 +1966,7 @@ const labData = [
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
-        "institution": "SUSTech",
+        "institution": "Southern University of Science and Technology",
         "pi": "Zhe Li",
         "website": "https://sustech.edu.cn/zh/faculties/lizhe.html",
         "papers": []
@@ -2047,7 +2000,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UCLA",
+        "institution": "University of California, Los Angeles",
         "pi": "Jason Zhang",
         "website": "https://www.jasonzhanglab.com/",
         "papers": []
@@ -2055,7 +2008,7 @@ const labData = [
     {
         "region": "EMEA",
         "country": "\ud83c\udde9\ud83c\uddea Germany",
-        "institution": "TU Munich",
+        "institution": "Technical University of Munich",
         "pi": "Thomas Schlichthärle",
         "website": "https://www.bio.nat.tum.de/aipd/startseite/",
         "papers": []
@@ -2063,15 +2016,16 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Stowers Institute",
+        "institution": "Stowers Institute for Medical Research",
         "pi": "Arvind Pillai",
+        "image": "images/processed/Arvind-Pillai.jpg",
         "website": "https://www.stowers.org/people/arvind-pillai",
         "papers": []
     },
     {
         "region": "EMEA",
         "country": "\ud83c\udde9\ud83c\uddea Germany",
-        "institution": "LMU Munich",
+        "institution": "Ludwig Maximilian University of Munich",
         "pi": "Lukas Milles",
         "website": "https://www.genzentrum.uni-muenchen.de/research-groups/milles/index.html",
         "papers": []
@@ -2081,13 +2035,14 @@ const labData = [
         "country": "\ud83c\udde8\ud83c\udded Switzerland",
         "institution": "ETH Zurich",
         "pi": "Basile Wicky",
+        "image": "images/processed/Basile-Wicky.jpg",
         "website": "https://bsse.ethz.ch/people/detail-person.basile-wicky.html",
         "papers": []
     },
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "NYU",
+        "institution": "NewYork University",
         "pi": "Shunzhi Wang",
         "website": "https://med.nyu.edu/faculty/shunzhi-wang",
         "papers": []
@@ -2095,7 +2050,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\udde8\ud83c\udde6 Canada",
-        "institution": "U Ottawa",
+        "institution": "University of Ottawa",
         "pi": "Roberto Chica",
         "website": "https://mysite.science.uottawa.ca/rchica/",
         "papers": []
@@ -2111,23 +2066,25 @@ const labData = [
     {
         "region": "EMEA",
         "country": "\ud83c\udde9\ud83c\uddea Germany",
-        "institution": "TU Munich",
+        "institution": "Technical University of Munich",
         "pi": "Cathleen Zeymer",
+        "image": "images/processed/Cathleen-Zeymer.jpg",
         "website": "https://www.bio.nat.tum.de/en/proteinchemie/about-us/cathleen-zeymer/",
         "papers": []
     },
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "KIST",
+        "institution": "Korea Institute of Science and Technology",
         "pi": "Hahnbeom Park",
+        "image": "images/processed/Hahnbeom-Park.jpg",
         "website": "https://sites.google.com/view/hparklab/home",
         "papers": []
     },
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
-        "institution": "SNU",
+        "institution": "Seoul National University",
         "pi": "Woon Ju Song",
         "website": "https://woonju.wixsite.com/woonjusong",
         "papers": []
@@ -2135,15 +2092,16 @@ const labData = [
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
-        "institution": "Manchester",
+        "institution": "University of Manchester",
         "pi": "Anthony Green",
+        "image": "images/processed/Anthony-Green.jpg",
         "website": "https://www.greenresearchgroup.co.uk/",
         "papers": []
     },
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UCSB",
+        "institution": "University of California, Santa Barbara",
         "pi": "Yang Yang",
         "website": "https://yang.chem.ucsb.edu/yang",
         "papers": []
@@ -2159,7 +2117,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Indiana",
+        "institution": "Indiana University",
         "pi": "Jared Lewis",
         "website": "https://lewis.lab.indiana.edu/",
         "papers": []
@@ -2167,7 +2125,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UT Dallas",
+        "institution": "The University of Texas at Dallas",
         "pi": "Rudi Fasan",
         "website": "https://labs.utdallas.edu/fasan/",
         "papers": []
@@ -2175,7 +2133,7 @@ const labData = [
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UT Austin",
+        "institution": "University of Texas at Austin",
         "pi": "Yi Lu",
         "website": "https://lulab.cm.utexas.edu/",
         "papers": []
@@ -2191,15 +2149,16 @@ const labData = [
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
-        "institution": "Edinburgh",
+        "institution": "University of Edinburgh",
         "pi": "Amanda Jarvis",
+        "image": "images/processed/Amanda-Jarvis.jpg",
         "website": "https://www.amandajarvis.co.uk/",
         "papers": []
     },
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "UCLA",
+        "institution": "University of California, Los Angeles",
         "pi": "Mohamad Abedi",
         "website": "https://samueli.ucla.edu/new-faculty-2023-2025/",
         "papers": []
@@ -2225,6 +2184,7 @@ const labData = [
         "country": "🇰🇷 South Korea",
         "institution": "Seoul National University",
         "pi": "Martin Steinegger",
+        "image": "images/processed/Martin-Steinegger.jpg",
         "website": "https://steineggerlab.com/en/",
         "papers": []
     },
@@ -2233,6 +2193,7 @@ const labData = [
         "country": "🇩🇪 Germany",
         "institution": "Max Planck Institute for Terrestrial Microbiology",
         "pi": "Adrian Bunzel",
+        "image": "images/processed/Adrian-Bunzel.jpg",
         "website": "https://www.mpi-marburg.mpg.de/bunzel",
         "papers": []
     },
@@ -2241,6 +2202,7 @@ const labData = [
         "country": "🇺🇸 United States",
         "institution": "University of California, San Diego (UCSD)",
         "pi": "F. Akif Tezcan",
+        "image": "images/processed/F-Akif-Tezcan.jpg",
         "website": "http://tezcan.ucsd.edu/",
         "papers": []
     },
@@ -2257,6 +2219,7 @@ const labData = [
         "country": "🇮🇹 Italy",
         "institution": "University of Naples Federico II",
         "pi": "Angela Lombardi",
+        "image": "images/processed/Angela-Lombardi.jpg",
         "website": "http://www.chemistry.unina.it/bioinorganic",
         "papers": []
     },
@@ -2265,6 +2228,7 @@ const labData = [
         "country": "🇺🇸 United States",
         "institution": "University of Pennsylvania",
         "pi": "Cesar de la Fuente",
+        "image": "images/processed/Cesar-de-la-Fuente.jpg",
         "website": "https://delafuentelab.seas.upenn.edu",
         "papers": []
     },
@@ -2273,6 +2237,7 @@ const labData = [
         "country": "🇬🇧 United Kingdom",
         "institution": "University of Birmingham",
         "pi": "Anna F. A. Peacock",
+        "image": "images/processed/Anna-F-A-Peacock.jpg",
         "website": "https://peacockresearch.wordpress.com/",
         "papers": []
     }

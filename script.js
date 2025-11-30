@@ -478,12 +478,15 @@ function createLabCard(lab) {
 
     article.innerHTML = `
             <div class="lab-header">
-                <div class="lab-institution">${lab.institution || 'Unknown Institution'}</div>
-                <h2 class="lab-pi">${lab.pi || 'Unknown PI'}</h2>
-                <div class="lab-location">
-                    <span class="fi fi-${getCountryCode(lab.country)}"></span>
-                    <span>${getCountryName(lab.country) || ''}</span>
+                <div class="lab-info">
+                    <div class="lab-institution">${lab.institution || 'Unknown Institution'}</div>
+                    <h2 class="lab-pi">${lab.pi || 'Unknown PI'}</h2>
+                    <div class="lab-location">
+                        <span class="fi fi-${getCountryCode(lab.country)}"></span>
+                        <span>${getCountryName(lab.country) || ''}</span>
+                    </div>
                 </div>
+                ${lab.image ? `<img src="${lab.image}" alt="${lab.pi}" class="pi-image">` : ''}
             </div>
 
             <div class="lab-links">
