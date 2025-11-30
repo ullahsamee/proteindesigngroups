@@ -6,7 +6,7 @@ A curated, interactive directory of protein design research groups worldwide.
 
 ## Overview
 
-A careful curate list of protein design research group into an **interactive dashboard**. It allows researchers, students, and enthusiasts to easily explore the global landscape of protein design research or maybe apply for any position announced in their labs.
+Interactive dashboard mapping the global protein design research. Designed to help researchers identify and connect quickly with leading research labs for collaboration, finding PhD/PostDoc positions, applying to graduates schools and colleges and tracking cutting edge innovations in protein design, engineering and therapeutics.
 
 ## Features
 
