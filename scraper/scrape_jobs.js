@@ -19,27 +19,13 @@ const JOB_KEYWORDS = [
 ];
 
 async function loadLabs() {
-    // Quick and dirty way to get the data without full ES module setup for the scraper
-    const content = await fs.readFile(path.resolve(path.dirname(fileURLToPath(import.meta.url)), LABS_FILE_PATH), 'utf-8');
-    // Extract the array part. Assuming it starts with "const labData = [" and ends with "];"
-    const jsonStr = content.substring(content.indexOf('['), content.lastIndexOf(']') + 1);
-    // We need to be careful if the JS file has comments or non-JSON compliant things.
-    // data.js seems to be a simple array of objects.
-    // However, it might have comments. Let's try to strip comments if needed or just use eval (risky but okay for local dev tool).
-    // Better: let's just use a regex to extract the array.
-
     try {
-        // This is a hacky way to parse the JS file. 
-        // In a real production env, we'd import it properly.
-        // For now, let's just manually define a few labs to test the scraper.
-        // OR we can try to dynamic import it if we are in a module.
-        const labData = (await import(LABS_FILE_PATH)).default;
-        // Wait, data.js exports 'labData' as a const, not default. 
-        // It's "const labData = ...". It doesn't export it.
-        // So we can't import it. We have to parse it.
-        return JSON.parse(jsonStr.replace(/\/\/.*$/gm, '')); // Remove single line comments
+        // Import data.js directly as a module
+        const module = await import(LABS_FILE_PATH);
+        return module.default;
     } catch (e) {
-        console.log("Could not parse data.js directly. Using fallback/test data.");
+        console.error("Error loading data.js:", e);
+        console.log("Using fallback/test data.");
         return [
             { pi: "David Baker", website: "https://www.bakerlab.org/", institution: "University of Washington", country: "United States" },
             { pi: "Dek Woolfson", website: "https://woolfsonlab.wordpress.com/", institution: "University of Bristol", country: "United Kingdom" }
@@ -126,7 +112,10 @@ async function scrapeLab(browser, lab) {
 
 async function main() {
     const labs = await loadLabs();
-    const browser = await puppeteer.launch({ headless: "new" });
+    const browser = await puppeteer.launch({
+        headless: "new",
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
 
     const allJobs = [];
 
