@@ -1,6 +1,6 @@
 # Protein Design Research Groups Dashboard
 
-A curated, interactive directory of protein design research groups worldwide.
+Protein Design Labs - a curated, interactive directory of protein design research groups worldwide.
 
 ![Protein Design Labs Dashboard](https://github.com/ullahsamee/proteindesigngroups/blob/main/header.png)
 
