@@ -8,7 +8,8 @@ const labData = [
         "website": "https://ljubetic-lab.si/",
         "papers": [],
         "keywords": "De novo protein design, dynamic protein assemblies, coiled coils, protein robotics, computational modeling, Rosetta software, protein engineering.",
-        "about": "This research focuses on designing and studying dynamic protein assemblies, particularly coiled coil structures. The lab uses the Rosetta software to rigidly fuse coiled coils with de novo designed proteins, enabling controlled motion and developing protein-based robots. Current projects include engineering rigidified protein assemblies for active walking and exploring applications of these scaffolds in protein robotics."
+        "about": "This research focuses on designing and studying dynamic protein assemblies, particularly coiled coil structures. The lab uses the Rosetta software to rigidly fuse coiled coils with de novo designed proteins, enabling controlled motion and developing protein-based robots. Current projects include engineering rigidified protein assemblies for active walking and exploring applications of these scaffolds in protein robotics.",
+        "hiringStatus": "closed"
     },
     {
         "region": "Global",
@@ -19,7 +20,9 @@ const labData = [
         "website": "https://khmelinskaia.cup.uni-muenchen.de/",
         "papers": [],
         "keywords": "Protein self-assembly, de novo protein design, biophysical methods, structural flexibility, dynamic protein materials, cargo encapsulation.",
-        "about": "This research focuses on understanding the physical principles of protein self-assembly. By integrating computational de novo protein design, protein production, and biophysical methods, the lab investigates the interactions governing assembly dynamics. The work explores structural flexibility to develop dynamic and responsive protein-based materials for applications such as support coating and cargo encapsulation."
+        "about": "This research focuses on understanding the physical principles of protein self-assembly. By integrating computational de novo protein design, protein production, and biophysical methods, the lab investigates the interactions governing assembly dynamics. The work explores structural flexibility to develop dynamic and responsive protein-based materials for applications such as support coating and cargo encapsulation.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://khmelinskaia.cup.uni-muenchen.de/jobs-and-opportunities/"
     },
     {
         "region": "EMEA",
@@ -39,7 +42,9 @@ const labData = [
         "website": "https://gulsevinlab.org/",
         "papers": [],
         "keywords": "Computational modeling, membrane proteins, protein interactions, structural biology, genomic data, human health.",
-        "about": "This research focuses on computational modeling of proteins involved in human health by integrating experimental and genomic data. The lab studies membrane proteins and their interactions with peptides and small molecules using structural biology applications and in-house methods to analyze how structural changes influence protein interactions."
+        "about": "This research focuses on computational modeling of proteins involved in human health by integrating experimental and genomic data. The lab studies membrane proteins and their interactions with peptides and small molecules using structural biology applications and in-house methods to analyze how structural changes influence protein interactions.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://gulsevinlab.org/openings/"
     },
     {
         "region": "North America",
@@ -48,7 +53,9 @@ const labData = [
         "pi": "Amy E. Keating",
         "image": "images/processed/Amy-E-Keating.jpg",
         "website": "https://biology.mit.edu/profile/amy-e-keating/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.keatinglab.mit.edu/positions"
     },
     {
         "region": "Global",
@@ -64,7 +71,9 @@ const labData = [
             }
         ],
         "keywords": "Membrane proteins, transmembrane beta-barrels, computational protein design, nanopore engineering, protein stability, single-molecule sensing, beta-barrel vaccines.",
-        "about": "This lab focuses on de novo design of membrane proteins, specifically transmembrane beta-barrels. Research includes computational methods to create beta-barrels with novel properties and structures, as well as developing experimental validation approaches. Applications include engineered nanopores for single-molecule sensing and beta-barrel-based vaccines targeting Gram-negative bacteria."
+        "about": "This lab focuses on de novo design of membrane proteins, specifically transmembrane beta-barrels. Research includes computational methods to create beta-barrels with novel properties and structures, as well as developing experimental validation approaches. Applications include engineered nanopores for single-molecule sensing and beta-barrel-based vaccines targeting Gram-negative bacteria.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://vorobievalab.sites.vib.be/en/jobs"
     },
     {
         "region": "North America",
@@ -73,9 +82,10 @@ const labData = [
         "pi": "Andrew Ferguson",
         "image": "images/processed/Andrew-Ferguson.jpg",
         "website": "https://pme.uchicago.edu/faculty/andrew-ferguson",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.ferglab.com/"
     },
-
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -83,7 +93,9 @@ const labData = [
         "pi": "Andy Hsien-Wei Yeh",
         "image": "images/processed/Andy-Hsien-Wei-Yeh.jpg",
         "website": "https://neolux.sites.ucsc.edu/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://neolux.sites.ucsc.edu/"
     },
     {
         "region": "EMEA",
@@ -92,7 +104,9 @@ const labData = [
         "pi": "Anne-Florence Bitbol",
         "image": "images/processed/Anne-Florence-Bitbol.jpg",
         "website": "https://www.epfl.ch/labs/bitbol-lab/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.epfl.ch/labs/bitbol-lab/join-us/"
     },
     {
         "region": "North America",
@@ -101,7 +115,9 @@ const labData = [
         "pi": "Anthony Gitter",
         "image": "images/processed/Anthony-Gitter.jpg",
         "website": "https://www.biostat.wisc.edu/~gitter/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.biostat.wisc.edu/~gitter/"
     },
     {
         "region": "North America",
@@ -112,7 +128,9 @@ const labData = [
         "website": "https://www.biochem.cuimc.columbia.edu/profile/anum-glasgow-phd",
         "papers": [],
         "keywords": "Computational protein design, biophysical techniques, conformational switching, signal-responsive proteins, protein engineering, ligand binding, therapeutic proteins.",
-        "about": "This research integrates computational protein design with high-throughput biophysics to engineer proteins that change conformation in response to signals. By developing design principles for signal-responsive proteins, the lab aims to control cellular behavior and develop targeted therapeutics. Long-term goals include engineering multifunctional proteins for precise ligand binding and localization, advancing disease treatment strategies."
+        "about": "This research integrates computational protein design with high-throughput biophysics to engineer proteins that change conformation in response to signals. By developing design principles for signal-responsive proteins, the lab aims to control cellular behavior and develop targeted therapeutics. Long-term goals include engineering multifunctional proteins for precise ligand binding and localization, advancing disease treatment strategies.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://glasgowlab.org/1_intro.html"
     },
     {
         "region": "North America",
@@ -130,13 +148,12 @@ const labData = [
         "country": "\ud83c\udde9\ud83c\uddea Germany",
         "institution": "University of Bayreuth",
         "pi": "Birte H\u00f6cker",
-        "image": "images/processed/Birte-Höcker.jpg",
+        "image": "images/processed/Birte-H\u00f6cker.jpg",
         "website": "https://www.proteindesign.uni-bayreuth.de/en/index.html",
         "papers": [],
         "keywords": "Protein evolution, protein design, small molecule receptors, enzymes, biosensors, molecular machines, artificial motor proteins, small molecule binding.",
         "about": "This lab designs small molecule receptors, enzymes, and artificial motor proteins. Research focuses on protein evolution, molecular machines, biosensors, and the principles underlying small molecule binding."
     },
-
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -144,7 +161,9 @@ const labData = [
         "pi": "Brian Hie",
         "image": "images/processed/Brian-Hie.jpg",
         "website": "https://evodesign.org/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://evodesign.org/join"
     },
     {
         "region": "North America",
@@ -155,7 +174,9 @@ const labData = [
         "website": "https://klab.web.unc.edu/research/",
         "papers": [],
         "keywords": "Protein design, protein-protein interactions, computational modeling, experimental validation, Rosetta, vaccine design, structural biology.",
-        "about": "This research focuses on designing proteins and protein interactions using a combination of computational and experimental methods. Current work includes developing novel protein-protein interactions, protein structures, and light subunit vaccines. The Rosetta program is central to these efforts, with ongoing contributions to its development and application in new protein modeling challenges."
+        "about": "This research focuses on designing proteins and protein interactions using a combination of computational and experimental methods. Current work includes developing novel protein-protein interactions, protein structures, and light subunit vaccines. The Rosetta program is central to these efforts, with ongoing contributions to its development and application in new protein modeling challenges.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://klab.web.unc.edu/join/"
     },
     {
         "region": "North America",
@@ -164,7 +185,9 @@ const labData = [
         "pi": "Brian Trippe",
         "image": "images/processed/Brian-Trippe.jpg",
         "website": "https://briantrippe.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://briantrippe.com/"
     },
     {
         "region": "North America",
@@ -177,14 +200,16 @@ const labData = [
     },
     {
         "region": "EMEA",
-        "country": "🇨🇭 Switzerland",
+        "country": "\ud83c\udde8\ud83c\udded Switzerland",
         "institution": "EPFL Lausanne",
         "pi": "Bruno E. Correia",
         "image": "images/processed/Bruno-E-Correia.jpg",
         "website": "https://www.epfl.ch/labs/lpdi/",
         "papers": [],
         "keywords": "Protein design, functional proteins, therapeutics, vaccines, biosensors, synthetic biology.",
-        "about": "The Correia Group designs novel functional proteins to expand nature's capabilities for practical applications, including therapeutics, vaccines, and biosensors. By engineering proteins with tailored properties, the lab advances synthetic biology to address biomedical and biotechnological challenges."
+        "about": "The Correia Group designs novel functional proteins to expand nature's capabilities for practical applications, including therapeutics, vaccines, and biosensors. By engineering proteins with tailored properties, the lab advances synthetic biology to address biomedical and biotechnological challenges.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.epfl.ch/labs/lpdi/page-121368-en-html/"
     },
     {
         "region": "Asia",
@@ -206,7 +231,9 @@ const labData = [
         "website": "https://glasscocklab.blogs.rice.edu/",
         "papers": [],
         "keywords": "Protein design, protein-nucleic acid interactions, synthetic biology, artificial intelligence, machine learning, high-throughput biochemistry, functional assays.",
-        "about": "This lab develops computational methods for predicting and designing protein-nucleic acid assemblies using physics-based modeling and AI/ML approaches. Research incorporates high-throughput biochemistry, molecular biology, and sequencing technologies, emphasizing advanced protein functional assays to support AI-driven protein design."
+        "about": "This lab develops computational methods for predicting and designing protein-nucleic acid assemblies using physics-based modeling and AI/ML approaches. Research incorporates high-throughput biochemistry, molecular biology, and sequencing technologies, emphasizing advanced protein functional assays to support AI-driven protein design.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://glasscocklab.blogs.rice.edu/join/"
     },
     {
         "region": "Global",
@@ -226,7 +253,9 @@ const labData = [
         "pi": "Charlotte Deane",
         "image": "images/processed/Charlotte-Deane.jpg",
         "website": "https://opig.stats.ox.ac.uk/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://opig.stats.ox.ac.uk/"
     },
     {
         "region": "EMEA",
@@ -235,7 +264,9 @@ const labData = [
         "pi": "Chris Wells Wood",
         "image": "images/processed/Chris-Wells-Wood.jpg",
         "website": "https://www.wellswoodresearchgroup.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.wellswoodresearchgroup.com/"
     },
     {
         "region": "Global",
@@ -284,7 +315,9 @@ const labData = [
             }
         ],
         "keywords": "Computational protein design, immunotherapeutics, Adeno-associated virus (AAV), chimeric antigen receptors (CARs), single-chain variable fragments (scFvs), vaccine design, epitope focusing, pharmacokinetics.",
-        "about": "This research focuses on computational protein design methods for developing novel immunotherapeutic drugs. The lab studies Adeno-associated virus (AAV) interactions, designs cellular therapeutics such as chimeric antigen receptors (CARs), optimizes antibody fragments (scFvs), and develops vaccine candidates through stabilization and epitope focusing."
+        "about": "This research focuses on computational protein design methods for developing novel immunotherapeutic drugs. The lab studies Adeno-associated virus (AAV) interactions, designs cellular therapeutics such as chimeric antigen receptors (CARs), optimizes antibody fragments (scFvs), and develops vaccine candidates through stabilization and epitope focusing.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.schoederlab.org/our-team"
     },
     {
         "region": "Global",
@@ -295,9 +328,10 @@ const labData = [
         "website": "https://smithlab.research.wesleyan.edu/",
         "papers": [],
         "keywords": "Protein structure, atomic-level mechanisms, second-shell interactions, structural propagation, protein conformational changes, therapeutic protein engineering, structural biology.",
-        "about": "The Smith Lab investigates atomic-level mechanisms underlying structural rearrangements in proteins, specifically how changes propagate from one region to another. The lab addresses questions of structural communication and how subtle rearrangements influence protein behavior and functionality."
+        "about": "The Smith Lab investigates atomic-level mechanisms underlying structural rearrangements in proteins, specifically how changes propagate from one region to another. The lab addresses questions of structural communication and how subtle rearrangements influence protein behavior and functionality.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://smithlab.research.wesleyan.edu/joining/"
     },
-
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
@@ -316,7 +350,9 @@ const labData = [
         "website": "https://www.bakerlab.org/",
         "papers": [],
         "keywords": "De novo protein design, hyperstable proteins, vaccine design, RFdiffusion, protein structure, enzyme catalysis, self-assembling nanomaterials, drug delivery, Top7, Nobel Prize.",
-        "about": "This research pioneered de novo protein design with TOP7 and developed principles for designing hyper stable proteins with diverse folds. Stabilizing pathogen epitopes enables computational vaccine development. The lab's RFdiffusion model advances protein design, creating complex structures. Ongoing work includes designing novel enzymes and self-assembling nanomaterials for drug delivery and vaccines."
+        "about": "This research pioneered de novo protein design with TOP7 and developed principles for designing hyper stable proteins with diverse folds. Stabilizing pathogen epitopes enables computational vaccine development. The lab's RFdiffusion model advances protein design, creating complex structures. Ongoing work includes designing novel enzymes and self-assembling nanomaterials for drug delivery and vaccines.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.ipd.uw.edu/join-us/"
     },
     {
         "region": "EMEA",
@@ -334,7 +370,9 @@ const labData = [
         "pi": "David C. Richardson & Jane Shelby Richardson",
         "image": "images/processed/David-C-Richardson-&-Jane-Shelby-Richardson.jpg",
         "website": "https://www.biochem.duke.edu/people/richardson-lab",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "http://kinemage.biochem.duke.edu/"
     },
     {
         "region": "EMEA",
@@ -344,7 +382,6 @@ const labData = [
         "website": "http://www0.cs.ucl.ac.uk/staff/d.jones/",
         "papers": []
     },
-
     {
         "region": "EMEA",
         "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
@@ -363,7 +400,9 @@ const labData = [
         "website": "https://bioshell.pl/home",
         "papers": [],
         "keywords": "Structural bioinformatics, coarse-grained modeling, multiscale modeling, algorithm development, biomolecular dynamics, BioShell software.",
-        "about": "This research develops computational methods for multiscale modeling of biomacromolecular structure and dynamics. The lab creates coarse-grained approaches to study proteins at different resolution levels and develops the BioShell software suite for structural bioinformatics, including alignments, modeling, analysis, and visualization of biomolecular structures."
+        "about": "This research develops computational methods for multiscale modeling of biomacromolecular structure and dynamics. The lab creates coarse-grained approaches to study proteins at different resolution levels and develops the BioShell software suite for structural bioinformatics, including alignments, modeling, analysis, and visualization of biomolecular structures.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://bioshell.pl/"
     },
     {
         "region": "EMEA",
@@ -415,9 +454,10 @@ const labData = [
                 "title": "de novo immunoglobulin design",
                 "url": "https://www.nature.com/articles/s41467-023-41717-5"
             }
-        ]
+        ],
+        "hiringStatus": "open",
+        "jobsUrl": "https://ibmb.csic.es/en/department-of-structural-and-molecular-biology/protein-design-and-modeling/#vacancies-jobs"
     },
-
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -427,7 +467,9 @@ const labData = [
         "website": "http://www.strauchlab.com/",
         "papers": [],
         "keywords": "Protein engineering, viral proteins, structural design, oligo-synthesis, next-generation sequencing, immunogen design, protein chemistry.",
-        "about": "This research group studies viral surface proteins using structural design and high-throughput techniques to develop therapeutic and immunological interventions. The lab aims to understand viral protein chemistry and design novel immunogens targeting viral infections."
+        "about": "This research group studies viral surface proteins using structural design and high-throughput techniques to develop therapeutic and immunological interventions. The lab aims to understand viral protein chemistry and design novel immunogens targeting viral infections.",
+        "hiringStatus": "open",
+        "jobsUrl": "http://www.strauchlab.com/join.html"
     },
     {
         "region": "EMEA",
@@ -454,8 +496,6 @@ const labData = [
         "website": "https://fajieyuan.github.io/",
         "papers": []
     },
-
-
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -476,7 +516,9 @@ const labData = [
         "website": "https://ista.ac.at/en/research/praetorius-group/",
         "papers": [],
         "keywords": "Protein design, DNA origami, nucleic acids, deep learning, ProteinMPNN, Rosetta, biomolecular assemblies.",
-        "about": "The Praetorius lab develops computational design tools, including deep learning and physics-based methods, to engineer proteins and nucleic acids. They experimentally characterize de novo proteins and aim to create DNA-protein hybrid assemblies with novel functions for applications in biosensing, gene delivery, gene editing, and vaccine development."
+        "about": "The Praetorius lab develops computational design tools, including deep learning and physics-based methods, to engineer proteins and nucleic acids. They experimentally characterize de novo proteins and aim to create DNA-protein hybrid assemblies with novel functions for applications in biosensing, gene delivery, gene editing, and vaccine development.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://ista.ac.at/en/research/praetorius-group/"
     },
     {
         "region": "North America",
@@ -487,7 +529,6 @@ const labData = [
         "website": "http://fhalab.caltech.edu/",
         "papers": []
     },
-
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -499,7 +540,6 @@ const labData = [
         "keywords": "Structure determination, crystal structure refinement, conformational sampling, protein force fields, computational modeling, experimental data analysis.",
         "about": "This research focuses on developing methods for determining protein structures from sparse and noisy experimental data. Key areas include crystal structure refinement, conformational sampling, and protein force field development. By integrating computational modeling with experimental analysis, the lab enhances accuracy in protein structure prediction and refinement."
     },
-
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -509,9 +549,10 @@ const labData = [
         "website": "http://www.rocklinlab.org/",
         "papers": [],
         "keywords": "High-throughput protein design, computational modeling, protein biophysics, protein therapeutics, display selections, mass spectrometry proteomics, next-generation sequencing, protein stability, conformational dynamics.",
-        "about": "This research develops high-throughput methods for protein design and biophysics, focusing on protein therapeutics. The lab combines large-scale computational modeling with experimental approaches, including display selections, mass spectrometry proteomics, and next-generation sequencing, to study protein folding, stability, dynamics, and resistance to aggregation."
+        "about": "This research develops high-throughput methods for protein design and biophysics, focusing on protein therapeutics. The lab combines large-scale computational modeling with experimental approaches, including display selections, mass spectrometry proteomics, and next-generation sequencing, to study protein folding, stability, dynamics, and resistance to aggregation.",
+        "hiringStatus": "open",
+        "jobsUrl": "http://www.rocklinlab.org/#join"
     },
-
     {
         "region": "North America",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -521,7 +562,9 @@ const labData = [
         "website": "https://peptidedesign.org/",
         "papers": [],
         "keywords": "Peptide drug design, computational modeling, antibiotics, antivirals, anti-cancer peptides, cellular permeability, oral bioavailability, machine learning.",
-        "about": "This research develops computational and experimental methods to design therapeutic peptides with high specificity and stability. Focus areas include designing antibiotics, antivirals, and anti-cancer peptides, as well as enhancing cellular permeability and oral bioavailability. Machine learning-based approaches are also employed to generate peptides with diverse structures and functions."
+        "about": "This research develops computational and experimental methods to design therapeutic peptides with high specificity and stability. Focus areas include designing antibiotics, antivirals, and anti-cancer peptides, as well as enhancing cellular permeability and oral bioavailability. Machine learning-based approaches are also employed to generate peptides with diverse structures and functions.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://peptidedesign.org/members"
     },
     {
         "region": "North America",
@@ -530,7 +573,9 @@ const labData = [
         "pi": "Ge Liu",
         "image": "images/processed/Ge-Liu.jpg",
         "website": "https://www.mit.edu/~geliu/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.mit.edu/~geliu/"
     },
     {
         "region": "Global",
@@ -550,9 +595,10 @@ const labData = [
         "pi": "George Church",
         "image": "images/processed/George-Church.jpg",
         "website": "https://wyss.harvard.edu/team/core-faculty/george-church/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://arep.med.harvard.edu/"
     },
-
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
@@ -580,7 +626,9 @@ const labData = [
             }
         ],
         "keywords": "De novo protein design, enzyme design, biomedical applications, biotechnology, computational modeling, protein engineering, structural biology.",
-        "about": "This research group focuses on de novo protein design, developing and broadening state-of-the-art methodologies for biomedical and biotechnological applications. Current projects include designing novel enzymes and proteins with specific geometries. The lab combines computational approaches with structural biology to expand the functional repertoire of engineered proteins."
+        "about": "This research group focuses on de novo protein design, developing and broadening state-of-the-art methodologies for biomedical and biotechnological applications. Current projects include designing novel enzymes and proteins with specific geometries. The lab combines computational approaches with structural biology to expand the functional repertoire of engineered proteins.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.tugraz.at/institute/ibc/research/research-groups/protein-design/group-members"
     },
     {
         "region": "Global",
@@ -591,9 +639,10 @@ const labData = [
         "website": "https://pure.kaist.ac.kr/en/persons/gyurie-lee/",
         "papers": [],
         "keywords": "Protein design, deep learning, small molecules, epigenetics, post-translational modifications.",
-        "about": "This lab develops AI-based methods for protein design, specifically targeting epigenetic processes and chemical modifications of peptides and nucleic acids. Research aims to create custom-designed protein tools and explore therapeutic applications focused on epigenetic mechanisms and cellular metabolism."
+        "about": "This lab develops AI-based methods for protein design, specifically targeting epigenetic processes and chemical modifications of peptides and nucleic acids. Research aims to create custom-designed protein tools and explore therapeutic applications focused on epigenetic mechanisms and cellular metabolism.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://pure.kaist.ac.kr/en/persons/gyurie-lee/"
     },
-
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
@@ -624,7 +673,9 @@ const labData = [
         "pi": "Haiyan Liu",
         "image": "images/processed/Haiyan-Liu.jpg",
         "website": "https://biocomp.ustc.edu.cn/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://biocomp.ustc.edu.cn/join_us.html"
     },
     {
         "region": "Asia",
@@ -635,7 +686,6 @@ const labData = [
         "website": "https://zhouh.github.io/",
         "papers": []
     },
-
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
@@ -643,7 +693,9 @@ const labData = [
         "pi": "Ho Min Kim",
         "image": "images/processed/Ho-Min-Kim.jpg",
         "website": "https://protein.ibs.re.kr/people/chief-investigator",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://sites.google.com/view/phcholab/contact?authuser=0"
     },
     {
         "region": "Asia",
@@ -654,7 +706,6 @@ const labData = [
         "website": "http://www.csbio.sjtu.edu.cn/",
         "papers": []
     },
-
     {
         "region": "Asia",
         "country": "\ud83c\udde8\ud83c\uddf3 China",
@@ -691,7 +742,9 @@ const labData = [
         "website": "https://www.kratochvillab.com/",
         "papers": [],
         "keywords": "Membrane protein design, functional protein design, molecular recognition, immune response.",
-        "about": "This research focuses on de novo protein design to test fundamental principles of molecular recognition, particularly in membrane transport and immune response. The lab seeks to engineer functional proteins to investigate structure-function relationships."
+        "about": "This research focuses on de novo protein design to test fundamental principles of molecular recognition, particularly in membrane transport and immune response. The lab seeks to engineer functional proteins to investigate structure-function relationships.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.kratochvillab.com/meet-the-team/how-to-join"
     },
     {
         "region": "North America",
@@ -709,7 +762,9 @@ const labData = [
         "website": "https://andrelab.lu.se/",
         "papers": [],
         "keywords": "Protein modeling, symmetric protein complexes, self-assembly, computational design, structural biology.",
-        "about": "Large protein complexes self-assemble into functional structures. This research develops computational methods to predict and design novel protein assemblies, advancing structural biology and protein engineering. Experimental validation ensures accuracy, applying self-assembly principles to both natural and synthetic systems."
+        "about": "Large protein complexes self-assemble into functional structures. This research develops computational methods to predict and design novel protein assemblies, advancing structural biology and protein engineering. Experimental validation ensures accuracy, applying self-assembly principles to both natural and synthetic systems.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://andrelab.lu.se/index.php/about/join"
     },
     {
         "region": "North America",
@@ -717,7 +772,9 @@ const labData = [
         "institution": "Massachusetts Institute of Technology",
         "pi": "James J. Collins",
         "website": "https://www.collinslab.mit.edu/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.collinslab.mit.edu/"
     },
     {
         "region": "Global",
@@ -753,7 +810,9 @@ const labData = [
         "website": "https://www.ndm.edu/directory/jason-labonte",
         "papers": [],
         "keywords": "Computational modeling, carbohydrates, post-translational modifications (PTMs), protocol development, data mining, organic chemistry, biochemistry.",
-        "about": "This research focuses on developing computational methods to decode cellular interactions at the chemical level, emphasizing carbohydrates and post-translational modifications (PTMs). The lab employs protocol development, data mining, and experimental validation. Students gain skills in organic chemistry, biochemistry, and computational modeling to advance understanding of biochemical processes."
+        "about": "This research focuses on developing computational methods to decode cellular interactions at the chemical level, emphasizing carbohydrates and post-translational modifications (PTMs). The lab employs protocol development, data mining, and experimental validation. Students gain skills in organic chemistry, biochemistry, and computational modeling to advance understanding of biochemical processes.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.ndm.edu/directory/jason-labonte"
     },
     {
         "region": "North America",
@@ -763,7 +822,9 @@ const labData = [
         "website": "https://graylab.jhu.edu/",
         "papers": [],
         "keywords": "Protein docking, antibody engineering, glycoproteins, membrane proteins, Rosetta, computational modeling, protein-surface interactions, disease research.",
-        "about": "This research focuses on computational protein structure prediction and design, with expertise in protein docking, antibody engineering, and membrane protein modeling. The lab develops tools like RosettaDock, RosettaAntibody, and PyRosetta to tackle challenges such as conformational changes upon binding and energy calculations. Collaborations span diverse biomedical areas, including cancer, Alzheimer's disease, antibiotic resistance, and autoimmune disorders."
+        "about": "This research focuses on computational protein structure prediction and design, with expertise in protein docking, antibody engineering, and membrane protein modeling. The lab develops tools like RosettaDock, RosettaAntibody, and PyRosetta to tackle challenges such as conformational changes upon binding and energy calculations. Collaborations span diverse biomedical areas, including cancer, Alzheimer's disease, antibiotic resistance, and autoimmune disorders.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://graylab.jhu.edu/resources.php"
     },
     {
         "region": "North America",
@@ -771,7 +832,9 @@ const labData = [
         "institution": "UC Berkeley",
         "pi": "Jennifer Doudna",
         "website": "https://doudnalab.org/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://doudnalab.org/"
     },
     {
         "region": "North America",
@@ -779,7 +842,9 @@ const labData = [
         "institution": "UC Berkeley",
         "pi": "Jennifer Listgarten",
         "website": "http://www.jennifer.listgarten.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "http://www.jennifer.listgarten.com/group.html#students"
     },
     {
         "region": "North America",
@@ -789,7 +854,9 @@ const labData = [
         "website": "https://meilerlab.org/",
         "papers": [],
         "keywords": "Protein-ligand interactions, computational modeling, drug design, membrane proteins, structure elucidation, experimental validation, protein structure.",
-        "about": "This research combines computational and experimental approaches to study protein-ligand interactions. The lab develops computational methods for elucidating membrane protein structures, designing specific therapeutic molecules, and enhancing drug specificity. Predictions are experimentally validated within the lab or through collaborations, ensuring practical applications for structural biology and targeted drug development."
+        "about": "This research combines computational and experimental approaches to study protein-ligand interactions. The lab develops computational methods for elucidating membrane protein structures, designing specific therapeutic molecules, and enhancing drug specificity. Predictions are experimentally validated within the lab or through collaborations, ensuring practical applications for structural biology and targeted drug development.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://meilerlab.org/research-opportunities-in-chemical-and-structural-biology/"
     },
     {
         "region": "Global",
@@ -799,7 +866,9 @@ const labData = [
         "website": "https://search.asu.edu/profile/2695303",
         "papers": [],
         "keywords": "Protein design, fluorescent proteins, non-canonical amino acids, fluorogenic probes, protein-protein interactions, metalloproteins, enzyme engineering.",
-        "about": "This research focuses on designing proteins that incorporate fluorescent or fluorogenic non-canonical amino acids. The lab engineers proteins to serve as fluorescent reporters for protein-protein, protein-small molecule, and protein-metal interactions. Additional projects involve designing novel functional metalloproteins and enzymes."
+        "about": "This research focuses on designing proteins that incorporate fluorescent or fluorogenic non-canonical amino acids. The lab engineers proteins to serve as fluorescent reporters for protein-protein, protein-small molecule, and protein-metal interactions. Additional projects involve designing novel functional metalloproteins and enzymes.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://search.asu.edu/profile/2695303"
     },
     {
         "region": "Asia",
@@ -831,7 +900,9 @@ const labData = [
         "institution": "Westlake University",
         "pi": "Jianyang Zeng",
         "website": "https://aicb.lab.westlake.edu.cn/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://aicb.lab.westlake.edu.cn/Openings.htm"
     },
     {
         "region": "Asia",
@@ -841,7 +912,9 @@ const labData = [
         "website": "https://yanglab.qd.sdu.edu.cn/",
         "papers": [],
         "keywords": "Structure prediction, cryo-EM, artificial intelligence, trRosetta, trRosettaRNA, I-TASSER.",
-        "about": "This lab develops computational methods for predicting protein and RNA structures, contributing significantly to methods such as trRosetta, trRosettaRNA, and I-TASSER. Research incorporates cryo-EM data and AI techniques."
+        "about": "This lab develops computational methods for predicting protein and RNA structures, contributing significantly to methods such as trRosetta, trRosettaRNA, and I-TASSER. Research incorporates cryo-EM data and AI techniques.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://yanglab.qd.sdu.edu.cn/positions.html"
     },
     {
         "region": "Asia",
@@ -876,7 +949,9 @@ const labData = [
         "pi": "Jiri Damborsky",
         "image": "images/processed/Jiri-Damborsky.jpg",
         "website": "https://loschmidt.chemi.muni.cz/peg/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://loschmidt.chemi.muni.cz/peg/positions/"
     },
     {
         "region": "Global",
@@ -894,7 +969,9 @@ const labData = [
         "institution": "Stanford University",
         "pi": "Jure Leskovec",
         "website": "https://cs.stanford.edu/people/jure/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://snap.stanford.edu/"
     },
     {
         "region": "Global",
@@ -912,7 +989,9 @@ const labData = [
         "institution": "Wake Forest University",
         "pi": "Katherine I. Albanese",
         "website": "https://www.albaneselab.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.albaneselab.com/contact"
     },
     {
         "region": "Asia",
@@ -920,7 +999,9 @@ const labData = [
         "institution": "Korea Institute of Science and Technology",
         "pi": "Keunwan Park",
         "website": "https://sites.google.com/site/keunwan/home?authuser=0",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://sites.google.com/site/keunwan/positions"
     },
     {
         "region": "Global",
@@ -930,7 +1011,9 @@ const labData = [
         "website": "https://ksdrew.github.io/people/",
         "papers": [],
         "keywords": "Macromolecular assemblies, protein-nucleic acid interactions, biochemical approaches, computational modeling, proteomics, structural biology, human disease.",
-        "about": "The Drew Lab studies macromolecular assemblies in cells, focusing on their mechanistic functions and relevance to human disease. Using biochemical, computational, and proteomic approaches, the lab identifies assembly components, determines their 3D structures, and explores ways to modulate their activity for therapeutic applications."
+        "about": "The Drew Lab studies macromolecular assemblies in cells, focusing on their mechanistic functions and relevance to human disease. Using biochemical, computational, and proteomic approaches, the lab identifies assembly components, determines their 3D structures, and explores ways to modulate their activity for therapeutic applications.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://ksdrew.github.io/join/"
     },
     {
         "region": "Asia",
@@ -943,7 +1026,9 @@ const labData = [
                 "title": "Mega-scale mutation scanning",
                 "url": "https://www.nature.com/articles/s41586-023-06328-6"
             }
-        ]
+        ],
+        "hiringStatus": "open",
+        "jobsUrl": "https://sites.google.com/view/tsubo-lab/home"
     },
     {
         "region": "EMEA",
@@ -996,17 +1081,21 @@ const labData = [
         "website": "https://lanalchemist.github.io/",
         "papers": [],
         "keywords": "Computational Protein design, Enzyme Engineering, Sensors, Machine Learning",
-        "about": "Dr. An merges computational protein design with biochemistry to engineer enzymes and create molecular sensing systems. Her research centers on three aims: (1) crafting protein sensors that map health-critical ligand landscapes, (2) installing intracellular reporters to accelerate enzyme evolution, and (3) engineering biosynthetic enzymes to expand the synthetic-biology toolkit. She also pioneers new algorithms for functional protein design."
+        "about": "Dr. An merges computational protein design with biochemistry to engineer enzymes and create molecular sensing systems. Her research centers on three aims: (1) crafting protein sensors that map health-critical ligand landscapes, (2) installing intracellular reporters to accelerate enzyme evolution, and (3) engineering biosynthetic enzymes to expand the synthetic-biology toolkit. She also pioneers new algorithms for functional protein design.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://lanalchemist.github.io/positions.html"
     },
     {
         "region": "Global",
-        "country": "🇨🇳 China",
+        "country": "\ud83c\udde8\ud83c\uddf3 China",
         "institution": "Westlake University",
         "pi": "Longxing Cao",
         "website": "https://en.westlake.edu.cn/faculty/longxing-cao.html",
         "papers": [],
         "keywords": "Protein design, protein interfaces, protein switches, deep learning, synthetic biology, immunotherapy.",
-        "about": "This lab develops new methods for de novo protein design, focusing on therapeutics targeting tumor-specific markers and immune modulators. Research includes designing conformational switches responsive to environmental stimuli, and developing new scaffolds and sequences using deep learning techniques."
+        "about": "This lab develops new methods for de novo protein design, focusing on therapeutics targeting tumor-specific markers and immune modulators. Research includes designing conformational switches responsive to environmental stimuli, and developing new scaffolds and sequences using deep learning techniques.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://en.westlake.edu.cn/faculty/longxing-cao.html#"
     },
     {
         "region": "Asia",
@@ -1030,7 +1119,9 @@ const labData = [
         "institution": "Spanish National Research Council",
         "pi": "Manuel Ferrer Mart\u00ednez",
         "website": "https://sysbio.csic.es/prof-manuel-ferrer/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://sysbio.csic.es/"
     },
     {
         "region": "North America",
@@ -1038,7 +1129,9 @@ const labData = [
         "institution": "Scripps Research Institute",
         "pi": "Marco Mravic",
         "website": "https://mmravic314.github.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://mmravic314.github.io/join/"
     },
     {
         "region": "North America",
@@ -1046,7 +1139,9 @@ const labData = [
         "institution": "Harvard University",
         "pi": "Marinka Zitnik",
         "website": "https://zitniklab.hms.harvard.edu/bio/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://zitniklab.hms.harvard.edu/jobs/"
     },
     {
         "region": "North America",
@@ -1075,7 +1170,9 @@ const labData = [
         "institution": "Princeton University",
         "pi": "Mengdi Wang",
         "website": "https://ece.princeton.edu/people/mengdi-wang",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://ece.princeton.edu/people/mengdi-wang"
     },
     {
         "region": "EMEA",
@@ -1083,7 +1180,9 @@ const labData = [
         "institution": "University of Oxford",
         "pi": "Michael Bronstein",
         "website": "https://www.cs.ox.ac.uk/people/michael.bronstein/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.cs.ox.ac.uk/people/michael.bronstein/"
     },
     {
         "region": "Global",
@@ -1093,7 +1192,9 @@ const labData = [
         "website": "https://www.colorado.edu/lab/shirtsgroup/",
         "papers": [],
         "keywords": "Nanoscale materials, biomimetic materials, foldamers, computational modeling, Rosetta, chemical design, molecular simulations.",
-        "about": "This group uses theory and computation to design nanoscale materials, focusing on biomimetic foldamers and molecular simulations. The lab develops computational tools within Rosetta for heteropolymer design, aiming for efficient and predictive exploration of chemical and structural space."
+        "about": "This group uses theory and computation to design nanoscale materials, focusing on biomimetic foldamers and molecular simulations. The lab develops computational tools within Rosetta for heteropolymer design, aiming for efficient and predictive exploration of chemical and structural space.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.colorado.edu/lab/shirtsgroup/available-positions"
     },
     {
         "region": "EMEA",
@@ -1101,7 +1202,9 @@ const labData = [
         "institution": "Aarhus University",
         "pi": "Michael Westberg",
         "website": "https://westberglab.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://westberglab.com/team"
     },
     {
         "region": "Global",
@@ -1111,9 +1214,10 @@ const labData = [
         "website": "https://medicine.duke.edu/profile/mihai-luchian-azoitei",
         "papers": [],
         "keywords": "Vaccines, protein engineering, biosensors, influenza, HIV, coronaviruses, B-cell signaling.",
-        "about": "This research focuses on rational immunogen design using computational protein engineering (Rosetta) and high-throughput screening methods to develop vaccines against pathogens like HIV and influenza. The lab also studies how antigen biophysical properties affect B-cell activation and antibody production."
+        "about": "This research focuses on rational immunogen design using computational protein engineering (Rosetta) and high-throughput screening methods to develop vaccines against pathogens like HIV and influenza. The lab also studies how antigen biophysical properties affect B-cell activation and antibody production.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://medicine.duke.edu/profile/mihai-luchian-azoitei"
     },
-
     {
         "region": "Asia",
         "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
@@ -1128,7 +1232,9 @@ const labData = [
         "institution": "Columbia University",
         "pi": "Mohammed AlQuraishi",
         "website": "https://www.aqlab.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.aqlab.io/join"
     },
     {
         "region": "North America",
@@ -1151,7 +1257,9 @@ const labData = [
         "website": "https://kinglab.ipd.uw.edu/",
         "papers": [],
         "keywords": "Protein-based nanomaterials, molecular machines, computational protein design, molecular recognition, structural biology, disease treatment, biophysical characterization.",
-        "about": "This research focuses on designing functional protein-based nanomaterials by incorporating the stability and dynamic properties of molecular machines. Using computational protein design alongside biochemical, biophysical, and structural techniques, the lab develops and characterizes novel materials with potential applications in disease treatment and prevention."
+        "about": "This research focuses on designing functional protein-based nanomaterials by incorporating the stability and dynamic properties of molecular machines. Using computational protein design alongside biochemical, biophysical, and structural techniques, the lab develops and characterizes novel materials with potential applications in disease treatment and prevention.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://kinglab.ipd.uw.edu/positions"
     },
     {
         "region": "EMEA",
@@ -1169,17 +1277,21 @@ const labData = [
         "website": "https://www.polizzilab.org/",
         "papers": [],
         "keywords": "Ligand binding, molecular recognition, de novo protein design.",
-        "about": "This lab develops computational methods to design novel ligand-binding proteins. The research focuses specifically on designing proteins that recognize small molecules, aiming to understand fundamental principles of molecular recognition through de novo protein design."
+        "about": "This lab develops computational methods to design novel ligand-binding proteins. The research focuses specifically on designing proteins that recognize small molecules, aiming to understand fundamental principles of molecular recognition through de novo protein design.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.polizzilab.org/#join-section"
     },
     {
         "region": "Global",
         "country": "\ud83c\uddfa\ud83c\uddf8 United States",
-        "institution": "Children’s Hospital of Philadelphia",
+        "institution": "Children\u2019s Hospital of Philadelphia",
         "pi": "Nik Sgourakis",
         "website": "https://www.sgourakislab.org/",
         "papers": [],
         "keywords": "Structural biology, NMR spectroscopy, X-ray crystallography, biophysics, biochemical techniques, computational modeling, protein interactions.",
-        "about": "The Sgourakis lab studies protein structures using NMR spectroscopy, X-ray crystallography, computational modeling, and biochemical techniques. The lab investigates molecular mechanisms underlying biological function, closely collaborating with researchers at CHOP and the University of Pennsylvania."
+        "about": "The Sgourakis lab studies protein structures using NMR spectroscopy, X-ray crystallography, computational modeling, and biochemical techniques. The lab investigates molecular mechanisms underlying biological function, closely collaborating with researchers at CHOP and the University of Pennsylvania.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.sgourakislab.org/career/"
     },
     {
         "region": "EMEA",
@@ -1192,7 +1304,9 @@ const labData = [
                 "title": "ZymCTRL",
                 "url": "https://www.biorxiv.org/content/10.1101/2024.05.03.592223v2"
             }
-        ]
+        ],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.aiproteindesign.com/jointhelab"
     },
     {
         "region": "North America",
@@ -1210,7 +1324,9 @@ const labData = [
         "website": "https://www.simonsfoundation.org/people/douglas-renfrew/",
         "papers": [],
         "keywords": "Protein folding, heteropolymer design, exotic amino acids, peptide macrocycles, enzyme engineering, nanomaterials, computational modeling, quantum computing, deep learning.",
-        "about": "This research applies protein folding theory to design heteropolymers composed of exotic chemical building blocks beyond the canonical amino acids, including D-amino acids, \u03b2- and \u03b3-amino acids, and peptoids. The lab develops computational software to rationally engineer peptide macrocycle drugs, industrial enzymes, and novel nanomaterials, leveraging advanced computational technologies such as quantum computing and deep neural networks."
+        "about": "This research applies protein folding theory to design heteropolymers composed of exotic chemical building blocks beyond the canonical amino acids, including D-amino acids, \u03b2- and \u03b3-amino acids, and peptoids. The lab develops computational software to rationally engineer peptide macrocycle drugs, industrial enzymes, and novel nanomaterials, leveraging advanced computational technologies such as quantum computing and deep neural networks.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.simonsfoundation.org/people/douglas-renfrew/"
     },
     {
         "region": "North America",
@@ -1220,7 +1336,9 @@ const labData = [
         "website": "https://www.parisahlab.org/",
         "papers": [],
         "keywords": "Computational tools, protein design, peptide design, molecular modeling, biomedical applications.",
-        "about": "This research focuses on developing computational tools for protein and peptide design and modeling. The lab applies these tools to generate new proteins and peptides for biomedical applications."
+        "about": "This research focuses on developing computational tools for protein and peptide design and modeling. The lab applies these tools to generate new proteins and peptides for biomedical applications.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.parisahlab.org/contact-us"
     },
     {
         "region": "North America",
@@ -1230,7 +1348,9 @@ const labData = [
         "website": "https://www.epfl.ch/labs/barth-lab/",
         "papers": [],
         "keywords": "Transmembrane proteins, ligand-receptor interactions, signaling pathways, computational modeling, protein design, membrane biology.",
-        "about": "This research focuses on modeling and designing transmembrane proteins to understand how ligand-receptor-effector systems transmit signals across membranes. By integrating computational and experimental approaches, it aims to reengineer signaling pathways and quantitatively define the principles governing these networks, advancing our understanding of membrane protein function and design."
+        "about": "This research focuses on modeling and designing transmembrane proteins to understand how ligand-receptor-effector systems transmit signals across membranes. By integrating computational and experimental approaches, it aims to reengineer signaling pathways and quantitatively define the principles governing these networks, advancing our understanding of membrane protein function and design.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.epfl.ch/labs/barth-lab/page-149655-en-html/"
     },
     {
         "region": "EMEA",
@@ -1243,7 +1363,9 @@ const labData = [
                 "title": "EvoBind for binder design",
                 "url": "https://www.biorxiv.org/content/10.1101/2022.07.23.501214v1"
             }
-        ]
+        ],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://patrickbryantlab.github.io/open_pos.html"
     },
     {
         "region": "Asia",
@@ -1253,7 +1375,9 @@ const labData = [
         "website": "https://www.labxing.com/lab/693/home",
         "papers": [],
         "keywords": "Transmembrane proteins, computational design, nanopores, ion channels, ligand-binding proteins, oligomerization, high-throughput screening, protein engineering.",
-        "about": "This research develops computational methods for designing novel transmembrane proteins, including selective ion channels and nanopores. The lab designs proteins capable of binding small molecules, oligomerizing upon ligand binding, and signaling. By combining computational predictions with experimental validation, the lab advances protein engineering strategies for targeting ligand-responsive transmembrane proteins involved in signaling and transport processes."
+        "about": "This research develops computational methods for designing novel transmembrane proteins, including selective ion channels and nanopores. The lab designs proteins capable of binding small molecules, oligomerizing upon ligand binding, and signaling. By combining computational predictions with experimental validation, the lab advances protein engineering strategies for targeting ligand-responsive transmembrane proteins involved in signaling and transport processes.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.labxing.com/lab/693/home"
     },
     {
         "region": "Global",
@@ -1263,7 +1387,9 @@ const labData = [
         "website": "https://www.fredhutch.org/en/faculty-lab-directory/bradley-phil.html",
         "papers": [],
         "keywords": "Molecular recognition, structural modeling, protein-DNA interactions, protein-peptide interactions, Rosetta, molecular modeling algorithms.",
-        "about": "This interdisciplinary research integrates computational modeling and experimental validation to design proteins and small molecules with therapeutic potential. Using methods like ROSETTA, molecular dynamics, and docking, interactions between designed molecules and drug targets are predicted. Experimental techniques, including protein expression, purification, and molecular interaction analysis, validate these designs to advance drug discovery."
+        "about": "This interdisciplinary research integrates computational modeling and experimental validation to design proteins and small molecules with therapeutic potential. Using methods like ROSETTA, molecular dynamics, and docking, interactions between designed molecules and drug targets are predicted. Experimental techniques, including protein expression, purification, and molecular interaction analysis, validate these designs to advance drug discovery.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.fredhutch.org/en/faculty-lab-directory/bradley-phil.html"
     },
     {
         "region": "North America",
@@ -1271,7 +1397,9 @@ const labData = [
         "institution": "Duke University",
         "pi": "Philip A. Romero",
         "website": "https://pratt.duke.edu/people/philip-romero/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.romerolab.org/joinus"
     },
     {
         "region": "North America",
@@ -1279,7 +1407,9 @@ const labData = [
         "institution": "University of Toronto",
         "pi": "Philip M. Kim",
         "website": "https://www.kimlab.org/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.kimlab.org/positions"
     },
     {
         "region": "North America",
@@ -1295,7 +1425,9 @@ const labData = [
         "institution": "University of Cambridge",
         "pi": "Pietro Li\u00f2",
         "website": "https://www.cl.cam.ac.uk/~pl219/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.cl.cam.ac.uk/~pl219/"
     },
     {
         "region": "North America",
@@ -1305,7 +1437,9 @@ const labData = [
         "website": "http://www.proteindesign.org/",
         "papers": [],
         "keywords": "De novo protein design, machine learning, molecular motors, protein origami, biosensors, protein engineering, computational modeling, experimental validation.",
-        "about": "This research focuses on developing novel protein platforms to address biological challenges. The lab integrates de novo protein design, machine learning-based tool development, and experimental approaches to engineer molecular motors, protein origami structures, and biosensors. Computational and experimental methods are combined to advance protein engineering and structural modeling."
+        "about": "This research focuses on developing novel protein platforms to address biological challenges. The lab integrates de novo protein design, machine learning-based tool development, and experimental approaches to engineer molecular motors, protein origami structures, and biosensors. Computational and experimental methods are combined to advance protein engineering and structural modeling.",
+        "hiringStatus": "open",
+        "jobsUrl": "http://www.proteindesign.org/openings.html"
     },
     {
         "region": "North America",
@@ -1313,7 +1447,9 @@ const labData = [
         "institution": "Duke University",
         "pi": "Pranam D. Chatterjee",
         "website": "https://www.chatterjeelab.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.chatterjeelab.com/"
     },
     {
         "region": "Asia",
@@ -1321,7 +1457,9 @@ const labData = [
         "institution": "University of Science and Technology of China",
         "pi": "Qi Liu",
         "website": "http://staff.ustc.edu.cn/~qiliuql/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "http://staff.ustc.edu.cn/~qiliuql/"
     },
     {
         "region": "North America",
@@ -1331,7 +1469,9 @@ const labData = [
         "website": "https://breakthroughs.utsouthwestern.edu/women/stories/cong-qian.html",
         "papers": [],
         "keywords": "Protein-protein interactions, evolution, genomics, artificial intelligence, bioinformatics, AlphaFold, RoseTTAFold.",
-        "about": "This lab mines large-scale data to predict protein-protein interactions and model protein complexes at a proteome-wide scale using evolutionary signals and advanced AI methods, including AlphaFold and RoseTTAFold. Research addresses biological insights relevant to systems such as cancer and microbial virulence."
+        "about": "This lab mines large-scale data to predict protein-protein interactions and model protein complexes at a proteome-wide scale using evolutionary signals and advanced AI methods, including AlphaFold and RoseTTAFold. Research addresses biological insights relevant to systems such as cancer and microbial virulence.",
+        "hiringStatus": "closed",
+        "jobsUrl": "https://conglab.swmed.edu/web/Home.html"
     },
     {
         "region": "North America",
@@ -1352,7 +1492,9 @@ const labData = [
                 "title": "Evolution-based design",
                 "url": "https://www.science.org/doi/10.1126/science.aba3304"
             }
-        ]
+        ],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://ranganathanlab.org/"
     },
     {
         "region": "North America",
@@ -1368,7 +1510,9 @@ const labData = [
         "institution": "Yale University",
         "pi": "Rex Ying",
         "website": "https://www.cs.yale.edu/homes/ying-rex/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.cs.yale.edu/homes/ying-rex/#student"
     },
     {
         "region": "North America",
@@ -1396,7 +1540,9 @@ const labData = [
         "website": "https://sites.google.com/view/rituparnasamanta",
         "papers": [],
         "keywords": "Membrane proteins, protein-protein interface, molecular simulation, field-based simulation, protein self-assembly.",
-        "about": "The Samanta lab develops computational models to study and engineer protein interactions with various environments, such as water, membranes, biopolymers, and synthetic materials. The lab applies molecular simulations and machine learning techniques to investigate biological and environmental challenges."
+        "about": "The Samanta lab develops computational models to study and engineer protein interactions with various environments, such as water, membranes, biopolymers, and synthetic materials. The lab applies molecular simulations and machine learning techniques to investigate biological and environmental challenges.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://sites.google.com/view/rituparnasamanta"
     },
     {
         "region": "Global",
@@ -1414,7 +1560,9 @@ const labData = [
         "institution": "Duke University",
         "pi": "Rohit Singh",
         "website": "https://singhlab.net/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://singhlab.net/"
     },
     {
         "region": "Global",
@@ -1432,7 +1580,9 @@ const labData = [
         "institution": "Stanford University",
         "pi": "Ron Dror",
         "website": "https://drorlab.stanford.edu/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://drorlab.stanford.edu/"
     },
     {
         "region": "EMEA",
@@ -1440,7 +1590,9 @@ const labData = [
         "institution": "University of Bristol",
         "pi": "Ross Anderson",
         "website": "https://theandersonlab.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://theandersonlab.com/"
     },
     {
         "region": "EMEA",
@@ -1474,7 +1626,9 @@ const labData = [
         "website": "https://sagardkharelab.org/",
         "papers": [],
         "keywords": "Computational biophysics, enzymology, molecular biology, protein design, machine learning, directed evolution, molecular recognition.",
-        "about": "This research operates at the interface of computational and experimental biophysics, enzymology, and molecular biology. The lab employs computational protein design, machine learning, and directed evolution to study molecular recognition in protein function, including enzyme activity, specificity, and conformational changes."
+        "about": "This research operates at the interface of computational and experimental biophysics, enzymology, and molecular biology. The lab employs computational protein design, machine learning, and directed evolution to study molecular recognition in protein function, including enzyme activity, specificity, and conformational changes.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://sagardkharelab.org/join-us/"
     },
     {
         "region": "EMEA",
@@ -1490,7 +1644,9 @@ const labData = [
         "institution": "Pohang University of Science and Technology",
         "pi": "Sangmin Lee",
         "website": "https://sites.google.com/view/pdl-postech",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://sites.google.com/view/pdl-postech"
     },
     {
         "region": "EMEA",
@@ -1498,11 +1654,13 @@ const labData = [
         "institution": "IMDEA Nanoscience research institute",
         "pi": "Sara H Mejias",
         "website": "https://sites.google.com/view/sarahmejias/team-members",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://sites.google.com/view/sarahmejias/open-positions"
     },
     {
         "region": "Global",
-        "country": "🇮🇱 Israel",
+        "country": "\ud83c\uddee\ud83c\uddf1 Israel",
         "institution": "Weizmann Institute of Science",
         "pi": "Sarel J Fleishman",
         "website": "https://www.fleishmanlab.org/",
@@ -1553,7 +1711,9 @@ const labData = [
         "website": "https://liugroup.site/",
         "papers": [],
         "keywords": "Protein structure, protein regulation, computational modeling, signaling networks, drug development, molecular tools, cellular engineering.",
-        "about": "This research integrates computational and experimental approaches to study protein structure, function, and regulation. Key projects include designing and rewiring cellular signaling networks, systematically analyzing protein function, and developing molecular tools and drugs with practical biomedical applications."
+        "about": "This research integrates computational and experimental approaches to study protein structure, function, and regulation. Key projects include designing and rewiring cellular signaling networks, systematically analyzing protein function, and developing molecular tools and drugs with practical biomedical applications.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://liugroup.site/group-introduction/"
     },
     {
         "region": "North America",
@@ -1587,7 +1747,9 @@ const labData = [
         "institution": "Shanghai Jiao Tong University",
         "pi": "Shuangjia Zheng",
         "website": "https://prokia.github.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://prokia.github.io/"
     },
     {
         "region": "North America",
@@ -1595,7 +1757,9 @@ const labData = [
         "institution": "Texas A&M University",
         "pi": "Shuiwang Ji",
         "website": "https://people.tamu.edu/~sji/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://people.tamu.edu/~sji/openings.html"
     },
     {
         "region": "Global",
@@ -1605,7 +1769,9 @@ const labData = [
         "website": "http://protein.technology/",
         "papers": [],
         "keywords": "Molecular modeling, protein design, small-molecule therapeutics, ROSETTA, molecular dynamics, docking, biochemistry, drug discovery.",
-        "about": "This interdisciplinary research integrates computational modeling and experimental validation to design proteins and small molecules with therapeutic potential. Using methods like ROSETTA, molecular dynamics, and docking, interactions between designed molecules and drug targets are predicted. Experimental techniques, including protein expression, purification, and molecular interaction analysis, validate these designs to advance drug discovery."
+        "about": "This interdisciplinary research integrates computational modeling and experimental validation to design proteins and small molecules with therapeutic potential. Using methods like ROSETTA, molecular dynamics, and docking, interactions between designed molecules and drug targets are predicted. Experimental techniques, including protein expression, purification, and molecular interaction analysis, validate these designs to advance drug discovery.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://protein.technology/wordpress/bjelic-lab/opportunities/"
     },
     {
         "region": "Asia",
@@ -1613,7 +1779,9 @@ const labData = [
         "institution": "Fudan University",
         "pi": "Siqi Sun",
         "website": "https://intersun.github.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://intersun.github.io/"
     },
     {
         "region": "North America",
@@ -1621,7 +1789,9 @@ const labData = [
         "institution": "Yale University",
         "pi": "Smita Krishnaswamy",
         "website": "https://krishnaswamylab.org/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://krishnaswamylab.org/join"
     },
     {
         "region": "Asia",
@@ -1629,7 +1799,9 @@ const labData = [
         "institution": "Westlake University",
         "pi": "Stan Z. Li",
         "website": "https://www.westlake.edu.cn/faculty/stan-zq-li.html",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.westlake.edu.cn/faculty/stan-zq-li.html"
     },
     {
         "region": "North America",
@@ -1637,7 +1809,9 @@ const labData = [
         "institution": "Vanderbilt University",
         "pi": "Stephanie Wankowicz",
         "website": "https://wankowiczlab.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://wankowiczlab.com/join/"
     },
     {
         "region": "North America",
@@ -1663,7 +1837,9 @@ const labData = [
         "website": "https://kortemmelab.ucsf.edu/",
         "papers": [],
         "keywords": "Engineered biological systems, molecular design, computational biology, cellular function, organismal fitness, predictive modeling, synthetic biology.",
-        "about": "This research focuses on engineering biological systems, from molecules with new functions to entire organisms. By integrating computational design, predictive modeling, and interdisciplinary approaches from computer science, physics, chemistry, and biology, the lab investigates the relationship between molecular characteristics, cellular function, and organismal fitness."
+        "about": "This research focuses on engineering biological systems, from molecules with new functions to entire organisms. By integrating computational design, predictive modeling, and interdisciplinary approaches from computer science, physics, chemistry, and biology, the lab investigates the relationship between molecular characteristics, cellular function, and organismal fitness.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://kortemmelab.ucsf.edu/join-the-lab.html"
     },
     {
         "region": "Global",
@@ -1681,7 +1857,9 @@ const labData = [
         "institution": "Massachusetts Institute of Technology",
         "pi": "Tess E. Smidt",
         "website": "https://blondegeek.github.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://blondegeek.github.io/"
     },
     {
         "region": "EMEA",
@@ -1702,7 +1880,8 @@ const labData = [
                 "title": "Proteus",
                 "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23418"
             }
-        ]
+        ],
+        "hiringStatus": "closed"
     },
     {
         "region": "North America",
@@ -1710,7 +1889,9 @@ const labData = [
         "institution": "UNC Chapel Hill",
         "pi": "Tianlong Chen",
         "website": "https://tianlong-chen.github.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://tianlong-chen.github.io/"
     },
     {
         "region": "Global",
@@ -1736,7 +1917,9 @@ const labData = [
         "institution": "Massachusetts Institute of Technology",
         "pi": "Tommi S. Jaakkola",
         "website": "https://people.csail.mit.edu/tommi/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://people.csail.mit.edu/tommi/"
     },
     {
         "region": "Global",
@@ -1746,7 +1929,9 @@ const labData = [
         "website": "https://www.schiffner-lab.com/",
         "papers": [],
         "keywords": "Computational protein design, high-throughput screening, immunogens, epitope grafting, glycan masking, multimerization, vaccine development, pathogens.",
-        "about": "This research combines computational protein design with high-throughput experimental screening to develop next-generation vaccine immunogens. Techniques include antibody-antigen optimization, epitope grafting, glycan masking, and protein stabilization, targeting pathogens like Coronaviruses, Hepatitis C, and HIV."
+        "about": "This research combines computational protein design with high-throughput experimental screening to develop next-generation vaccine immunogens. Techniques include antibody-antigen optimization, epitope grafting, glycan masking, and protein stabilization, targeting pathogens like Coronaviruses, Hepatitis C, and HIV.",
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.schiffner-lab.com/positions"
     },
     {
         "region": "EMEA",
@@ -1754,7 +1939,9 @@ const labData = [
         "institution": "Barcelona Supercomputing Center",
         "pi": "Victor Guallar Tasies",
         "website": "https://www.bsc.es/guallar-tasies-victor",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.bsc.es/guallar-tasies-victor"
     },
     {
         "region": "Asia",
@@ -1778,7 +1965,9 @@ const labData = [
         "institution": "University of Florida",
         "pi": "Wenjun Xie",
         "website": "https://pharmacy.ufl.edu/profile/xie-wenjun/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://evocatalysis.github.io/join/"
     },
     {
         "region": "Asia",
@@ -1786,7 +1975,9 @@ const labData = [
         "institution": "Peking University",
         "pi": "Wentao Zhang",
         "website": "https://zwt233.github.io/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://zwt233.github.io/"
     },
     {
         "region": "North America",
@@ -1804,7 +1995,9 @@ const labData = [
         "institution": "Scripps Research Institute",
         "pi": "William E. Balch",
         "website": "https://www.webalchlab.com/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.webalchlab.com/postionsavailable"
     },
     {
         "region": "Asia",
@@ -1846,7 +2039,9 @@ const labData = [
         "institution": "King Abdullah University of Science and Technology",
         "pi": "Xin Gao",
         "website": "https://cemse.kaust.edu.sa/sfb",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://sfb.kaust.edu.sa/"
     },
     {
         "region": "Asia",
@@ -1856,7 +2051,6 @@ const labData = [
         "website": "https://nlp.csai.tsinghua.edu.cn/~ly/",
         "papers": []
     },
-
     {
         "region": "Asia",
         "country": "\ud83c\uddf8\ud83c\uddec Singapore",
@@ -1868,7 +2062,9 @@ const labData = [
                 "title": "EvoDesign",
                 "url": "https://doi.org/10.1016/j.jmb.2019.02.028"
             }
-        ]
+        ],
+        "hiringStatus": "open",
+        "jobsUrl": "https://aideepmed.com/job/"
     },
     {
         "region": "Asia",
@@ -1884,7 +2080,9 @@ const labData = [
         "institution": "University of Oxford",
         "pi": "Yarin Gal",
         "website": "https://www.cs.ox.ac.uk/people/yarin.gal/website/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.cs.ox.ac.uk/people/yarin.gal/website/"
     },
     {
         "region": "Asia",
@@ -1892,7 +2090,9 @@ const labData = [
         "institution": "Peking University",
         "pi": "Yi Qin Gao",
         "website": "https://www.chem.pku.edu.cn/gaoyq/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.chem.pku.edu.cn/gaoyq/index.htm"
     },
     {
         "region": "North America",
@@ -1929,7 +2129,8 @@ const labData = [
                 "title": "Dense Homolog Retriever",
                 "url": "https://www.nature.com/articles/s41587-024-02353-6"
             }
-        ]
+        ],
+        "hiringStatus": "closed"
     },
     {
         "region": "Asia",
@@ -1977,7 +2178,9 @@ const labData = [
         "institution": "Vanderbilt University",
         "pi": "Zhongyue Yang",
         "website": "https://lab.vanderbilt.edu/zyang-lab/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://lab.vanderbilt.edu/zyang-lab/"
     },
     {
         "region": "Asia",
@@ -2009,7 +2212,7 @@ const labData = [
         "region": "EMEA",
         "country": "\ud83c\udde9\ud83c\uddea Germany",
         "institution": "Technical University of Munich",
-        "pi": "Thomas Schlichthärle",
+        "pi": "Thomas Schlichth\u00e4rle",
         "website": "https://www.bio.nat.tum.de/aipd/startseite/",
         "papers": []
     },
@@ -2020,7 +2223,9 @@ const labData = [
         "pi": "Arvind Pillai",
         "image": "images/processed/Arvind-Pillai.jpg",
         "website": "https://www.stowers.org/people/arvind-pillai",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.stowers.org/people/arvind-pillai"
     },
     {
         "region": "EMEA",
@@ -2028,7 +2233,9 @@ const labData = [
         "institution": "Ludwig Maximilian University of Munich",
         "pi": "Lukas Milles",
         "website": "https://www.genzentrum.uni-muenchen.de/research-groups/milles/index.html",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.genzentrum.uni-muenchen.de/research-groups/milles/index.html"
     },
     {
         "region": "EMEA",
@@ -2053,7 +2260,9 @@ const labData = [
         "institution": "University of Ottawa",
         "pi": "Roberto Chica",
         "website": "https://mysite.science.uottawa.ca/rchica/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://mysite.science.uottawa.ca/rchica/index.html"
     },
     {
         "region": "EMEA",
@@ -2070,7 +2279,8 @@ const labData = [
         "pi": "Cathleen Zeymer",
         "image": "images/processed/Cathleen-Zeymer.jpg",
         "website": "https://www.bio.nat.tum.de/en/proteinchemie/about-us/cathleen-zeymer/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed"
     },
     {
         "region": "Asia",
@@ -2104,7 +2314,9 @@ const labData = [
         "institution": "University of California, Santa Barbara",
         "pi": "Yang Yang",
         "website": "https://yang.chem.ucsb.edu/yang",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://yang.chem.ucsb.edu/openings"
     },
     {
         "region": "North America",
@@ -2112,7 +2324,9 @@ const labData = [
         "institution": "Princeton",
         "pi": "Todd Hyster",
         "website": "https://hyster.princeton.edu/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://hyster.princeton.edu/"
     },
     {
         "region": "North America",
@@ -2128,7 +2342,9 @@ const labData = [
         "institution": "The University of Texas at Dallas",
         "pi": "Rudi Fasan",
         "website": "https://labs.utdallas.edu/fasan/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://labs.utdallas.edu/fasan/openings/"
     },
     {
         "region": "North America",
@@ -2136,7 +2352,9 @@ const labData = [
         "institution": "University of Texas at Austin",
         "pi": "Yi Lu",
         "website": "https://lulab.cm.utexas.edu/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://lulab.cm.utexas.edu/"
     },
     {
         "region": "EMEA",
@@ -2144,7 +2362,9 @@ const labData = [
         "institution": "Basel",
         "pi": "Thomas Ward",
         "website": "https://ward.chemie.unibas.ch/en/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://ward.chemie.unibas.ch/en/"
     },
     {
         "region": "EMEA",
@@ -2153,7 +2373,9 @@ const labData = [
         "pi": "Amanda Jarvis",
         "image": "images/processed/Amanda-Jarvis.jpg",
         "website": "https://www.amandajarvis.co.uk/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.amandajarvis.co.uk/join-us"
     },
     {
         "region": "North America",
@@ -2161,11 +2383,12 @@ const labData = [
         "institution": "University of California, Los Angeles",
         "pi": "Mohamad Abedi",
         "website": "https://samueli.ucla.edu/new-faculty-2023-2025/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed"
     },
     {
         "region": "EMEA",
-        "country": "🇨🇭 Switzerland",
+        "country": "\ud83c\udde8\ud83c\udded Switzerland",
         "institution": "University of Zurich",
         "pi": "Martin Pacesa",
         "website": "http://www.pacesalab.com/",
@@ -2173,33 +2396,39 @@ const labData = [
     },
     {
         "region": "EMEA",
-        "country": "🇩🇰 Denmark",
+        "country": "\ud83c\udde9\ud83c\uddf0 Denmark",
         "institution": "Technical University of Denmark",
         "pi": "Timothy Patrick Jenkins",
         "website": "https://www.bioengineering.dtu.dk/research/research-sections/section-for-biologics-engineering/digital-biotechnology-lab",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://www.bioengineering.dtu.dk/research/research-sections/section-for-biologics-engineering/digital-biotechnology-lab"
     },
     {
         "region": "Asia",
-        "country": "🇰🇷 South Korea",
+        "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
         "institution": "Seoul National University",
         "pi": "Martin Steinegger",
         "image": "images/processed/Martin-Steinegger.jpg",
         "website": "https://steineggerlab.com/en/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://steineggerlab.com/en/"
     },
     {
         "region": "EMEA",
-        "country": "🇩🇪 Germany",
+        "country": "\ud83c\udde9\ud83c\uddea Germany",
         "institution": "Max Planck Institute for Terrestrial Microbiology",
         "pi": "Adrian Bunzel",
         "image": "images/processed/Adrian-Bunzel.jpg",
         "website": "https://www.mpi-marburg.mpg.de/bunzel",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://www.mpi-marburg.mpg.de/bunzel"
     },
     {
         "region": "North America",
-        "country": "🇺🇸 United States",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of California, San Diego (UCSD)",
         "pi": "F. Akif Tezcan",
         "image": "images/processed/F-Akif-Tezcan.jpg",
@@ -2208,15 +2437,17 @@ const labData = [
     },
     {
         "region": "North America",
-        "country": "🇺🇸 United States",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Michigan",
         "pi": "Vincent L. Pecoraro",
         "website": "https://sites.lsa.umich.edu/pecoraro-lab/",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "closed",
+        "jobsUrl": "https://sites.lsa.umich.edu/pecoraro-lab/"
     },
     {
         "region": "EMEA",
-        "country": "🇮🇹 Italy",
+        "country": "\ud83c\uddee\ud83c\uddf9 Italy",
         "institution": "University of Naples Federico II",
         "pi": "Angela Lombardi",
         "image": "images/processed/Angela-Lombardi.jpg",
@@ -2225,16 +2456,18 @@ const labData = [
     },
     {
         "region": "North America",
-        "country": "🇺🇸 United States",
+        "country": "\ud83c\uddfa\ud83c\uddf8 United States",
         "institution": "University of Pennsylvania",
         "pi": "Cesar de la Fuente",
         "image": "images/processed/Cesar-de-la-Fuente.jpg",
         "website": "https://delafuentelab.seas.upenn.edu",
-        "papers": []
+        "papers": [],
+        "hiringStatus": "open",
+        "jobsUrl": "https://delafuentelab.seas.upenn.edu/positions/"
     },
     {
         "region": "EMEA",
-        "country": "🇬🇧 United Kingdom",
+        "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
         "institution": "University of Birmingham",
         "pi": "Anna F. A. Peacock",
         "image": "images/processed/Anna-F-A-Peacock.jpg",

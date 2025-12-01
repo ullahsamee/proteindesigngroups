@@ -36,33 +36,50 @@ async function loadLabs() {
 async function scrapeLab(browser, lab) {
     if (!lab.website || lab.website.toLowerCase() === 'na') return [];
 
-    console.log(`Scraping ${lab.pi} (${lab.website})...`);
+    // STRICT RULE: If hiringStatus is 'closed', do not scrape.
+    if (lab.hiringStatus === 'closed') {
+        console.log(`Skipping ${lab.pi} (Hiring Status: Closed)`);
+        return [];
+    }
+
+    const targetUrl = lab.jobsUrl || lab.website;
+    console.log(`Scraping ${lab.pi} (${targetUrl})...`);
+
     const page = await browser.newPage();
 
     try {
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-        await page.goto(lab.website, { waitUntil: 'networkidle2', timeout: 30000 });
 
-        // 1. Find "Jobs" or "Join Us" link
-        const jobLinks = await page.evaluate((keywords) => {
-            const links = Array.from(document.querySelectorAll('a'));
-            return links
-                .filter(a => keywords.some(kw => a.textContent.toLowerCase().includes(kw) || a.href.toLowerCase().includes(kw)))
-                .map(a => a.href)
-                .filter((v, i, a) => a.indexOf(v) === i) // Unique
-                .slice(0, 3); // Limit to top 3 likely links
-        }, JOB_KEYWORDS);
+        // If we have a specific jobsUrl, we ONLY check that page.
+        // If not, we fall back to the old logic of finding links (though most now have jobsUrl).
+        let pagesToCheck = [targetUrl];
+
+        if (!lab.jobsUrl) {
+            try {
+                await page.goto(lab.website, { waitUntil: 'networkidle2', timeout: 30000 });
+                // 1. Find "Jobs" or "Join Us" link if no specific jobsUrl provided
+                const jobLinks = await page.evaluate((keywords) => {
+                    const links = Array.from(document.querySelectorAll('a'));
+                    return links
+                        .filter(a => keywords.some(kw => a.textContent.toLowerCase().includes(kw) || a.href.toLowerCase().includes(kw)))
+                        .map(a => a.href)
+                        .filter((v, i, a) => a.indexOf(v) === i) // Unique
+                        .slice(0, 3); // Limit to top 3 likely links
+                }, JOB_KEYWORDS);
+                if (jobLinks.length > 0) pagesToCheck = jobLinks;
+            } catch (e) {
+                console.warn(`Failed to visit homepage for ${lab.pi}: ${e.message}`);
+            }
+        }
 
         const jobs = [];
 
-        // If no specific job links found, check the homepage itself
-        const pagesToCheck = jobLinks.length > 0 ? jobLinks : [lab.website];
-
         for (const link of pagesToCheck) {
-            if (link !== lab.website) {
-                try {
-                    await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 15000 });
-                } catch (e) { continue; }
+            try {
+                await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 15000 });
+            } catch (e) {
+                console.warn(`Failed to visit ${link}: ${e.message}`);
+                continue;
             }
 
             const content = await page.content();
@@ -132,7 +149,7 @@ async function scrapeLab(browser, lab) {
                         },
                         tags: ["protein-design", "detected"]
                     });
-                    break;
+                    break; // Found a job on this page, move to next lab (or maybe check other pages? usually one is enough)
                 }
             }
         }
@@ -148,18 +165,40 @@ async function scrapeLab(browser, lab) {
 }
 
 async function main() {
-    const labs = await loadLabs();
+    const labData = await loadLabs(); // Renamed from 'labs' to 'labData' for clarity with 'curatedLabs'
     const browser = await puppeteer.launch({
         headless: "new",
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
-    const allJobs = [];
+    // Read existing jobs to preserve curated ones
+    const jobsFilePath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../jobs.js');
+    let existingJobs = [];
+    try {
+        const fileContent = await fs.readFile(jobsFilePath, 'utf-8');
+        // Extract JSON part
+        const match = fileContent.match(/const jobsData = (\[.*\]);/s);
+        if (match) {
+            existingJobs = JSON.parse(match[1]);
+        }
+    } catch (e) {
+        console.warn("Could not read existing jobs.js, starting fresh.", e.message);
+    }
 
-    // Scrape all labs
-    const labsToScrape = labs;
+    const curatedJobs = existingJobs.filter(job => job.tags && job.tags.includes('curated'));
+    const curatedLabs = new Set(curatedJobs.map(job => job.labInfo.pi));
 
-    for (const lab of labsToScrape) {
+    console.log(`Found ${curatedJobs.length} curated jobs from ${curatedLabs.size} labs. These will be preserved.`);
+
+    const allJobs = [...curatedJobs];
+
+    for (const lab of labData) {
+        // Skip scraping if lab has curated jobs
+        if (curatedLabs.has(lab.pi)) {
+            console.log(`Skipping ${lab.pi} (Curated data exists)`);
+            continue;
+        }
+
         const jobs = await scrapeLab(browser, lab);
         allJobs.push(...jobs);
         // Add a small delay to be polite
@@ -168,16 +207,12 @@ async function main() {
 
     await browser.close();
 
-    // Write to jobs.json
-    // In a real scenario, we might want to merge with existing jobs or update a DB
-    // For this static site approach, we overwrite jobs.json (or jobs.js)
-
-    // We need to write it as a JS file so the frontend can import it easily
+    // Write to jobs.js
     const jsContent = `const jobsData = ${JSON.stringify(allJobs, null, 4)};\n\nexport default jobsData;`;
 
-    await fs.writeFile(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../jobs.js'), jsContent);
+    await fs.writeFile(jobsFilePath, jsContent);
 
-    console.log(`Scraping complete. Found ${allJobs.length} jobs. Saved to jobs.js`);
+    console.log(`Scraping complete. Total jobs: ${allJobs.length}. Saved to jobs.js`);
 }
 
 main();

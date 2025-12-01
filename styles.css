@@ -797,6 +797,15 @@ footer {
     gap: 8px;
 }
 
+.job-lab-info .fi {
+    font-size: 1.2em;
+    /* Increase flag size */
+    margin-left: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    border-radius: 2px;
+}
+
 .job-summary {
     font-size: 0.95rem;
     color: var(--text-secondary);

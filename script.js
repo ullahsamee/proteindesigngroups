@@ -66,6 +66,7 @@ function init() {
     populateCountries();
     loadTheme();
     renderLabs();
+    populateJobTypes(); // Populate job filters with counts
     renderJobs(); // Initial render of jobs
     setupEventListeners();
 }
@@ -232,7 +233,7 @@ function setupEventListeners() {
             const selectedRegion = e.target.dataset.region;
 
             // Handle Positions Tab
-            if (selectedRegion === 'positions') {
+            if (selectedRegion === 'positions' || e.target.id === 'positionsTabBtn') {
                 labsGrid.style.display = 'none';
                 statsSection.style.display = 'none';
                 newslineSection.style.display = 'none';
@@ -585,9 +586,62 @@ init();
 
 // --- JOB BOARD LOGIC ---
 
-// Variables moved to top
+function populateJobTypes() {
+    const jobTypeSelect = document.getElementById('jobTypeSelect');
+    if (!jobTypeSelect) return;
 
-// Variables moved to top
+    // Calculate counts
+    const counts = {
+        'all': jobsData.length,
+        'phd': 0,
+        'postdoc': 0,
+        'research-scientist': 0,
+        'faculty': 0,
+        'lab-manager': 0,
+        'masters': 0,
+        'bachelors': 0,
+        'internship': 0,
+        'other': 0
+    };
+
+    jobsData.forEach(job => {
+        const type = job.position.type;
+        if (counts.hasOwnProperty(type)) {
+            counts[type]++;
+        } else {
+            counts['other']++;
+        }
+    });
+
+    // Define options with labels
+    const options = [
+        { value: 'all', label: 'All Types' },
+        { value: 'phd', label: 'PhD' },
+        { value: 'postdoc', label: 'Postdoc' },
+        { value: 'research-scientist', label: 'Research Scientist' },
+        { value: 'faculty', label: 'Faculty' },
+        { value: 'lab-manager', label: 'Lab Manager' },
+        { value: 'masters', label: 'Masters' },
+        { value: 'bachelors', label: 'Bachelors' },
+        { value: 'internship', label: 'Internship' },
+        { value: 'other', label: 'Other' }
+    ];
+
+    // Clear existing options
+    jobTypeSelect.innerHTML = '';
+
+    // Create new options
+    options.forEach(opt => {
+        const count = counts[opt.value] || 0;
+        // Only show if count > 0 or if it's 'all'
+        if (count > 0 || opt.value === 'all') {
+            const option = document.createElement('option');
+            option.value = opt.value;
+            option.textContent = `${opt.label} (${count})`;
+            jobTypeSelect.appendChild(option);
+        }
+    });
+}
 
 function renderJobs() {
     if (!jobsGrid) return;
@@ -626,10 +680,15 @@ function createJobCard(job) {
     card.className = 'job-card';
 
     const typeLabel = {
-        'phd': 'PhD Student',
+        'phd': 'PhD',
         'postdoc': 'Postdoc',
         'research-scientist': 'Research Scientist',
-        'faculty': 'Faculty'
+        'faculty': 'Faculty',
+        'lab-manager': 'Lab Manager',
+        'masters': 'Masters',
+        'bachelors': 'Bachelors',
+        'internship': 'Internship',
+        'other': 'Other'
     }[job.position.type] || job.position.type;
 
     card.innerHTML = `
