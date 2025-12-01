@@ -6,7 +6,7 @@ Protein Design Labs - a curated, interactive directory of protein design researc
 
 ## Overview
 
-Interactive dashboard mapping the global protein design research. Designed to help researchers identify and connect quickly with leading research labs for collaboration, finding PhD/PostDoc positions in the **Open Position tab(experimental feature updated-every-24hours)**, applying to graduates schools and colleges and tracking cutting edge innovations in protein design, engineering and therapeutics.
+Interactive dashboard mapping the global protein design research. Designed to help researchers identify and connect quickly with leading research labs for collaboration, finding PhD/PostDoc positions go to **Open Position tab(updated-every-24hours)**, applying to graduates schools and colleges and tracking cutting edge innovations in protein design, engineering and therapeutics.
 
 ## Features
 
@@ -43,7 +43,7 @@ To run the dashboard locally:
 ## Coming..
 - [ ] Google Scholars and LinkedIn
 - [ ] Support for live interactive google map
-- [X] Open Position tab integrated for user to search positions in the groups
+- [X] Open Position tab integrated for user to search positions Postdoc, PhD, BS, Masters and Internships in the relevent groups
 - [X] Headshots
 - [X] Official laboratory sites
 
