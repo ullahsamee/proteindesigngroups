@@ -47,6 +47,11 @@ To run the dashboard locally:
 - [X] Headshots
 - [X] Official laboratory sites
 
-## License
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ullahsamee/proteindesigngroups&type=Date)](https://star-history.com/#ullahsamee/proteindesigngroups&Date)
+
+
+## License
 [MIT License](LICENSE)
