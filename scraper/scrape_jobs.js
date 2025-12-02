@@ -164,14 +164,28 @@ async function scrapeLab(browser, lab) {
     }
 }
 
+// Helper to normalize URLs for comparison
+function normalizeUrl(url) {
+    if (!url) return '';
+    try {
+        // Force https and remove trailing slash for consistency
+        let u = new URL(url);
+        // We can't force https if the original was http, but we can standardise
+        // Let's just strip trailing slash and whitespace
+        return url.trim().replace(/\/+$/, '').toLowerCase();
+    } catch (e) {
+        return url.trim().replace(/\/+$/, '').toLowerCase();
+    }
+}
+
 async function main() {
-    const labData = await loadLabs(); // Renamed from 'labs' to 'labData' for clarity with 'curatedLabs'
+    const labData = await loadLabs();
     const browser = await puppeteer.launch({
         headless: "new",
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
-    // Read existing jobs to preserve curated ones
+    // Read existing jobs to preserve ALL of them (Smart Preservation)
     const jobsFilePath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../jobs.js');
     let existingJobs = [];
     try {
@@ -185,22 +199,33 @@ async function main() {
         console.warn("Could not read existing jobs.js, starting fresh.", e.message);
     }
 
-    const curatedJobs = existingJobs.filter(job => job.tags && job.tags.includes('curated'));
-    const curatedLabs = new Set(curatedJobs.map(job => job.labInfo.pi));
+    // Create a Set of normalized URLs for fast lookup
+    // We use a Map to track which URLs we have, to avoid duplicates
+    const existingUrls = new Set(existingJobs.map(job => normalizeUrl(job.application.url)));
 
-    console.log(`Found ${curatedJobs.length} curated jobs from ${curatedLabs.size} labs. These will be preserved.`);
+    console.log(`Loaded ${existingJobs.length} existing jobs. These will be preserved.`);
 
-    const allJobs = [...curatedJobs];
+    // Start with existing jobs. We will APPEND new findings.
+    const allJobs = [...existingJobs];
 
     for (const lab of labData) {
-        // Skip scraping if lab has curated jobs
-        if (curatedLabs.has(lab.pi)) {
-            console.log(`Skipping ${lab.pi} (Curated data exists)`);
-            continue;
-        }
+        // We no longer skip "curated" labs. We scrape everyone, but only ADD if new.
 
         const jobs = await scrapeLab(browser, lab);
-        allJobs.push(...jobs);
+
+        for (const job of jobs) {
+            const normUrl = normalizeUrl(job.application.url);
+
+            if (existingUrls.has(normUrl)) {
+                console.log(`Preserving existing entry for: ${job.labInfo.pi} (${job.application.url})`);
+                // Do NOT overwrite. The existing entry (manual or old) wins.
+            } else {
+                console.log(`Adding NEW job for: ${job.labInfo.pi}`);
+                allJobs.push(job);
+                existingUrls.add(normUrl); // Add to set so we don't add it twice in same run
+            }
+        }
+
         // Add a small delay to be polite
         await new Promise(resolve => setTimeout(resolve, 2000));
     }
