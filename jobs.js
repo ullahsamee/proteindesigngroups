@@ -4,7 +4,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Alena Khmelinskaia",
             "institution": "Ludwig Maximilian University of Munich",
-            "country": "\ud83c\udde9\ud83c\uddea Germany",
+            "country": "🇩🇪 Germany",
             "website": "https://khmelinskaia.cup.uni-muenchen.de/"
         },
         "position": {
@@ -28,7 +28,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Alena Khmelinskaia",
             "institution": "Ludwig Maximilian University of Munich",
-            "country": "\ud83c\udde9\ud83c\uddea Germany",
+            "country": "🇩🇪 Germany",
             "website": "https://khmelinskaia.cup.uni-muenchen.de/"
         },
         "position": {
@@ -53,7 +53,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Alena Khmelinskaia",
             "institution": "Ludwig Maximilian University of Munich",
-            "country": "\ud83c\udde9\ud83c\uddea Germany",
+            "country": "🇩🇪 Germany",
             "website": "https://khmelinskaia.cup.uni-muenchen.de/"
         },
         "position": {
@@ -76,7 +76,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Alican Gulsevin",
             "institution": "Butler University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://gulsevinlab.org/"
         },
         "position": {
@@ -101,7 +101,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Alican Gulsevin",
             "institution": "Butler University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://gulsevinlab.org/"
         },
         "position": {
@@ -124,7 +124,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Amy E. Keating",
             "institution": "Massachusetts Institute of Technology",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://biology.mit.edu/profile/amy-e-keating/"
         },
         "position": {
@@ -147,7 +147,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Amy E. Keating",
             "institution": "Massachusetts Institute of Technology",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://biology.mit.edu/profile/amy-e-keating/"
         },
         "position": {
@@ -170,7 +170,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Amy E. Keating",
             "institution": "Massachusetts Institute of Technology",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://biology.mit.edu/profile/amy-e-keating/"
         },
         "position": {
@@ -193,7 +193,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Anastassia A. Vorobieva",
             "institution": "Vrije Universiteit Brussel",
-            "country": "\ud83c\udde7\ud83c\uddea Belgium",
+            "country": "🇧🇪 Belgium",
             "website": "https://vorobievalab.sites.vib.be/en"
         },
         "position": {
@@ -216,7 +216,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Andy Hsien-Wei Yeh",
             "institution": "UCSC",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://neolux.sites.ucsc.edu/"
         },
         "position": {
@@ -239,7 +239,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Andy Hsien-Wei Yeh",
             "institution": "UCSC",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://neolux.sites.ucsc.edu/"
         },
         "position": {
@@ -262,7 +262,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Anne-Florence Bitbol",
             "institution": "EPFL",
-            "country": "\ud83c\udde8\ud83c\udded Switzerland",
+            "country": "🇨🇭 Switzerland",
             "website": "https://www.epfl.ch/labs/bitbol-lab/"
         },
         "position": {
@@ -285,7 +285,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Anne-Florence Bitbol",
             "institution": "EPFL",
-            "country": "\ud83c\udde8\ud83c\udded Switzerland",
+            "country": "🇨🇭 Switzerland",
             "website": "https://www.epfl.ch/labs/bitbol-lab/"
         },
         "position": {
@@ -308,7 +308,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Anum Glasgow",
             "institution": "Columbia University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.biochem.cuimc.columbia.edu/profile/anum-glasgow-phd"
         },
         "position": {
@@ -331,7 +331,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Anum Glasgow",
             "institution": "Columbia University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.biochem.cuimc.columbia.edu/profile/anum-glasgow-phd"
         },
         "position": {
@@ -340,7 +340,7 @@ const jobsData = [
             "deadline": "See website"
         },
         "description": {
-            "summary": "Graduate students at Columbia should send Anum an email to discuss potential projects and rotations. If you\u2019re a prospective graduate student, apply to a graduate program at CUMC."
+            "summary": "Graduate students at Columbia should send Anum an email to discuss potential projects and rotations. If you’re a prospective graduate student, apply to a graduate program at CUMC."
         },
         "application": {
             "url": "https://glasgowlab.org/1_intro.html"
@@ -354,7 +354,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Brian Hie",
             "institution": "Stanford University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://evodesign.org/"
         },
         "position": {
@@ -378,7 +378,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Brian Hie",
             "institution": "Stanford University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://evodesign.org/"
         },
         "position": {
@@ -401,7 +401,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Brian Kuhlman",
             "institution": "UNC Chapel Hill",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://klab.web.unc.edu/research/"
         },
         "position": {
@@ -424,7 +424,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Bruno E. Correia",
             "institution": "EPFL Lausanne",
-            "country": "\ud83c\udde8\ud83c\udded Switzerland",
+            "country": "🇨🇭 Switzerland",
             "website": "https://www.epfl.ch/labs/lpdi/"
         },
         "position": {
@@ -447,7 +447,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Charlotte Deane",
             "institution": "University of Oxford",
-            "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
+            "country": "🇬🇧 United Kingdom",
             "website": "https://opig.stats.ox.ac.uk/"
         },
         "position": {
@@ -470,7 +470,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Chris Wells Wood",
             "institution": "University of Edinburgh",
-            "country": "\ud83c\uddec\ud83c\udde7 United Kingdom",
+            "country": "🇬🇧 United Kingdom",
             "website": "https://www.wellswoodresearchgroup.com/"
         },
         "position": {
@@ -493,7 +493,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Clara T. Schoeder",
             "institution": "Leipzig University",
-            "country": "\ud83c\udde9\ud83c\uddea Germany",
+            "country": "🇩🇪 Germany",
             "website": "https://www.schoederlab.org/"
         },
         "position": {
@@ -517,7 +517,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Colin Smith",
             "institution": "Wesleyan University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://smithlab.research.wesleyan.edu/"
         },
         "position": {
@@ -540,7 +540,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Colin Smith",
             "institution": "Wesleyan University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://smithlab.research.wesleyan.edu/"
         },
         "position": {
@@ -564,7 +564,7 @@ const jobsData = [
         "labInfo": {
             "pi": "David Baker",
             "institution": "University of Washington",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.bakerlab.org/"
         },
         "position": {
@@ -587,7 +587,7 @@ const jobsData = [
         "labInfo": {
             "pi": "David Baker",
             "institution": "University of Washington",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.bakerlab.org/"
         },
         "position": {
@@ -610,7 +610,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Enrique Marcos",
             "institution": "Institute of Molecular Biology of Barcelona CSIC",
-            "country": "\ud83c\uddea\ud83c\uddf8 Spain",
+            "country": "🇪🇸 Spain",
             "website": "https://ibmb.csic.es/en/department-of-structural-and-molecular-biology/protein-design-and-modeling/#lab-presentation"
         },
         "position": {
@@ -633,7 +633,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Eva-Maria Strauch",
             "institution": "Washington University of St. Louis",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.strauchlab.com/"
         },
         "position": {
@@ -656,7 +656,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Eva-Maria Strauch",
             "institution": "Washington University of St. Louis",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.strauchlab.com/"
         },
         "position": {
@@ -679,7 +679,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Gabriel Rocklin",
             "institution": "Northwestern University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.rocklinlab.org/"
         },
         "position": {
@@ -702,7 +702,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Gabriel Rocklin",
             "institution": "Northwestern University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.rocklinlab.org/"
         },
         "position": {
@@ -725,7 +725,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Gaurav Bhardwaj",
             "institution": "University of Washington",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://peptidedesign.org/"
         },
         "position": {
@@ -748,7 +748,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Ge Liu",
             "institution": "University of Illinois at Urbana-Champaign",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.mit.edu/~geliu/"
         },
         "position": {
@@ -771,7 +771,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Haiyan Liu",
             "institution": "University of Science and Technology of China",
-            "country": "\ud83c\udde8\ud83c\uddf3 China",
+            "country": "🇨🇳 China",
             "website": "https://biocomp.ustc.edu.cn/"
         },
         "position": {
@@ -794,7 +794,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Ho Min Kim",
             "institution": "Institute for Basic Science",
-            "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
+            "country": "🇰🇷 South Korea",
             "website": "https://protein.ibs.re.kr/people/chief-investigator"
         },
         "position": {
@@ -819,7 +819,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Huong Kratochvil",
             "institution": "UNC Chapel Hill",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.kratochvillab.com/"
         },
         "position": {
@@ -842,7 +842,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Huong Kratochvil",
             "institution": "UNC Chapel Hill",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.kratochvillab.com/"
         },
         "position": {
@@ -865,7 +865,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Ingemar Andre",
             "institution": "Lund University",
-            "country": "\ud83c\uddf8\ud83c\uddea Sweden",
+            "country": "🇸🇪 Sweden",
             "website": "https://andrelab.lu.se/"
         },
         "position": {
@@ -888,7 +888,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Ingemar Andre",
             "institution": "Lund University",
-            "country": "\ud83c\uddf8\ud83c\uddea Sweden",
+            "country": "🇸🇪 Sweden",
             "website": "https://andrelab.lu.se/"
         },
         "position": {
@@ -911,7 +911,7 @@ const jobsData = [
         "labInfo": {
             "pi": "James J. Collins",
             "institution": "Massachusetts Institute of Technology",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.collinslab.mit.edu/"
         },
         "position": {
@@ -934,7 +934,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jeffrey J. Gray",
             "institution": "John Hopkins University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://graylab.jhu.edu/"
         },
         "position": {
@@ -958,7 +958,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jeffrey J. Gray",
             "institution": "John Hopkins University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://graylab.jhu.edu/"
         },
         "position": {
@@ -982,7 +982,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jennifer Listgarten",
             "institution": "UC Berkeley",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.jennifer.listgarten.com/"
         },
         "position": {
@@ -1005,7 +1005,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jennifer Listgarten",
             "institution": "UC Berkeley",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.jennifer.listgarten.com/"
         },
         "position": {
@@ -1029,7 +1029,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jens Meiler",
             "institution": "Vanderbilt University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://meilerlab.org/"
         },
         "position": {
@@ -1052,7 +1052,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jianyang Zeng",
             "institution": "Westlake University",
-            "country": "\ud83c\udde8\ud83c\uddf3 China",
+            "country": "🇨🇳 China",
             "website": "https://aicb.lab.westlake.edu.cn/"
         },
         "position": {
@@ -1075,7 +1075,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jianyi Yang",
             "institution": "Shandong University",
-            "country": "\ud83c\udde8\ud83c\uddf3 China",
+            "country": "🇨🇳 China",
             "website": "https://yanglab.qd.sdu.edu.cn/"
         },
         "position": {
@@ -1098,7 +1098,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jianyi Yang",
             "institution": "Shandong University",
-            "country": "\ud83c\udde8\ud83c\uddf3 China",
+            "country": "🇨🇳 China",
             "website": "https://yanglab.qd.sdu.edu.cn/"
         },
         "position": {
@@ -1121,7 +1121,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jiri Damborsky",
             "institution": "Masaryk University",
-            "country": "\ud83c\udde8\ud83c\uddff Czech Republic",
+            "country": "🇨🇿 Czech Republic",
             "website": "https://loschmidt.chemi.muni.cz/peg/"
         },
         "position": {
@@ -1144,7 +1144,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Jure Leskovec",
             "institution": "Stanford University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://snap.stanford.edu/"
         },
         "position": {
@@ -1167,7 +1167,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Katherine I. Albanese",
             "institution": "Wake Forest University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.albaneselab.com/"
         },
         "position": {
@@ -1190,7 +1190,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Kevin Drew",
             "institution": "University of Illinois at Chicago",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://ksdrew.github.io/"
         },
         "position": {
@@ -1213,7 +1213,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Kevin Drew",
             "institution": "University of Illinois at Chicago",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://ksdrew.github.io/"
         },
         "position": {
@@ -1236,7 +1236,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Kotaro Tsuboyama",
             "institution": "University of Tokyo",
-            "country": "\ud83c\uddef\ud83c\uddf5 Japan",
+            "country": "🇯🇵 Japan",
             "website": "https://sites.google.com/view/tsubo-lab/home"
         },
         "position": {
@@ -1259,7 +1259,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Kotaro Tsuboyama",
             "institution": "University of Tokyo",
-            "country": "\ud83c\uddef\ud83c\uddf5 Japan",
+            "country": "🇯🇵 Japan",
             "website": "https://sites.google.com/view/tsubo-lab/home"
         },
         "position": {
@@ -1282,7 +1282,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Marco Mravic",
             "institution": "Scripps Research",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://mmravic314.github.io/"
         },
         "position": {
@@ -1305,7 +1305,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Marco Mravic",
             "institution": "Scripps Research",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://mmravic314.github.io/"
         },
         "position": {
@@ -1328,7 +1328,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Marinka Zitnik",
             "institution": "Harvard University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://zitniklab.hms.harvard.edu/"
         },
         "position": {
@@ -1351,7 +1351,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Marinka Zitnik",
             "institution": "Harvard University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://zitniklab.hms.harvard.edu/"
         },
         "position": {
@@ -1375,7 +1375,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Michael Shirts",
             "institution": "University of Colorado Boulder",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.colorado.edu/lab/shirtsgroup/"
         },
         "position": {
@@ -1398,7 +1398,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Michael Westberg",
             "institution": "Aarhus University",
-            "country": "\ud83c\udde9\ud83c\uddf0 Denmark",
+            "country": "🇩🇰 Denmark",
             "website": "https://westberglab.com/"
         },
         "position": {
@@ -1421,7 +1421,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Mohammed AlQuraishi",
             "institution": "Columbia University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.aqlab.io/"
         },
         "position": {
@@ -1444,7 +1444,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Mohammed AlQuraishi",
             "institution": "Columbia University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.aqlab.io/"
         },
         "position": {
@@ -1467,7 +1467,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Neil King",
             "institution": "University of Washington",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://kinglab.ipd.uw.edu/"
         },
         "position": {
@@ -1490,7 +1490,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Nicholas F. Polizzi",
             "institution": "Dana-Farber Cancer Institute",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.polizzilab.org/"
         },
         "position": {
@@ -1514,7 +1514,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Nicholas F. Polizzi",
             "institution": "Dana-Farber Cancer Institute",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.polizzilab.org/"
         },
         "position": {
@@ -1523,7 +1523,7 @@ const jobsData = [
             "deadline": "See website"
         },
         "description": {
-            "summary": "We\u2019re recruiting graduate students who are accepted into Harvard or Harvard/MIT PhD programs!"
+            "summary": "We’re recruiting graduate students who are accepted into Harvard or Harvard/MIT PhD programs!"
         },
         "application": {
             "url": "https://www.polizzilab.org/#join-section"
@@ -1537,7 +1537,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Nik Sgourakis",
             "institution": "University of Pennsylvania",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.sgourakislab.org/"
         },
         "position": {
@@ -1561,7 +1561,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Parisa Hosseinzadeh",
             "institution": "University of Oregon",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.parisahlab.org/"
         },
         "position": {
@@ -1570,7 +1570,7 @@ const jobsData = [
             "deadline": "See website"
         },
         "description": {
-            "summary": "We\u2019re currently looking for postdocs that are looking to solve solutions at the intersection of chemical biology and computational biology."
+            "summary": "We’re currently looking for postdocs that are looking to solve solutions at the intersection of chemical biology and computational biology."
         },
         "application": {
             "url": "https://www.parisahlab.org/contact-us"
@@ -1585,7 +1585,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Parisa Hosseinzadeh",
             "institution": "University of Oregon",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.parisahlab.org/"
         },
         "position": {
@@ -1594,7 +1594,7 @@ const jobsData = [
             "deadline": "See website"
         },
         "description": {
-            "summary": "If you\u2019re interested in joining our lab, we will need take students from different programs at the University of Oregon."
+            "summary": "If you’re interested in joining our lab, we will need take students from different programs at the University of Oregon."
         },
         "application": {
             "url": "https://www.parisahlab.org/contact-us"
@@ -1608,7 +1608,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Patrick Barth",
             "institution": "EPFL",
-            "country": "\ud83c\udde8\ud83c\udded Switzerland",
+            "country": "🇨🇭 Switzerland",
             "website": "https://www.epfl.ch/labs/barth-lab/"
         },
         "position": {
@@ -1632,7 +1632,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Patrick Barth",
             "institution": "EPFL",
-            "country": "\ud83c\udde8\ud83c\udded Switzerland",
+            "country": "🇨🇭 Switzerland",
             "website": "https://www.epfl.ch/labs/barth-lab/"
         },
         "position": {
@@ -1655,7 +1655,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Philip A. Romero",
             "institution": "University of Wisconsin-Madison",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.romerolab.org/"
         },
         "position": {
@@ -1678,7 +1678,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Philip A. Romero",
             "institution": "University of Wisconsin-Madison",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.romerolab.org/"
         },
         "position": {
@@ -1701,7 +1701,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Philip M. Kim",
             "institution": "University of Toronto",
-            "country": "\ud83c\udde8\ud83c\udde6 Canada",
+            "country": "🇨🇦 Canada",
             "website": "https://www.kimlab.org/"
         },
         "position": {
@@ -1725,7 +1725,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Philip M. Kim",
             "institution": "University of Toronto",
-            "country": "\ud83c\udde8\ud83c\udde6 Canada",
+            "country": "🇨🇦 Canada",
             "website": "https://www.kimlab.org/"
         },
         "position": {
@@ -1748,7 +1748,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Possu Huang",
             "institution": "Stanford University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.proteindesign.org/"
         },
         "position": {
@@ -1772,7 +1772,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Possu Huang",
             "institution": "Stanford University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "http://www.proteindesign.org/"
         },
         "position": {
@@ -1795,7 +1795,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Rituparna Samanta",
             "institution": "University of Texas at Austin",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://sites.google.com/view/rituparnasamanta"
         },
         "position": {
@@ -1818,7 +1818,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Rohit Singh",
             "institution": "Duke University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://singhlab.net/"
         },
         "position": {
@@ -1841,7 +1841,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Sagar Khare",
             "institution": "Rutgers University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://sagardkharelab.org/"
         },
         "position": {
@@ -1866,7 +1866,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Sagar Khare",
             "institution": "Rutgers University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://sagardkharelab.org/"
         },
         "position": {
@@ -1889,7 +1889,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Sara H Mejias",
             "institution": "IMDEA Nanoscience",
-            "country": "\ud83c\uddea\ud83c\uddf8 Spain",
+            "country": "🇪🇸 Spain",
             "website": "https://sites.google.com/view/sarahmejias"
         },
         "position": {
@@ -1912,7 +1912,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Sen Liu",
             "institution": "China Three Gorges University",
-            "country": "\ud83c\udde8\ud83c\uddf3 China",
+            "country": "🇨🇳 China",
             "website": "https://liugroup.site/"
         },
         "position": {
@@ -1935,7 +1935,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Shuangjia Zheng",
             "institution": "Shanghai Jiao Tong University",
-            "country": "\ud83c\udde8\ud83c\uddf3 China",
+            "country": "🇨🇳 China",
             "website": "https://prokia.github.io/"
         },
         "position": {
@@ -1958,7 +1958,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Shuiwang Ji",
             "institution": "Texas A&M University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://people.tamu.edu/~sji/"
         },
         "position": {
@@ -1981,7 +1981,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Sinisa Bjelic",
             "institution": "Linnaeus University",
-            "country": "\ud83c\uddf8\ud83c\uddea Sweden",
+            "country": "🇸🇪 Sweden",
             "website": "https://protein.technology/wordpress/bjelic-lab/"
         },
         "position": {
@@ -2004,7 +2004,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Smita Krishnaswamy",
             "institution": "Yale University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://krishnaswamylab.org/"
         },
         "position": {
@@ -2028,7 +2028,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Smita Krishnaswamy",
             "institution": "Yale University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://krishnaswamylab.org/"
         },
         "position": {
@@ -2051,7 +2051,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Stephanie Wankowicz",
             "institution": "Vanderbilt University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://wankowiczlab.com/"
         },
         "position": {
@@ -2074,7 +2074,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Stephanie Wankowicz",
             "institution": "Vanderbilt University",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://wankowiczlab.com/"
         },
         "position": {
@@ -2098,7 +2098,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Tanja Kortemme",
             "institution": "UCSF",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://kortemmelab.ucsf.edu/"
         },
         "position": {
@@ -2121,7 +2121,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Tanja Kortemme",
             "institution": "UCSF",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://kortemmelab.ucsf.edu/"
         },
         "position": {
@@ -2144,7 +2144,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Torben Schiffner",
             "institution": "University of Hamburg",
-            "country": "\ud83c\udde9\ud83c\uddea Germany",
+            "country": "🇩🇪 Germany",
             "website": "https://www.schiffner-lab.com/"
         },
         "position": {
@@ -2167,7 +2167,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Wenjun Xie",
             "institution": "University of Florida",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://evocatalysis.github.io/"
         },
         "position": {
@@ -2190,7 +2190,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Wenjun Xie",
             "institution": "University of Florida",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://evocatalysis.github.io/"
         },
         "position": {
@@ -2213,7 +2213,7 @@ const jobsData = [
         "labInfo": {
             "pi": "William E. Balch",
             "institution": "Scripps Research",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://www.webalchlab.com/"
         },
         "position": {
@@ -2222,7 +2222,7 @@ const jobsData = [
             "deadline": "See website"
         },
         "description": {
-            "summary": "Dr. Balch\u2019s genomics-oriented cell biology laboratory has openings for individuals with interest in understanding and treating mono and polygenic disease."
+            "summary": "Dr. Balch’s genomics-oriented cell biology laboratory has openings for individuals with interest in understanding and treating mono and polygenic disease."
         },
         "application": {
             "url": "https://www.webalchlab.com/postionsavailable"
@@ -2236,7 +2236,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Xin Gao",
             "institution": "KAUST",
-            "country": "\ud83c\uddf8\ud83c\udde6 Saudi Arabia",
+            "country": "🇸🇦 Saudi Arabia",
             "website": "https://sfb.kaust.edu.sa/"
         },
         "position": {
@@ -2259,7 +2259,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Xin Gao",
             "institution": "KAUST",
-            "country": "\ud83c\uddf8\ud83c\udde6 Saudi Arabia",
+            "country": "🇸🇦 Saudi Arabia",
             "website": "https://sfb.kaust.edu.sa/"
         },
         "position": {
@@ -2283,7 +2283,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Yang Zhang",
             "institution": "National University of Singapore",
-            "country": "\ud83c\uddf8\ud83c\uddec Singapore",
+            "country": "🇸🇬 Singapore",
             "website": "https://aideepmed.com/"
         },
         "position": {
@@ -2306,7 +2306,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Yang Zhang",
             "institution": "National University of Singapore",
-            "country": "\ud83c\uddf8\ud83c\uddec Singapore",
+            "country": "🇸🇬 Singapore",
             "website": "https://aideepmed.com/"
         },
         "position": {
@@ -2329,7 +2329,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Yang Yang",
             "institution": "UC Santa Barbara",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://yang.chem.ucsb.edu/"
         },
         "position": {
@@ -2353,7 +2353,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Yang Yang",
             "institution": "UC Santa Barbara",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://yang.chem.ucsb.edu/"
         },
         "position": {
@@ -2378,7 +2378,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Rudi Fasan",
             "institution": "University of Texas at Dallas",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://labs.utdallas.edu/fasan/"
         },
         "position": {
@@ -2401,7 +2401,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Rudi Fasan",
             "institution": "University of Texas at Dallas",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://labs.utdallas.edu/fasan/"
         },
         "position": {
@@ -2424,7 +2424,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Martin Steinegger",
             "institution": "Seoul National University",
-            "country": "\ud83c\uddf0\ud83c\uddf7 South Korea",
+            "country": "🇰🇷 South Korea",
             "website": "https://steineggerlab.com/"
         },
         "position": {
@@ -2447,7 +2447,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Adrian Bunzel",
             "institution": "Max Planck Institute",
-            "country": "\ud83c\udde9\ud83c\uddea Germany",
+            "country": "🇩🇪 Germany",
             "website": "https://www.mpi-marburg.mpg.de/bunzel"
         },
         "position": {
@@ -2470,7 +2470,7 @@ const jobsData = [
         "labInfo": {
             "pi": "Cesar de la Fuente",
             "institution": "University of Pennsylvania",
-            "country": "\ud83c\uddfa\ud83c\uddf8 United States",
+            "country": "🇺🇸 United States",
             "website": "https://delafuentelab.seas.upenn.edu/"
         },
         "position": {
@@ -2486,6 +2486,78 @@ const jobsData = [
         },
         "tags": [
             "protein-design"
+        ]
+    },
+    {
+        "id": "job_cameron_glasscock_1764731974946",
+        "labInfo": {
+            "pi": "Cameron Glasscock",
+            "institution": "Rice University",
+            "country": "🇺🇸 United States",
+            "website": "https://glasscocklab.blogs.rice.edu/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Prospective postdocs: We are currently not hiring for postdoctoral researchers. However, if you are interested in learning more about future opportunities in the lab, please reach out with your CV and a few sentences about what led you to consider working in computational protein design. The lab is most interested in postdoctoral candidates with experience in computational biology/biophysics, AI/ML, or high-throughput molecular biology/biochemistry...."
+        },
+        "application": {
+            "url": "https://glasscocklab.blogs.rice.edu/join/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_james_moody_1764732264001",
+        "labInfo": {
+            "pi": "James Moody",
+            "institution": "Brigham Young University",
+            "country": "🇺🇸 United States",
+            "website": "https://labs.chem.byu.edu/moody-lab/about-us"
+        },
+        "position": {
+            "title": "Open Position (interested in joining)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "ologics, and we develop novel small molecule drugsInterested in joining?In the Moody lab you can learn computational protein modeling and design, molecular biology techniques, protein biochemistry, protein X-ray crystallography and protein cryo-electron microscopy. If you’re interested, I’d love to..."
+        },
+        "application": {
+            "url": "https://labs.chem.byu.edu/moody-lab/about-us"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
+    },
+    {
+        "id": "job_jian_tang_1764732300696",
+        "labInfo": {
+            "pi": "Jian Tang",
+            "institution": "Mila - Quebec AI Institute",
+            "country": "🇨🇦 Canada",
+            "website": "https://jian-tang.com/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "I am currently an associate professor at Mila-Quebec AI Institute and HEC Montreal. Prior to that, I was a Postdoc at University of Michigan and Carnegie Mellon University. I also worked at Microsoft Research Asia as an associate researcher between 2014-2016. For more information, please check my CV...."
+        },
+        "application": {
+            "url": "https://jian-tang.com/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
         ]
     }
 ];
