@@ -2559,6 +2559,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_sheena_radford_1764819133379",
+        "labInfo": {
+            "pi": "Sheena Radford",
+            "institution": "University of Leeds",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://astbury.leeds.ac.uk/people/professor-sheena-radford/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Before coming to Leeds, I graduated with a BSc in Biochemistry at the University of Birmingham, completed my PhD in Biochemistry at the University of Cambridge with Professor R.N. Perham, FRS, and held various postdoctoral posts and a Royal Society University Research Fellowship at the Oxford Centre for Molecular Sciences...."
+        },
+        "application": {
+            "url": "https://astbury.leeds.ac.uk/people/professor-sheena-radford/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
