@@ -2583,6 +2583,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_martin_willemoës_1765079221279",
+        "labInfo": {
+            "pi": "Martin Willemoës",
+            "institution": "University of Copenhagen",
+            "country": "🇩🇰 Denmark",
+            "website": "https://www1.bio.ku.dk/english/research/bms/pbg/mw/"
+        },
+        "position": {
+            "title": "Open Position (phd student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "As a PhD student at the University of Copenhagen, you are enrolled in one of six PhD schools and supported by a centralised PhD administration that ensures consistent guidance and services throughout your programme...."
+        },
+        "application": {
+            "url": "https://phd.ku.dk/english/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
