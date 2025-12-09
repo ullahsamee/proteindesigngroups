@@ -2607,6 +2607,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_sheena_radford_1765251132367",
+        "labInfo": {
+            "pi": "Sheena Radford",
+            "institution": "University of Leeds",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://astbury.leeds.ac.uk/people/professor-sheena-radford/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "to see our current independently funded fellows. Postdoctoral Opportunities Opportunities for postdoctoral researchers often exist within the Astbury Centre. These posts will be advertised nationally in scientific journals and on websites. The following links may be helpful: https://jobs.leeds.ac.u..."
+        },
+        "application": {
+            "url": "https://astbury.leeds.ac.uk/join/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
