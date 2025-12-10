@@ -2631,6 +2631,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_rhiju_das_1765337595156",
+        "labInfo": {
+            "pi": "Rhiju Das",
+            "institution": "Stanford University",
+            "country": "🇺🇸 United States",
+            "website": "https://profiles.stanford.edu/rhiju-das"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "All Profiles Faculty, Research and Teaching Staff Staff Postdocs Graduate Students Last Name A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Vice Provost for Student Affairs Dean of Educational Resources Dean of Student Life Office of Vice Provost for Student Affairs Residential Education Student and Academic Services and University Registrar Vaden Student Health Service..."
+        },
+        "application": {
+            "url": "https://profiles.stanford.edu/browse/vice-provost-for-student-affairs"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
