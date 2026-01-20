@@ -2655,6 +2655,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_scott_banta_1768881380826",
+        "labInfo": {
+            "pi": "Scott Banta",
+            "institution": "Columbia University",
+            "country": "🇺🇸 United States",
+            "website": "https://bantalab.cheme.columbia.edu/"
+        },
+        "position": {
+            "title": "Open Position (phd student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "December 01, 2025 New PhD Student Joins the Group Lauren Murray is the newest PhD student in the Banta Lab. Welcome aboard Lauren!..."
+        },
+        "application": {
+            "url": "https://bantalab.cheme.columbia.edu/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
