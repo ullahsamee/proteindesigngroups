@@ -2679,6 +2679,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_kyunghyun_cho_1769225734107",
+        "labInfo": {
+            "pi": "Kyunghyun Cho",
+            "institution": "New York University",
+            "country": "🇺🇸 United States",
+            "website": "https://kyunghyuncho.me/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "book AI Research from June 2017 to May 2020 and a postdoctoral fellow at University of Montreal until Summer 2015 under the supervision of Prof. Yoshua Bengio, after receiving MSc and PhD degrees from Aalto University April 2011 and April 2014, respectively, under the supervision of Prof. Juha Karhu..."
+        },
+        "application": {
+            "url": "https://kyunghyuncho.me/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
