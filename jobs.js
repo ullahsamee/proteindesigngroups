@@ -2703,6 +2703,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_richard_bayliss_1770178879128",
+        "labInfo": {
+            "pi": "Richard Bayliss",
+            "institution": "University of Leeds",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://biologicalsciences.leeds.ac.uk/molecular-and-cellular-biology/staff/23/prof-richard-bayliss"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Undergraduate Programme Survey (UGPS) Non-final-year undergraduate students, share your thoughts for a chance to win £500. Give honest, anonymous feedback about your course to help us make improvements. Complete the UGPS..."
+        },
+        "application": {
+            "url": "https://students.leeds.ac.uk/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
