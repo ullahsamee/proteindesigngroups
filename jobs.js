@@ -2751,6 +2751,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_scott_banta_1771389301380",
+        "labInfo": {
+            "pi": "Scott Banta",
+            "institution": "Columbia University",
+            "country": "🇺🇸 United States",
+            "website": "https://bantalab.cheme.columbia.edu/"
+        },
+        "position": {
+            "title": "Open Position (phd student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Columbia | Banta Lab New PhD Student Joins the Group Share to Facebook Share to X Share to LinkedIn Share to Bluesky Share to Threads Share to Print News January 15, 2026 Seminar given at the University of Michigan December 18, 2025 New Article Published in Langmuir December 01, 2025 New PhD Student Joins the Group November 04, 2025 Presentation given at AIChE Annual Meeting October 14, 2025 Seminar given at University of Oklahoma Back to Top..."
+        },
+        "application": {
+            "url": "https://bantalab.cheme.columbia.edu/news/new-phd-student-joins-group"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
