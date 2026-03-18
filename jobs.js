@@ -2775,6 +2775,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_fabio_parmeggiani_1773808160324",
+        "labInfo": {
+            "pi": "Fabio Parmeggiani",
+            "institution": "Cardiff University",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://profiles.cardiff.ac.uk/staff/parmeggianif"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "We are always looking for undergraduates, postgraduates and postdoc interested in protein design, both from experimental and computational/mathematical backgrounds...."
+        },
+        "application": {
+            "url": "https://profiles.cardiff.ac.uk/staff/parmeggianif"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
