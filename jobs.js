@@ -2799,6 +2799,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_yuguang_wang_1774500533485",
+        "labInfo": {
+            "pi": "Yuguang Wang",
+            "institution": "Shanghai Jiao Tong University",
+            "country": "🇨🇳 China",
+            "website": "https://yuguangwang.github.io/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Monday, February 05, 20189:30 - 10:00 AM ESTProgram Welcome - Brendan Hassett, ICERM DirectorLocation: 11th Floor Lecture Hall10:00 - 10:30 AM ESTProgram Organizer WelcomeLocation: 11th Floor Lecture Hall11:00 AM - 12:00 PM ESTPostdocs and Graduate Student Meeting with ICERM DirectorateLocation: 11th Floor Conference Room3:30 - 4:00 PM ESTCoffee and Tea BreakLocation: 11th Floor Collaborative Space5:00 - 6:30 PM ESTWelcome ReceptionLocation: 11th Floor Collaborative Space..."
+        },
+        "application": {
+            "url": "https://icerm.brown.edu/programs/sp-s18/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
