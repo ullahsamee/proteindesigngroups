@@ -2823,6 +2823,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_william_degrado_1774586968878",
+        "labInfo": {
+            "pi": "William DeGrado",
+            "institution": "University of California San Francisco",
+            "country": "🇺🇸 United States",
+            "website": "https://pharm.ucsf.edu/degrado"
+        },
+        "position": {
+            "title": "Open Position (phd student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "July 28, 2025 Dr. Don Engel Receives Tenure at the University of Maryland, Baltimore County! Congratulations to former DGL PhD student Dr. Don Engel for receiving tenure in the University of Maryland, Baltimore County, Computer Science Department!..."
+        },
+        "application": {
+            "url": "https://pharm.ucsf.edu/degrado"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
