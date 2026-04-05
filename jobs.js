@@ -2847,6 +2847,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_frances_arnold_1775364059213",
+        "labInfo": {
+            "pi": "Frances Arnold",
+            "institution": "Caltech",
+            "country": "🇺🇸 United States",
+            "website": "http://fhalab.caltech.edu/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "IRVINE, Calif., April 2, 2026 /PRNewswire/ -- The Arnold and Mabel Beckman Foundation announced today the selection of its 2026 expanded class of Arnold O. Beckman Postdoctoral Fellows, individuals who underscore the Foundation's mission of supporting basic research in chemical sciences and chemical instrumentation. They were selected after a three-part review led by a panel of scientific experts...."
+        },
+        "application": {
+            "url": "https://www.prnewswire.com/news-releases/beckman-foundation-announces-2026-arnold-o-beckman-postdoctoral-fellows-302732688.html?tc=eml_cleartime"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
