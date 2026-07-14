@@ -2871,6 +2871,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_scott_banta_1784005169824",
+        "labInfo": {
+            "pi": "Scott Banta",
+            "institution": "Columbia University",
+            "country": "🇺🇸 United States",
+            "website": "https://bantalab.cheme.columbia.edu/"
+        },
+        "position": {
+            "title": "Open Position (hiring)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Equal Opportunity Employer / Disability / VeteranColumbia University is committed to the hiring of qualified local residentsColumbia University is committed to protecting your privacyColumbia University provides reasonable accommodations to applicants with disabilitiesNCAA Statement | Pay Transparency | Clery Act NotificationLabor Condition Applications (LCA) Notices..."
+        },
+        "application": {
+            "url": "https://careers.columbia.edu/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
