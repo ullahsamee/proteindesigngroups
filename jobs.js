@@ -2895,6 +2895,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_yilun_du_1786420332807",
+        "labInfo": {
+            "pi": "Yilun Du",
+            "institution": "Harvard University",
+            "country": "🇺🇸 United States",
+            "website": "https://yilundu.github.io/"
+        },
+        "position": {
+            "title": "Open Position (phd student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "[2026] I am recruiting PhD students for the December 2026 application cycle through the Embodied Minds Lab...."
+        },
+        "application": {
+            "url": "https://yilundu.github.io/#publications"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
