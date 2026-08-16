@@ -2919,6 +2919,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_neville_bethel_1786849928472",
+        "labInfo": {
+            "pi": "Neville Bethel",
+            "institution": "UCSD",
+            "country": "🇺🇸 United States",
+            "website": "https://www.bethel-lab.org/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Postdoctoral Scholar – Deep Learning for Protein Design..."
+        },
+        "application": {
+            "url": "https://www.bethel-lab.org/join-us/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
