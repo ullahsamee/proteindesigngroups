@@ -2943,6 +2943,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_basile_wicky_1788332454557",
+        "labInfo": {
+            "pi": "Basile Wicky",
+            "institution": "ETH Zurich",
+            "country": "🇨🇭 Switzerland",
+            "website": "https://bsse.ethz.ch/people/detail-person.basile-wicky.html"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "NTU AI-for-X Postdoctoral Fellowship 2026 The Nanyang Technological University Singapore (NTU) is pleased to invite applications for the NTU AI-for-X Postdoctoral Fellowship (AI4X-PDF) 2026. Deadline: 30 October 2026. 01.09.2026..."
+        },
+        "application": {
+            "url": "https://ethz.ch/students/en.html"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
