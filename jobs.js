@@ -2967,6 +2967,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_pieter_abbeel_1788677655788",
+        "labInfo": {
+            "pi": "Pieter Abbeel",
+            "institution": "UC Berkeley",
+            "country": "🇺🇸 United States",
+            "website": "https://people.eecs.berkeley.edu/~pabbeel/"
+        },
+        "position": {
+            "title": "Open Position (hiring)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Employment: UCB does not discriminate on the basis of disability in its hiring or employment practices and complies with all regulations promulgated by the U.S. Equal Employment Opportunity Commission under title I of the ADA...."
+        },
+        "application": {
+            "url": "https://ophd.berkeley.edu/policies-and-procedures/nondiscrimination-policy-statement"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
