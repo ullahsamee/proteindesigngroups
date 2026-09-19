@@ -2991,6 +2991,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_rhiju_das_1789801582483",
+        "labInfo": {
+            "pi": "Rhiju Das",
+            "institution": "Stanford University",
+            "country": "🇺🇸 United States",
+            "website": "https://profiles.stanford.edu/rhiju-das"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Stanford Advisees Doctoral Dissertation Reader (AC) Steven Dunne, Varun Shanker Postdoctoral Faculty Sponsor Chaitanya Joshi, Deni Szokoli, Jigyasa Verma Doctoral Dissertation Advisor (AC) Hamish Blair..."
+        },
+        "application": {
+            "url": "https://profiles.stanford.edu/rhiju-das"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
