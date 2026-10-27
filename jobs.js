@@ -3015,6 +3015,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_neha_p._kamat_1793085655989",
+        "labInfo": {
+            "pi": "Neha P. Kamat",
+            "institution": "Northwestern University",
+            "country": "🇺🇸 United States",
+            "website": "https://www.nehakamat.com/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "Join Our Effort To Build And Study Cells The Kamat Lab is looking for creative and inquisitive graduate students, postdocs, and undergraduates that are interested in building artificial cells and biosensors and/or uncovering how cell membranes work...."
+        },
+        "application": {
+            "url": "https://www.nehakamat.com/contact/"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
