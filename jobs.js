@@ -3039,6 +3039,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_yun_s._song_1794387692770",
+        "labInfo": {
+            "pi": "Yun S. Song",
+            "institution": "UC Berkeley",
+            "country": "🇺🇸 United States",
+            "website": "https://people.eecs.berkeley.edu/~yss/"
+        },
+        "position": {
+            "title": "Open Position (graduate student)",
+            "type": "phd",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "assisting in the supervision of graduate and undergraduate students, as well as other junior researchers. • Project Coordination: Coordinating collaborative research activities and contributing to the preparation of grant proposals, technical reports, and progress reports for funding agencies. • Dis..."
+        },
+        "application": {
+            "url": "https://aprecruit.berkeley.edu/JPF05632"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
