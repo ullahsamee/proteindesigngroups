@@ -3063,6 +3063,30 @@ const jobsData = [
             "protein-design",
             "detected"
         ]
+    },
+    {
+        "id": "job_takashi_ochi_1794732916477",
+        "labInfo": {
+            "pi": "Takashi Ochi",
+            "institution": "University of Leeds",
+            "country": "🇬🇧 United Kingdom",
+            "website": "https://tochi.myportfolio.com/"
+        },
+        "position": {
+            "title": "Open Position (postdoc)",
+            "type": "postdoc",
+            "deadline": "See website"
+        },
+        "description": {
+            "summary": "turalBiology #CryoEM #DNARepair #UniversityOfLeedsPostdoctoral fellowsWe are not currently recruiting postdocs.Summer school studentSummer interns at academic labs are the best way to find out whether you want to persuade higher degrees and also good for your CV when you apply for higher degrees. Pl..."
+        },
+        "application": {
+            "url": "https://tochi.myportfolio.com/join-us"
+        },
+        "tags": [
+            "protein-design",
+            "detected"
+        ]
     }
 ];
 
